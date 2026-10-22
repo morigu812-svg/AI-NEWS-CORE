@@ -6,6 +6,8 @@ on:
     - cron: "17 */6 * * *"
   push:
     branches: ["main"]
+    paths-ignore:
+      - "data/news.json"
 
 permissions:
   contents: write
