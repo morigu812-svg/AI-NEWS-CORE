@@ -1,525 +1,655 @@
 {
-  "updated_at": "2026-10-22T10:14:10.006607+00:00",
+  "updated_at": "2026-10-22T10:45:33.839787+00:00",
   "items": [
     {
-      "title": "AI’s hidden storage bill: What inference leaves behind",
+      "title": "コンテキスト認識型 AI の主張をする",
+      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+      "source": "MIT Technology Review",
+      "published": "2026-10-22T10:00:00+00:00",
+      "summary": "Enterprise AI は、推奨事項を生成し、タスクを自動化し、組織がより迅速に意思決定を行えるように支援します。しかし、ビジネスが実際にどのように運営されているかを理解していなければ、強力なモデルであっても、意思決定が正しいかどうかを決定する制約や関係を見落とす可能性があります。企業が AI を実験から日常業務に移行しようとする中、今後の課題は…",
+      "category": "業界",
+      "title_original": "Making the case for context-aware AI",
+      "summary_original": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead…"
+    },
+    {
+      "title": "永久凍土について知っておくべき3つのこと",
+      "url": "https://www.technologyreview.com/2026/10/22/1147591/permafrost-primer/",
+      "source": "MIT Technology Review",
+      "published": "2026-10-22T10:00:00+00:00",
+      "summary": "永久凍土についてどれくらい知っていますか?おそらく、あなたも私と同じように、この凍った土壌の層が解けつつあること、それが気候変動という地球規模の謎において重要であること、そしてそれがその程度であることに気づいているかもしれません。私たち二人にとって素晴らしいニュースは、私の同僚の James Temple がちょうど 2 冊の本を出版したことです…",
+      "category": "業界",
+      "title_original": "Three things you should know about permafrost",
+      "summary_original": "How much do you know about permafrost? Maybe, like me, you’ve been aware that this layer of frozen soil is thawing, that it’s important in the global puzzle of climate change … and that’s about the extent of it. The great news for both of us is that my colleague James Temple just published two…"
+    },
+    {
+      "title": "AI の隠れたストレージ法案: 推論が後に残すもの",
       "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
       "source": "MIT Technology Review",
       "published": "2026-10-22T08:41:18+00:00",
-      "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from billions of daily prompts, images, and videos—needs…",
-      "category": "業界"
+      "summary": "ほとんどの経営幹部に AI のコストをイメージしてもらうと、おそらく GPU (ギガワットの電力を備えたアクセラレータのラック) とシリコンの順番待ちリストが目に入るでしょう。しかし、この図にはデータ ストレージのコストというものが欠けています。モデルが応答した後、データはどうなりますか?毎日何十億ものプロンプト、画像、ビデオから生成されるバックエンド データの多くは…",
+      "category": "業界",
+      "title_original": "AI’s hidden storage bill: What inference leaves behind",
+      "summary_original": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from billions of daily prompts, images, and videos—needs…"
     },
     {
-      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "title": "IBM Granite 時系列モデルを使用したアンサンブル予測",
       "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
       "source": "Hugging Face",
       "published": "2026-10-22T07:51:31+00:00",
       "summary": "",
-      "category": "研究"
+      "category": "研究",
+      "title_original": "Ensemble forecasting with IBM Granite time-series models",
+      "summary_original": ""
     },
     {
-      "title": "Data centers could erase decades of air quality gains",
+      "title": "データセンターは数十年にわたる大気質の向上を消去する可能性がある",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
       "source": "The Verge AI",
       "published": "2026-10-21T22:33:44+00:00",
-      "summary": "A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI. New and proposed data centers are demanding a tremendous amount of electricity. How developers and utilities meet that demand - with gas […]",
-      "category": "業界"
+      "summary": "新しいデータセンターのラッシュにより、テキサス州では大気汚染が2000年代以来見られなかったレベルにまで戻る可能性があり、テキサス州は生成AIの背後にある物理インフラストラクチャーの爆心地となっている。新規および計画中のデータセンターは、膨大な量の電力を必要とします。開発者と公益事業者はガスを使ってその需要にどのように対応するか […]",
+      "category": "業界",
+      "title_original": "Data centers could erase decades of air quality gains",
+      "summary_original": "A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI. New and proposed data centers are demanding a tremendous amount of electricity. How developers and utilities meet that demand - with gas […]"
     },
     {
-      "title": "Meta to create a new class of shares to fund AI push",
+      "title": "メタ、AI推進に資金提供する新しいクラスの株式を創設へ",
       "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
       "source": "The Verge AI",
       "published": "2026-10-21T21:30:02+00:00",
-      "summary": "Meta says it's issuing a new class of shares to fund its AI initiatives. As part of its third-quarter earnings report released on Wednesday, the company says the non-voting stock will also go toward potential acquisitions and employee compensation, with trading beginning in 2027. \"The scale of investment required to compete, sustain growth, expand infrastructure, […]",
-      "category": "業界"
+      "summary": "Metaは、AIへの取り組みに資金を提供するために新しい種類の株式を発行すると述べた。水曜日に発表された第3四半期収益報告書の一部として、同社は議決権のない株式も潜在的な買収と従業員の報酬に充てられ、2027年に取引が開始されると述べている。",
+      "category": "業界",
+      "title_original": "Meta to create a new class of shares to fund AI push",
+      "summary_original": "Meta says it's issuing a new class of shares to fund its AI initiatives. As part of its third-quarter earnings report released on Wednesday, the company says the non-voting stock will also go toward potential acquisitions and employee compensation, with trading beginning in 2027. \"The scale of investment required to compete, sustain growth, expand infrastructure, […]"
     },
     {
-      "title": "Broad access through consistent standards",
+      "title": "一貫した標準による幅広いアクセス",
       "url": "https://openai.com/index/broad-access-through-consistent-standards",
       "source": "OpenAI",
       "published": "2026-10-21T21:00:00+00:00",
-      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-      "category": "製品"
+      "summary": "OpenAI が配布パートナーとどのように連携して、一貫した保護措置を維持し、責任あるアクセスをサポートし、使用ポリシーでの期待を明確にするか。",
+      "category": "製品",
+      "title_original": "Broad access through consistent standards",
+      "summary_original": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies."
     },
     {
-      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+      "title": "Anthropic は新しい AI エージェントである Claude Duet とともに Muse と対戦します",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
       "source": "The Verge AI",
       "published": "2026-10-21T19:53:20+00:00",
-      "summary": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic, and it's available as a standalone app on iOS and Android and through Claude on the web. The AI agent is […]",
-      "category": "業界"
+      "summary": "Anthropic は、Meta の Muse と OpenAI の Dots の競合となる AI エージェント、Claude Duet を発表しました。 Anthropic によると、専門家や中小企業の経営者向けに設計されたこの新しいエージェントは「リサーチ プレビュー」としてリリースされ、iOS と Android ではスタンドアロン アプリとして、また Web では Claude を通じて利用可能です。 AIエージェントは[…]",
+      "category": "業界",
+      "title_original": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+      "summary_original": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic, and it's available as a standalone app on iOS and Android and through Claude on the web. The AI agent is […]"
     },
     {
-      "title": "Walmart is inviting AI agents to shop for you",
+      "title": "ウォルマートはあなたの代わりに買い物をしてくれる AI エージェントを招待しています",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents",
       "source": "The Verge AI",
       "published": "2026-10-21T19:30:00+00:00",
-      "summary": "Walmart will soon let AI agents shop on its website for you. Next month, the retail giant will allow you to use an AI agent on the site, with systems in place to let you approve and review purchases and set spending limits. The embrace of AI agents stands in stark contrast to Amazon, which […]",
-      "category": "業界"
+      "summary": "ウォルマートは間もなく、AIエージェントがウェブサイトで買い物をできるようにする予定だ。来月、この小売大手はサイト上で AI エージェントの使用を許可し、購入の承認とレビュー、支出制限の設定を行うためのシステムを導入します。 AI エージェントの採用は、Amazon とはまったく対照的です。",
+      "category": "業界",
+      "title_original": "Walmart is inviting AI agents to shop for you",
+      "summary_original": "Walmart will soon let AI agents shop on its website for you. Next month, the retail giant will allow you to use an AI agent on the site, with systems in place to let you approve and review purchases and set spending limits. The embrace of AI agents stands in stark contrast to Amazon, which […]"
     },
     {
-      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "title": "NVIDIA Kumo Relational は、トレーニング不要でリレーショナル データの教師あり機械学習を上回ります",
       "url": "https://huggingface.co/blog/nvidia/kumo-relational",
       "source": "Hugging Face",
       "published": "2026-10-21T18:26:30+00:00",
       "summary": "",
-      "category": "オープンソース"
+      "category": "オープンソース",
+      "title_original": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "summary_original": ""
     },
     {
-      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "title": "SLM の語彙を特殊化することで実際のアプリケーションで推論コストを 77% 削減できる方法",
       "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
       "source": "Hugging Face",
       "published": "2026-10-21T17:35:36+00:00",
       "summary": "",
-      "category": "オープンソース"
+      "category": "オープンソース",
+      "title_original": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "summary_original": ""
     },
     {
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "title": "AT&T は OpenAI を使用して社内の法務業務をどのように再考しているか",
       "url": "https://openai.com/index/att-legal",
       "source": "OpenAI",
       "published": "2026-10-21T17:00:00+00:00",
-      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-      "category": "製品"
+      "summary": "AT&T は OpenAI と協力して、法的知識に簡単にアクセスできるようにしています。 LegalEdge チームがどのように受け入れを再考し、法的判断を拡大しているかをご覧ください。",
+      "category": "製品",
+      "title_original": "How AT&T is rethinking in-house legal work with OpenAI",
+      "summary_original": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment."
     },
     {
-      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "title": "TorchNeuron のプロファイリング (パート 1): AWS Trainium でのシステムレベルのプロファイリング。",
       "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
       "source": "Hugging Face",
       "published": "2026-10-21T16:04:43+00:00",
       "summary": "",
-      "category": "オープンソース"
+      "category": "オープンソース",
+      "title_original": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "summary_original": ""
     },
     {
-      "title": "Conversational Gemini navigation comes to Apple CarPlay",
+      "title": "会話型 Gemini ナビゲーションが Apple CarPlay に登場",
       "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
       "source": "The Verge AI",
       "published": "2026-10-21T15:00:00+00:00",
-      "summary": "After introducing its Gemini AI assistant to Android Auto last year, Google is now bringing it to Apple CarPlay users. The conversational Gemini in navigation is available today for US drivers, with \"rollout happening globally too,\" according to Google (we've asked for specific regional availability details). It's taken almost 12 months for Google to bring […]",
-      "category": "業界"
+      "summary": "昨年 Android Auto に Gemini AI アシスタントを導入した後、Google は現在、それを Apple CarPlay ユーザーにも提供しています。 Googleによると、会話型ナビゲーションのGeminiは現在米国のドライバー向けに提供されており、「世界的にも展開される予定」だという（Googleは具体的な地域での利用可能性の詳細を尋ねている）。 Google がこれを実現するまでにほぼ 12 か月かかりました […]",
+      "category": "業界",
+      "title_original": "Conversational Gemini navigation comes to Apple CarPlay",
+      "summary_original": "After introducing its Gemini AI assistant to Android Auto last year, Google is now bringing it to Apple CarPlay users. The conversational Gemini in navigation is available today for US drivers, with \"rollout happening globally too,\" according to Google (we've asked for specific regional availability details). It's taken almost 12 months for Google to bring […]"
     },
     {
-      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "title": "Granite Speech 5.0: より正確かつ高速に文字起こし、翻訳、属性付けを行う",
       "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
       "source": "Hugging Face",
       "published": "2026-10-21T14:58:18+00:00",
       "summary": "",
-      "category": "オープンソース"
+      "category": "オープンソース",
+      "title_original": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "summary_original": ""
     },
     {
-      "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+      "title": "OpenAI、AIエージェントが安全監視システムを無効にしたと嘘をついたと発表",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
       "source": "The Verge AI",
       "published": "2026-10-21T13:57:43+00:00",
-      "summary": "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code - and then lied about it. \"The reference didn't configure a monitor, and Astra decided that was reason […]",
-      "category": "業界"
+      "summary": "OpenAI は、AI エージェントが内部コーディング作業中に安全監視システムを弱体化させるという 2 件の安全インシデントを明らかにしました。ある事件では、OpenAI は、GPT-6 Astra エージェントが参照コードをコピーする際に安全モニターを無効にし、それについて嘘をついたと述べています。 「リファレンスではモニターが構成されておらず、アストラはそれが理由であると判断しました […]",
+      "category": "業界",
+      "title_original": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+      "summary_original": "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code - and then lied about it. \"The reference didn't configure a monitor, and Astra decided that was reason […]"
     },
     {
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "title": "ChatGPT Ads は 100,000 を超える広告主がプラットフォームを使用しているため、新たに 26 か国に拡大",
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
       "source": "OpenAI",
       "published": "2026-10-21T13:00:00+00:00",
-      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-      "category": "製品"
+      "summary": "地元の企業から世界的なブランドまで、より多くの広告主が、ChatGPT で何を購入するかを検討、比較、決定する人々にリーチできるようになりました。",
+      "category": "製品",
+      "title_original": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "summary_original": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT."
     },
     {
-      "title": "The Download: introducing the Impossible issue",
+      "title": "ダウンロード: 不可能な問題の導入",
       "url": "https://www.technologyreview.com/2026/10/21/1147573/the-download-introducing-impossible-issue/",
       "source": "MIT Technology Review",
       "published": "2026-10-21T12:10:00+00:00",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Impossible issue We wanted our last print edition of 2026 to include a slate of stories that check in on impossible ideas. Why? Because it’s fun to dream about…",
-      "category": "製品"
+      "summary": "これは、テクノロジーの世界で何が起こっているかを毎日提供する平日のニュースレター、The Download の今日版です。導入: 不可能な問題 私たちは、2026 年の最後の印刷版に、不可能なアイデアをチェックする一連のストーリーを含めたいと考えていました。なぜ？夢見るのは楽しいから…",
+      "category": "製品",
+      "title_original": "The Download: introducing the Impossible issue",
+      "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Impossible issue We wanted our last print edition of 2026 to include a slate of stories that check in on impossible ideas. Why? Because it’s fun to dream about…"
     },
     {
-      "title": "OpenAI models are coming to Google Cloud",
+      "title": "OpenAI モデルが Google Cloud に登場します",
       "url": "https://openai.com/index/openai-models-google-cloud",
       "source": "OpenAI",
       "published": "2026-10-21T12:00:00+00:00",
-      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "category": "研究"
+      "summary": "OpenAI と Google Cloud は、フロンティア モデルと Codex ワークフローを Gemini の Model Garden に導入し、Google Cloud Marketplace を通じて入手できます。",
+      "category": "研究",
+      "title_original": "OpenAI models are coming to Google Cloud",
+      "summary_original": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace."
     },
     {
-      "title": "We can do impossible things",
+      "title": "私たちは不可能なこともできる",
       "url": "https://www.technologyreview.com/2026/10/21/1146053/editor-letter-we-can-do-impossible-things/",
       "source": "MIT Technology Review",
       "published": "2026-10-21T09:00:00+00:00",
-      "summary": "I’d wager everyone has a rehearsed response to what’s absolutely one of the world’s worst interview questions: “What’s your biggest weakness?” Whenever I’ve gotten it, I take a slow—even pensive—breath and rattle off my line: “I say no to myself too much.” I won’t lie. It’s a bit shameless—a definite humblebrag. I’m a systems thinker:…",
-      "category": "業界"
+      "summary": "間違いなく世界で最悪の面接質問の 1 つである「あなたの最大の弱点は何ですか?」という質問に対する答えは、誰もが練習済みだと思います。それを理解したときはいつも、ゆっくりと、物思いにふけりながら息をして、「私は自分にノーを言いすぎている」と自分のセリフをカタカタ言います。嘘はつきません。それは少し恥知らずであり、明らかな謙虚な自慢です。私はシステム思考家です:…",
+      "category": "業界",
+      "title_original": "We can do impossible things",
+      "summary_original": "I’d wager everyone has a rehearsed response to what’s absolutely one of the world’s worst interview questions: “What’s your biggest weakness?” Whenever I’ve gotten it, I take a slow—even pensive—breath and rattle off my line: “I say no to myself too much.” I won’t lie. It’s a bit shameless—a definite humblebrag. I’m a systems thinker:…"
     },
     {
-      "title": "Nuclear-powered spaceships",
+      "title": "原子力宇宙船",
       "url": "https://www.technologyreview.com/2026/10/21/1146061/nuclear-powered-spaceships-impossible-issue/",
       "source": "MIT Technology Review",
       "published": "2026-10-21T09:00:00+00:00",
-      "summary": "Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly an uncrewed mission to Mars by the end of 2028, arriving in 2029. A successful mission would herald a new era…",
-      "category": "業界"
+      "summary": "アルテミス II 乗組員が今年 4 月に月周回の歴史的なスリングショットを開始する直前に、NASA はスペース リアクター 1 フリーダムを建設する計画を発表しました。史上初の原子炉を動力とする惑星間宇宙船である SR-1 は、2028 年末までに火星への無人ミッションを飛行し、2029 年に到着する予定です。ミッションが成功すれば、新たな時代の到来を告げることになるでしょう…",
+      "category": "業界",
+      "title_original": "Nuclear-powered spaceships",
+      "summary_original": "Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly an uncrewed mission to Mars by the end of 2028, arriving in 2029. A successful mission would herald a new era…"
     },
     {
-      "title": "Exercise in a pill",
+      "title": "錠剤で運動する",
       "url": "https://www.technologyreview.com/2026/10/21/1146121/exercise-in-a-pill-impossible-issue/",
       "source": "MIT Technology Review",
       "published": "2026-10-21T09:00:00+00:00",
-      "summary": "We all know exercise is good for us. It builds muscle, strengthens bones, lowers blood pressure, and boosts mood. By deciphering how movement benefits the body, researchers hope to develop medicines that can offer some of the same perks—without the workout. The idea isn’t to replace exercise but to bring its upsides to people who…",
-      "category": "業界"
+      "summary": "運動が体に良いことは誰もが知っています。筋肉を増強し、骨を強化し、血圧を下げ、気分を高めます。研究者らは、運動が体にどのようなメリットをもたらすかを解明することで、トレーニングをしなくても同様の効果が得られる医薬品を開発したいと考えている。このアイデアは、運動に代わるものではなく、次のような人々に運動の利点をもたらすことです。",
+      "category": "業界",
+      "title_original": "Exercise in a pill",
+      "summary_original": "We all know exercise is good for us. It builds muscle, strengthens bones, lowers blood pressure, and boosts mood. By deciphering how movement benefits the body, researchers hope to develop medicines that can offer some of the same perks—without the workout. The idea isn’t to replace exercise but to bring its upsides to people who…"
     },
     {
-      "title": "Interspecies communication",
+      "title": "異種間コミュニケーション",
       "url": "https://www.technologyreview.com/2026/10/21/1146124/interspecies-communication-impossible-issue/",
       "source": "MIT Technology Review",
       "published": "2026-10-21T09:00:00+00:00",
-      "summary": "Humans are far from the only species with a gift for gab, and our furry, feathered, and finned friends could have a lot to tell us. Decoding how animals communicate with one another could offer a window into the inner lives of other species and help humans realize that “animals are sentient creatures who think,…",
-      "category": "業界"
+      "summary": "人間だけがガブの才能を持っているわけではありません。毛皮で覆われ、羽が生え、ヒレが生えている友人たちは、私たちに伝えたいことがたくさんあるかもしれません。動物が互いにどのようにコミュニケーションするかを解読することは、他の種の内面生活への窓を提供し、人間が「動物は次のことを考える知覚力のある生き物である」ことを認識するのに役立つ可能性があります。",
+      "category": "業界",
+      "title_original": "Interspecies communication",
+      "summary_original": "Humans are far from the only species with a gift for gab, and our furry, feathered, and finned friends could have a lot to tell us. Decoding how animals communicate with one another could offer a window into the inner lives of other species and help humans realize that “animals are sentient creatures who think,…"
     },
     {
-      "title": "Cleaning up PFAS",
+      "title": "PFAS のクリーンアップ",
       "url": "https://www.technologyreview.com/2026/10/21/1146128/cleaning-up-pfas-impossible-issue/",
       "source": "MIT Technology Review",
       "published": "2026-10-21T09:00:00+00:00",
-      "summary": "Scrubbing Earth of per- and polyfluoroalkyl substances—a.k.a. PFAS or forever chemicals—could eliminate a list of woes for people and planet. Used for decades in everything from nonstick pans to firefighting foams, PFAS have been linked to increased risks of fertility challenges, developmental delays, cancer, and reduced immune response. They are known for a strong bond…",
-      "category": "業界"
+      "summary": "パーフルオロアルキル物質およびポリフルオロアルキル物質のスクラビングアース、別名PFAS、つまり永遠の化学物質は、人々と地球にとっての数々の問題を取り除くことができるかもしれません。焦げ付き防止の鍋から消火用泡に至るまで、あらゆるものに数十年にわたって使用されてきた PFAS は、生殖能力の問題、発育遅延、がん、免疫反応の低下などのリスク増加と関連性があります。彼らは強い絆で知られています…",
+      "category": "業界",
+      "title_original": "Cleaning up PFAS",
+      "summary_original": "Scrubbing Earth of per- and polyfluoroalkyl substances—a.k.a. PFAS or forever chemicals—could eliminate a list of woes for people and planet. Used for decades in everything from nonstick pans to firefighting foams, PFAS have been linked to increased risks of fertility challenges, developmental delays, cancer, and reduced immune response. They are known for a strong bond…"
     },
     {
-      "title": "Solid-state batteries",
+      "title": "全固体電池",
       "url": "https://www.technologyreview.com/2026/10/21/1146137/solid-state-batteries-impossible-issue/",
       "source": "MIT Technology Review",
       "published": "2026-10-21T09:00:00+00:00",
-      "summary": "The rise of the lithium-ion battery, which powers everything from the smallest personal electronics to gargantuan energy storage systems, has been nothing short of revolutionary. But as anyone who’s boarded a plane in the last decade could tell you, storing and pumping out energy by moving charged lithium ions through a liquid electrolyte soup has…",
-      "category": "業界"
+      "summary": "最小の個人用電子機器から巨大なエネルギー貯蔵システムに至るまで、あらゆるものに電力を供給するリチウムイオン電池の登場は、まさに革命的でした。しかし、過去 10 年間に飛行機に乗った人なら誰でもわかるように、充電されたリチウム イオンを液体電解質スープの中を移動させることによってエネルギーを貯蔵し、送り出すことで、...",
+      "category": "業界",
+      "title_original": "Solid-state batteries",
+      "summary_original": "The rise of the lithium-ion battery, which powers everything from the smallest personal electronics to gargantuan energy storage systems, has been nothing short of revolutionary. But as anyone who’s boarded a plane in the last decade could tell you, storing and pumping out energy by moving charged lithium ions through a liquid electrolyte soup has…"
     },
     {
-      "title": "Eliminating traffic deaths",
-      "url": "https://www.technologyreview.com/2026/10/21/1146141/eliminating-traffic-deaths-impossible-issue/",
-      "source": "MIT Technology Review",
-      "published": "2026-10-21T09:00:00+00:00",
-      "summary": "Every year, traffic crashes kill more than one million people, and they’re the leading cause of death for children and young adults. In the US, 100 people a day lose their lives this way, in many cases not on highways but on rural and local streets. “Traffic deaths are a leading cause of preventable death,…",
-      "category": "業界"
-    },
-    {
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "title": "Patch the Planet: エージェントが重大な脆弱性を発見したときの世界的な対応調整",
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
       "source": "OpenAI",
       "published": "2026-10-21T07:00:00+00:00",
-      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-      "category": "製品"
+      "summary": "Patch the Planet は、セキュリティ研究者、保守担当者、インシデント対応者を結び付けて、オープンソース全体の重大な脆弱性に対処できるように支援します。",
+      "category": "製品",
+      "title_original": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "summary_original": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source."
     },
     {
-      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "title": "ユーザーの信頼性と関連性を高める ChatGPT の新しい広告スタックをどのように構築したか",
       "url": "https://openai.com/index/building-chatgpt-ad-stack",
       "source": "OpenAI",
       "published": "2026-10-21T07:00:00+00:00",
-      "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-      "category": "製品"
+      "summary": "OpenAI がどのように ChatGPT の LLM を利用した広告スタックを構築し、会話の意図を理解し、広告を回答から分離し、関連性の高い広告を大規模に配信するかを学びましょう。",
+      "category": "製品",
+      "title_original": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "summary_original": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale."
     },
     {
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "title": "数千の AI エージェントを使用して生物学的データの新たな手がかりを発見する",
       "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
       "source": "OpenAI",
       "published": "2026-10-21T04:50:00+00:00",
-      "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-      "category": "製品"
+      "summary": "OpenAI、PerturbAI、Scripps Research が分散型 AI エージェントを使用して、数百万の脳細胞からのデータから有望な研究の手がかりを発見した方法をご覧ください。",
+      "category": "製品",
+      "title_original": "Using thousands of AI agents to uncover new leads in biological data",
+      "summary_original": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells."
     },
     {
-      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "title": "Cloudflare は OpenAI を使用して脆弱性の発見と防御を結び付けます",
       "url": "https://openai.com/index/cloudflare-cyber",
       "source": "OpenAI",
       "published": "2026-10-21T00:00:00+00:00",
-      "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
-      "category": "製品"
+      "summary": "CloudflareはOpenAI Daybreakを使用して脆弱性を調査し、レビュー用の修正を提案します。開発者は Codex を使用してビルドを高速化し、コードの品質を向上させます。",
+      "category": "製品",
+      "title_original": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "summary_original": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality."
     },
     {
-      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "title": "フロンティア AI の民主的ガバナンス、パート II: サイバー防御者に力を与える",
       "url": "https://openai.com/index/empowering-cyber-defenders",
       "source": "OpenAI",
       "published": "2026-10-21T00:00:00+00:00",
-      "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-      "category": "製品"
+      "summary": "OpenAI は、フロンティア AI、より強力な安全対策、最新のサイバーセキュリティ、よりレジリエントな公共機関によってサイバー防御者を強化するための青写真を概説しています。",
+      "category": "製品",
+      "title_original": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "summary_original": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions."
     },
     {
-      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+      "title": "判事、サム・アルトマンの妹の性的虐待訴訟を却下",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
       "source": "The Verge AI",
       "published": "2026-10-20T23:04:19+00:00",
-      "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or […]",
-      "category": "業界"
+      "summary": "火曜日、米国地方判事のザカリー・ブルーストーン氏は、アン・アルトマン氏が昨年、弟のOpenAI CEOであるサム・アルトマン氏から幼少期を通じて性的虐待を受けたとして起こした訴訟を棄却した。ガーディアン紙が先に報じたように、裁判官はアンが過去1年間、独自の健康診断を受けなかった、または[…]",
+      "category": "業界",
+      "title_original": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+      "summary_original": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or […]"
     },
     {
-      "title": "Google’s more personalized Gemini AI is heading to your car",
+      "title": "Google のよりパーソナライズされた Gemini AI があなたの車に向かいます",
       "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
       "source": "The Verge AI",
       "published": "2026-10-20T22:11:34+00:00",
-      "summary": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini about your flight status if you're driving […]",
-      "category": "業界"
+      "summary": "Google は、あなたの車の Gemini AI にパーソナル インテリジェンスをもたらします。このアップデートにより、Android Auto の Gemini と Google が組み込まれた車は、Gmail、カレンダー、地図、写真、YouTube、検索などの Google アプリ全体で情報を利用できるようになります。一例として、Google は、運転中にジェミニにフライト状況を尋ねることができると言っています […]",
+      "category": "業界",
+      "title_original": "Google’s more personalized Gemini AI is heading to your car",
+      "summary_original": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini about your flight status if you're driving […]"
     },
     {
-      "title": "It’s a bird, it’s a plane … it’s a robo-puffin?",
-      "url": "https://www.technologyreview.com/2026/10/20/1145205/its-a-bird-its-a-plane-its-a-robo-puffin/",
-      "source": "MIT Technology Review",
-      "published": "2026-10-20T21:00:00+00:00",
-      "summary": "Given that water is 1,000 times denser than air, moving through those two mediums requires very different mechanics—or so one might assume. Yet birds like gulls and puffins can plunge into the sea, swim underwater, and leap back into the air to fly away. And now engineers at MIT and EPFL in Lausanne, Switzerland, have…",
-      "category": "業界"
-    },
-    {
-      "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
+      "title": "研究者がウェブ上で AI チャットを発見したため、Meta は Muse の共有を一時停止",
       "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
       "source": "The Verge AI",
       "published": "2026-10-20T18:07:34+00:00",
-      "summary": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records. […]",
-      "category": "研究"
+      "summary": "Ars Technicaの報道によると、Metaは、ウェブ上で公開されているURLを研究者が発見したため、AIアシスタントとの会話を共有できるMuse機能を一時停止したと述べている。今週発表されたレポートの中で、セキュリティ企業 Claroc の研究者らは、パブリック DNS レコードを通じて 6,800 以上の Muse リンクを発見したと述べています。 […]",
+      "category": "研究",
+      "title_original": "Meta pauses Muse sharing after researchers find AI chats on the web",
+      "summary_original": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records. […]"
     },
     {
-      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "title": "FairStress: LLM 意思決定における公平性のより深い評価",
       "url": "https://huggingface.co/blog/allenai/fairstress",
       "source": "Hugging Face",
       "published": "2026-10-20T16:09:19+00:00",
       "summary": "",
-      "category": "オープンソース"
+      "category": "オープンソース",
+      "title_original": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "summary_original": ""
     },
     {
-      "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+      "title": "Spotify がおすすめから 5,000 万件の AI スロップとスパムのトラックを削除",
       "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
       "source": "The Verge AI",
       "published": "2026-10-20T14:18:37+00:00",
-      "summary": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday that says Spotify has also made changes to its recommendation system to highlight more music made by human artists. \"Our editors hold the same standard and […]",
-      "category": "業界"
+      "summary": "Spotifyは、過去1年間でAI生成のスロップまたはスパムとみなされる5,000万曲以上をユーザーのおすすめから削除したと発表した。これは火曜日の発表によると、Spotifyも人間のアーティストが作った音楽をより多く強調するためにレコメンデーションシステムに変更を加えたと述べている。 「私たちの編集者は同じ基準を持っており、[…]",
+      "category": "業界",
+      "title_original": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+      "summary_original": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday that says Spotify has also made changes to its recommendation system to highlight more music made by human artists. \"Our editors hold the same standard and […]"
     },
     {
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "title": "フランチャイズ加盟者は ChatGPT Work を使用して 94% 少ない時間で現金を照合します",
       "url": "https://openai.com/index/ted-taylor-restaurant",
       "source": "OpenAI",
       "published": "2026-10-20T10:00:00+00:00",
-      "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-      "category": "製品"
+      "summary": "独立系の Schlotzsky's と Cinnabon のフランチャイズ加盟店は、メニューの価格変更にかかる時間を 95% 削減し、10 万ドルのキャッシュ フローを解放できるワークフローを構築しました。",
+      "category": "製品",
+      "title_original": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "summary_original": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow."
     },
     {
-      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "title": "Terminal X は GPT-6.1 で上級投資家の判断と 88.6% 一致",
       "url": "https://openai.com/index/terminal-x",
       "source": "OpenAI",
       "published": "2026-10-20T07:00:00+00:00",
-      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-      "category": "製品"
+      "summary": "Terminal X の Eval Agent は、54 基準のルーブリックに基づいて成果物を採点し、GPT-6.1 Sol を使用してファンドの義務からの逸脱を 25% 多く検出します。",
+      "category": "製品",
+      "title_original": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "summary_original": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol."
     },
     {
-      "title": "OpenAI acquires Orchestra Bio",
+      "title": "OpenAI が Orchestra Bio を買収",
       "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
       "source": "OpenAI",
       "published": "2026-10-20T00:00:00+00:00",
-      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-      "category": "製品"
+      "summary": "OpenAI は、AI を活用したオペレーションをライフ サイエンスの研究開発に導入するために Orchestra Bio を買収し、バイオ製​​薬チームが医薬品開発を加速し、新しい治療法を進歩できるよう支援します。",
+      "category": "製品",
+      "title_original": "OpenAI acquires Orchestra Bio",
+      "summary_original": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments."
     },
     {
-      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "title": "顔を抱きしめる ❤️ トーチTPU: TPU、ネイティブ",
       "url": "https://huggingface.co/blog/hf-torchtpu",
       "source": "Hugging Face",
       "published": "2026-10-20T00:00:00+00:00",
       "summary": "",
-      "category": "オープンソース"
+      "category": "オープンソース",
+      "title_original": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "summary_original": ""
     },
     {
-      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "title": "AnyLanguageModel 1.0: Apple プラットフォームでのローカル モデルの 1 年間",
       "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
       "source": "Hugging Face",
       "published": "2026-10-20T00:00:00+00:00",
       "summary": "",
-      "category": "研究"
+      "category": "研究",
+      "title_original": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "summary_original": ""
     },
     {
-      "title": "MPS in PyTorch 2.15",
+      "title": "PyTorch 2.15 の MPS",
       "url": "https://huggingface.co/blog/mps-pytorch-2-15",
       "source": "Hugging Face",
       "published": "2026-10-20T00:00:00+00:00",
       "summary": "",
-      "category": "オープンソース"
+      "category": "オープンソース",
+      "title_original": "MPS in PyTorch 2.15",
+      "summary_original": ""
     },
     {
-      "title": "Advancing coding in low‑resource programming languages",
+      "title": "低リソースプログラミング言語でのコーディングの進歩",
       "url": "https://openai.com/index/low-resource-programming-languages",
       "source": "OpenAI",
       "published": "2026-10-19T12:00:00+00:00",
-      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "category": "製品"
+      "summary": "OpenAI がソフトウェア エンジニアリング、SQLite、COBOL への移行に対する新たな評価により、低リソース プログラミング言語全体で ChatGPT をどのように改善しているかをご覧ください。",
+      "category": "製品",
+      "title_original": "Advancing coding in low‑resource programming languages",
+      "summary_original": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration."
     },
     {
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "title": "TorchNeuron: AWS Trainium での HF モデルの実行がこれまでより簡単になりました",
       "url": "https://huggingface.co/blog/hf-torchneuron",
       "source": "Hugging Face",
       "published": "2026-10-19T00:00:00+00:00",
       "summary": "",
-      "category": "研究"
+      "category": "研究",
+      "title_original": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "summary_original": ""
     },
     {
-      "title": "How Itaú is building generative AI for its entire customer base",
+      "title": "Itaú は顧客ベース全体に向けた生成 AI をどのように構築しているか",
       "url": "https://openai.com/index/itau-generative-ai",
       "source": "OpenAI",
       "published": "2026-10-16T19:00:00+00:00",
-      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-      "category": "製品"
+      "summary": "Itaú は、会話型インターフェースの ia.i と IARA ガバナンス プラットフォームを活用して、ブラジルで最も規制の厳しい分野の 1 つである顧客と従業員に AI ファースト戦略を適用しています。",
+      "category": "製品",
+      "title_original": "How Itaú is building generative AI for its entire customer base",
+      "summary_original": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors."
     },
     {
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "title": "Stack Overflow for Agents は ChatGPT プラグインを使用してサインアップを 3 倍にします",
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "source": "OpenAI",
       "published": "2026-10-16T00:00:00+00:00",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "category": "製品"
+      "summary": "2 人のエンジニアが Codex を使用して Stack Overflow for Agents を数週間で出荷し、その ChatGPT プラグインによりエージェント作成が最大 10 倍に増加しました。",
+      "category": "製品",
+      "title_original": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "summary_original": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation."
     },
     {
-      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "title": "Welcome Beam: 所有、カスタマイズ、拡張できる 501B オープン モデル",
       "url": "https://huggingface.co/blog/reflection-beam",
       "source": "Hugging Face",
       "published": "2026-10-16T00:00:00+00:00",
       "summary": "",
-      "category": "研究"
+      "category": "研究",
+      "title_original": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "summary_original": ""
     },
     {
-      "title": "Apertus 1.5 Release Notes",
+      "title": "1.5 リリースノートを開く",
       "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
       "source": "Hugging Face",
       "published": "2026-10-15T09:08:45+00:00",
       "summary": "",
-      "category": "製品"
+      "category": "製品",
+      "title_original": "Apertus 1.5 Release Notes",
+      "summary_original": ""
     },
     {
-      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "title": "ようこそ Muse Spark Open: Meta のオープンウェイト フロンティア マルチモーダル専門家混合モデル",
       "url": "https://huggingface.co/blog/meta-muse-spark-open",
       "source": "Hugging Face",
       "published": "2026-10-15T00:00:00+00:00",
       "summary": "",
-      "category": "研究"
+      "category": "研究",
+      "title_original": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "summary_original": ""
     },
     {
-      "title": "Welcome FLUX.3 Image Klein in Diffusers",
+      "title": "ようこそ FLUX.3 ディフューザーのイメージ クライン",
       "url": "https://huggingface.co/blog/flux-3",
       "source": "Hugging Face",
       "published": "2026-10-15T00:00:00+00:00",
       "summary": "",
-      "category": "オープンソース"
+      "category": "オープンソース",
+      "title_original": "Welcome FLUX.3 Image Klein in Diffusers",
+      "summary_original": ""
     },
     {
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "title": "LFM2.5-24B-A2B を使用してデバイス上でプライベート エージェントを高速に実行",
       "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
       "source": "Hugging Face",
       "published": "2026-10-13T17:05:48+00:00",
       "summary": "",
-      "category": "オープンソース"
+      "category": "オープンソース",
+      "title_original": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "summary_original": ""
     },
     {
-      "title": "Generative AI to quantify uncertainty in weather forecasting",
+      "title": "天気予報の不確実性を定量化する生成 AI",
       "url": "http://blog.research.google/feeds/1569605132526995799/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-29T18:03:00+00:00",
-      "summary": "Posted by Lizao (Larry) Li, Software Engineer, and Rob Carver, Research Scientist, Google Research Accurate weather forecasts can have a direct impact on people’s lives, from helping make routine decisions, like what to pack for a day’s activities, to informing urgent actions, for example, protecting people in the face of hazardous weather conditions. The importance of accurate and timely weather forecasts will only increase as the climate changes. Recognizing this, we at Google have been invest",
-      "category": "研究"
+      "summary": "投稿者: Lizao (Larry) Li、ソフトウェア エンジニア、Rob Carver、Google Research リサーチ サイエンティスト 正確な天気予報は、その日の活動に何を持ち込むかなどの日常的な決定を支援することから、危険な気象条件に直面したときに人々を保護するなどの緊急の行動を通知することまで、人々の生活に直接影響を与える可能性があります。正確でタイムリーな天気予報の重要性は、気候が変化するにつれてさらに高まるでしょう。これを認識して、私たち Google は投資を行ってきました。",
+      "category": "研究",
+      "title_original": "Generative AI to quantify uncertainty in weather forecasting",
+      "summary_original": "Posted by Lizao (Larry) Li, Software Engineer, and Rob Carver, Research Scientist, Google Research Accurate weather forecasts can have a direct impact on people’s lives, from helping make routine decisions, like what to pack for a day’s activities, to informing urgent actions, for example, protecting people in the face of hazardous weather conditions. The importance of accurate and timely weather forecasts will only increase as the climate changes. Recognizing this, we at Google have been invest"
     },
     {
-      "title": "AutoBNN: Probabilistic time series forecasting with compositional bayesian neural networks",
+      "title": "AutoBNN: 合成ベイジアン ニューラル ネットワークを使用した確率的時系列予測",
       "url": "http://blog.research.google/feeds/1799535679952845079/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-28T20:53:00+00:00",
-      "summary": "Posted by Urs Köster, Software Engineer, Google Research Time series problems are ubiquitous, from forecasting weather and traffic patterns to understanding economic trends. Bayesian approaches start with an assumption about the data's patterns (prior probability), collecting evidence (e.g., new time series data), and continuously updating that assumption to form a posterior probability distribution. Traditional Bayesian approaches like Gaussian processes (GPs) and Structural Time Series are ext",
-      "category": "研究"
+      "summary": "投稿者: Google Research、ソフトウェア エンジニア、Urs Köster 時系列の問題は、天気や交通パターンの予測から経済動向の理解に至るまで、いたるところに存在します。ベイズ手法は、データのパターン (事前確率) に関する仮定から始まり、証拠 (新しい時系列データなど) を収集し、その仮定を継続的に更新して事後確率分布を形成します。ガウス過程 (GP) や構造時系列などの従来のベイジアン アプローチは廃止されました",
+      "category": "研究",
+      "title_original": "AutoBNN: Probabilistic time series forecasting with compositional bayesian neural networks",
+      "summary_original": "Posted by Urs Köster, Software Engineer, Google Research Time series problems are ubiquitous, from forecasting weather and traffic patterns to understanding economic trends. Bayesian approaches start with an assumption about the data's patterns (prior probability), collecting evidence (e.g., new time series data), and continuously updating that assumption to form a posterior probability distribution. Traditional Bayesian approaches like Gaussian processes (GPs) and Structural Time Series are ext"
     },
     {
-      "title": "Computer-aided diagnosis for lung cancer screening",
+      "title": "肺がん検診のためのコンピュータ支援診断",
       "url": "http://blog.research.google/feeds/7061041222399769838/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-20T20:54:00+00:00",
-      "summary": "Posted by Atilla Kiraly, Software Engineer, and Rory Pilgrim, Product Manager, Google Research Lung cancer is the leading cause of cancer-related deaths globally with 1.8 million deaths reported in 2020. Late diagnosis dramatically reduces the chances of survival. Lung cancer screening via computed tomography (CT), which provides a detailed 3D image of the lungs, has been shown to reduce mortality in high-risk populations by at least 20% by detecting potential signs of cancers earlier. In the US",
-      "category": "研究"
+      "summary": "投稿者: Atilla Kiraly、ソフトウェア エンジニア、Rory Pilgrim、Google Research プロダクト マネージャー肺の詳細な 3D 画像を提供するコンピューター断層撮影 (CT) による肺がんスクリーニングは、がんの潜在的な兆候を早期に検出することで、高リスク集団の死亡率を少なくとも 20% 減少させることが示されています。米国では",
+      "category": "研究",
+      "title_original": "Computer-aided diagnosis for lung cancer screening",
+      "summary_original": "Posted by Atilla Kiraly, Software Engineer, and Rory Pilgrim, Product Manager, Google Research Lung cancer is the leading cause of cancer-related deaths globally with 1.8 million deaths reported in 2020. Late diagnosis dramatically reduces the chances of survival. Lung cancer screening via computed tomography (CT), which provides a detailed 3D image of the lungs, has been shown to reduce mortality in high-risk populations by at least 20% by detecting potential signs of cancers earlier. In the US"
     },
     {
-      "title": "Using AI to expand global access to reliable flood forecasts",
+      "title": "AI を使用して信頼性の高い洪水予測への世界的なアクセスを拡大",
       "url": "http://blog.research.google/feeds/4615278636568583418/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-20T16:06:00+00:00",
-      "summary": "Posted by Yossi Matias, VP Engineering & Research, and Grey Nearing, Research Scientist, Google Research Floods are the most common natural disaster , and are responsible for roughly $50 billion in annual financial damages worldwide. The rate of flood-related disasters has more than doubled since the year 2000 partly due to climate change . Nearly 1.5 billion people , making up 19% of the world’s population, are exposed to substantial risks from severe flood events. Upgrading early warning syste",
-      "category": "研究"
+      "summary": "投稿者: Yossi Matias (エンジニアリングおよび研究担当副社長、Google Research リサーチ サイエンティスト、Grey Nearing) 洪水は最も一般的な自然災害であり、世界中で年間約 500 億ドルの経済的損害を引き起こしています。気候変動の影響もあり、洪水関連の災害の発生率は 2000 年以来 2 倍以上に増加しています。世界人口の 19% を占める約 15 億人が、深刻な洪水による重大なリスクにさらされています。早期警戒システムのアップグレード",
+      "category": "研究",
+      "title_original": "Using AI to expand global access to reliable flood forecasts",
+      "summary_original": "Posted by Yossi Matias, VP Engineering & Research, and Grey Nearing, Research Scientist, Google Research Floods are the most common natural disaster , and are responsible for roughly $50 billion in annual financial damages worldwide. The rate of flood-related disasters has more than doubled since the year 2000 partly due to climate change . Nearly 1.5 billion people , making up 19% of the world’s population, are exposed to substantial risks from severe flood events. Upgrading early warning syste"
     },
     {
-      "title": "ScreenAI: A visual language model for UI and visually-situated language understanding",
+      "title": "ScreenAI: UI および視覚的に状況に応じた言語理解のための視覚言語モデル",
       "url": "http://blog.research.google/feeds/520087429457973735/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-19T20:15:00+00:00",
-      "summary": "Posted by Srinivas Sunkara and Gilles Baechler, Software Engineers, Google Research Screen user interfaces (UIs) and infographics, such as charts, diagrams and tables, play important roles in human communication and human-machine interaction as they facilitate rich and interactive user experiences. UIs and infographics share similar design principles and visual language (e.g., icons and layouts), that offer an opportunity to build a single model that can understand, reason, and interact with the",
-      "category": "研究"
+      "summary": "Google Research のソフトウェア エンジニア、Srinivas Sunkara 氏と Gilles Baechler 氏による投稿 チャート、図、表などの画面ユーザー インターフェイス (UI) とインフォグラフィックスは、豊かでインタラクティブなユーザー エクスペリエンスを促進するため、人間のコミュニケーションや人間とマシンの相互作用において重要な役割を果たします。 UI とインフォグラフィックスは、同様のデザイン原則と視覚的言語 (アイコンやレイアウトなど) を共有しており、これにより、オブジェクトを理解し、推論し、対話できる単一のモデルを構築する機会が提供されます。",
+      "category": "研究",
+      "title_original": "ScreenAI: A visual language model for UI and visually-situated language understanding",
+      "summary_original": "Posted by Srinivas Sunkara and Gilles Baechler, Software Engineers, Google Research Screen user interfaces (UIs) and infographics, such as charts, diagrams and tables, play important roles in human communication and human-machine interaction as they facilitate rich and interactive user experiences. UIs and infographics share similar design principles and visual language (e.g., icons and layouts), that offer an opportunity to build a single model that can understand, reason, and interact with the"
     },
     {
-      "title": "SCIN: A new resource for representative dermatology images",
+      "title": "SCIN: 代表的な皮膚科画像の新しいリソース",
       "url": "http://blog.research.google/feeds/4328167517765145678/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-19T15:00:00+00:00",
-      "summary": "Posted by Pooja Rao, Research Scientist, Google Research Health datasets play a crucial role in research and medical education, but it can be challenging to create a dataset that represents the real world. For example, dermatology conditions are diverse in their appearance and severity and manifest differently across skin tones. Yet, existing dermatology image datasets often lack representation of everyday conditions (like rashes, allergies and infections) and skew towards lighter skin tones. Fu",
-      "category": "研究"
+      "summary": "投稿者: Google Research の研究員、Pooja Rao 健康データセットは研究と医学教育において重要な役割を果たしますが、現実世界を表すデータセットを作成するのは困難な場合があります。たとえば、皮膚科の症状はその外観や重症度が多様であり、肌の色調によって現れ方も異なります。しかし、既存の皮膚科画像データセットには、日常の状態 (発疹、アレルギー、感染症など) が表現されていないことが多く、明るい肌色に偏っています。フー",
+      "category": "研究",
+      "title_original": "SCIN: A new resource for representative dermatology images",
+      "summary_original": "Posted by Pooja Rao, Research Scientist, Google Research Health datasets play a crucial role in research and medical education, but it can be challenging to create a dataset that represents the real world. For example, dermatology conditions are diverse in their appearance and severity and manifest differently across skin tones. Yet, existing dermatology image datasets often lack representation of everyday conditions (like rashes, allergies and infections) and skew towards lighter skin tones. Fu"
     },
     {
-      "title": "MELON: Reconstructing 3D objects from images with unknown poses",
+      "title": "MELON: 未知のポーズの画像から 3D オブジェクトを再構成する",
       "url": "http://blog.research.google/feeds/757976001746578714/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-18T18:41:00+00:00",
-      "summary": "Posted by Mark Matthews, Senior Software Engineer, and Dmitry Lagun, Research Scientist, Google Research A person's prior experience and understanding of the world generally enables them to easily infer what an object looks like in whole, even if only looking at a few 2D pictures of it. Yet the capacity for a computer to reconstruct the shape of an object in 3D given only a few images has remained a difficult algorithmic problem for years. This fundamental computer vision task has applications r",
-      "category": "研究"
+      "summary": "投稿者: Mark Matthews、シニア ソフトウェア エンジニア、および Google Research リサーチ サイエンティスト、Dmitry Lagunしかし、コンピュータがわずか数枚の画像から物体の形状を 3D で再構築する能力は、長年にわたってアルゴリズム上の困難な問題として残されています。この基本的なコンピュータ ビジョン タスクにはさまざまな応用分野があります。",
+      "category": "研究",
+      "title_original": "MELON: Reconstructing 3D objects from images with unknown poses",
+      "summary_original": "Posted by Mark Matthews, Senior Software Engineer, and Dmitry Lagun, Research Scientist, Google Research A person's prior experience and understanding of the world generally enables them to easily infer what an object looks like in whole, even if only looking at a few 2D pictures of it. Yet the capacity for a computer to reconstruct the shape of an object in 3D given only a few images has remained a difficult algorithmic problem for years. This fundamental computer vision task has applications r"
     },
     {
-      "title": "HEAL: A framework for health equity assessment of machine learning performance",
+      "title": "HEAL: 機械学習パフォーマンスの健康公平性評価のフレームワーク",
       "url": "http://blog.research.google/feeds/977556648557231190/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-15T18:22:00+00:00",
-      "summary": "Posted by Mike Schaekermann, Research Scientist, Google Research, and Ivor Horn, Chief Health Equity Officer & Director, Google Core Health equity is a major societal concern worldwide with disparities having many causes. These sources include limitations in access to healthcare, differences in clinical treatment, and even fundamental differences in the diagnostic technology. In dermatology for example, skin cancer outcomes are worse for populations such as minorities, those with lower socioecon",
-      "category": "研究"
+      "summary": "投稿者: Google Research の研究員 Mike Schaekermann 氏、Google Core 健康公平性最高責任者兼ディレクター Ivor Horn 氏 健康公平性は世界中で大きな社会的懸念となっており、格差にはさまざまな原因があります。これらの原因には、医療へのアクセスの制限、臨床治療の違い、さらには診断技術の根本的な違いが含まれます。たとえば皮膚科では、少数派や社会経済的地位が低い人々などの皮膚がんの転帰はより悪くなっています。",
+      "category": "研究",
+      "title_original": "HEAL: A framework for health equity assessment of machine learning performance",
+      "summary_original": "Posted by Mike Schaekermann, Research Scientist, Google Research, and Ivor Horn, Chief Health Equity Officer & Director, Google Core Health equity is a major societal concern worldwide with disparities having many causes. These sources include limitations in access to healthcare, differences in clinical treatment, and even fundamental differences in the diagnostic technology. In dermatology for example, skin cancer outcomes are worse for populations such as minorities, those with lower socioecon"
     },
     {
-      "title": "Cappy: Outperforming and boosting large multi-task language models with a small scorer",
+      "title": "Cappy: 小さなスコアラーで大規模なマルチタスク言語モデルを上回るパフォーマンスと向上を実現",
       "url": "http://blog.research.google/feeds/7868032799856333119/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-14T19:38:00+00:00",
-      "summary": "Posted by Yun Zhu and Lijuan Liu, Software Engineers, Google Research Large language model (LLM) advancements have led to a new paradigm that unifies various natural language processing (NLP) tasks within an instruction-following framework. This paradigm is exemplified by recent multi-task LLMs, such as T0 , FLAN , and OPT-IML . First, multi-task data is gathered with each task following a task-specific template, where each labeled example is converted into an instruction (e.g., \" Put the concep",
-      "category": "研究"
+      "summary": "投稿者: Google Research、ソフトウェア エンジニア、Yun Zhu および Lijuan Liu 大規模言語モデル (LLM) の進歩により、さまざまな自然言語処理 (NLP) タスクを命令に従うフレームワーク内で統合する新しいパラダイムが生まれました。このパラダイムは、 T0 、 FLAN 、 OPT-IML などの最近のマルチタスク LLM によって例示されています。まず、タスク固有のテンプレートに従って各タスクでマルチタスク データが収集されます。ここで、ラベル付きの各例が命令に変換されます (例: 「コンセプトを入力する」)",
+      "category": "研究",
+      "title_original": "Cappy: Outperforming and boosting large multi-task language models with a small scorer",
+      "summary_original": "Posted by Yun Zhu and Lijuan Liu, Software Engineers, Google Research Large language model (LLM) advancements have led to a new paradigm that unifies various natural language processing (NLP) tasks within an instruction-following framework. This paradigm is exemplified by recent multi-task LLMs, such as T0 , FLAN , and OPT-IML . First, multi-task data is gathered with each task following a task-specific template, where each labeled example is converted into an instruction (e.g., \" Put the concep"
     },
     {
-      "title": "Talk like a graph: Encoding graphs for large language models",
+      "title": "グラフのように話す: 大規模な言語モデルのグラフのエンコード",
       "url": "http://blog.research.google/feeds/6090481872694489715/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-12T21:15:00+00:00",
-      "summary": "Posted by Bahare Fatemi and Bryan Perozzi, Research Scientists, Google Research Imagine all the things around you — your friends, tools in your kitchen, or even the parts of your bike. They are all connected in different ways. In computer science, the term graph is used to describe connections between objects. Graphs consist of nodes (the objects themselves) and edges (connections between two nodes, indicating a relationship between them). Graphs are everywhere now. The internet itself is a gian",
-      "category": "研究"
+      "summary": "投稿者: Bahare Fatemi および Bryan Perozzi、研究科学者、Google Research 友人、キッチンの道具、さらには自転車の部品など、あなたの周りにあるすべてのものを想像してみてください。それらはすべてさまざまな方法で接続されています。コンピューター サイエンスでは、グラフという用語はオブジェクト間の接続を説明するために使用されます。グラフは、ノード (オブジェクト自体) とエッジ (2 つのノード間の関係を示す、2 つのノード間の接続) で構成されます。グラフは今やどこにでもあります。インターネットそのものが巨人だ",
+      "category": "研究",
+      "title_original": "Talk like a graph: Encoding graphs for large language models",
+      "summary_original": "Posted by Bahare Fatemi and Bryan Perozzi, Research Scientists, Google Research Imagine all the things around you — your friends, tools in your kitchen, or even the parts of your bike. They are all connected in different ways. In computer science, the term graph is used to describe connections between objects. Graphs consist of nodes (the objects themselves) and edges (connections between two nodes, indicating a relationship between them). Graphs are everywhere now. The internet itself is a gian"
     },
     {
-      "title": "Chain-of-table: Evolving tables in the reasoning chain for table understanding",
+      "title": "テーブルの連鎖: テーブルを理解するための推論チェーンにおける進化するテーブル",
       "url": "http://blog.research.google/feeds/470840348983280912/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-11T19:08:00+00:00",
-      "summary": "Posted by Zilong Wang, Student Researcher, and Chen-Yu Lee, Research Scientist, Cloud AI Team People use tables every day to organize and interpret complex information in a structured, easily accessible format. Due to the ubiquity of such tables, reasoning over tabular data has long been a central topic in natural language processing (NLP). Researchers in this field have aimed to leverage language models to help users answer questions, verify statements, and analyze data based on tables. However",
-      "category": "研究"
+      "summary": "投稿者: Zilong Wang (学生研究者) および Chen-Yu Lee (研究科学者、クラウド AI チーム) 人々は毎日テーブルを使用して、構造化された簡単にアクセスできる形式で複雑な情報を整理し、解釈します。このようなテーブルが遍在しているため、表形式のデータに対する推論は、長い間、自然言語処理 (NLP) の中心的なトピックでした。この分野の研究者は、言語モデルを活用して、ユーザーが質問に答えたり、ステートメントを検証したり、表に基づいてデータを分析したりできるようにすることを目指してきました。しかし",
+      "category": "研究",
+      "title_original": "Chain-of-table: Evolving tables in the reasoning chain for table understanding",
+      "summary_original": "Posted by Zilong Wang, Student Researcher, and Chen-Yu Lee, Research Scientist, Cloud AI Team People use tables every day to organize and interpret complex information in a structured, easily accessible format. Due to the ubiquity of such tables, reasoning over tabular data has long been a central topic in natural language processing (NLP). Researchers in this field have aimed to leverage language models to help users answer questions, verify statements, and analyze data based on tables. However"
     },
     {
-      "title": "Health-specific embedding tools for dermatology and pathology",
+      "title": "皮膚科および病理学向けの健康に特化した埋め込みツール",
       "url": "http://blog.research.google/feeds/1106624361649572376/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-08T19:33:00+00:00",
-      "summary": "Posted by Dave Steiner, Clinical Research Scientist, Google Health, and Rory Pilgrim, Product Manager, Google Research There’s a worldwide shortage of access to medical imaging expert interpretation across specialties including radiology , dermatology and pathology . Machine learning (ML) technology can help ease this burden by powering tools that enable doctors to interpret these images more accurately and efficiently. However, the development and implementation of such ML tools are often limit",
-      "category": "研究"
+      "summary": "投稿者: Dave Steiner、Google Health 臨床研究科学者、Rory Pilgrim、Google Research プロダクト マネージャー 放射線科、皮膚科、病理学などの専門分野にわたって、医療画像の専門家による解釈へのアクセスが世界的に不足しています。機械学習 (ML) テクノロジーは、医師がこれらの画像をより正確かつ効率的に解釈できるツールを強化することで、この負担を軽減します。ただし、このような ML ツールの開発と実装には限界があることがよくあります。",
+      "category": "研究",
+      "title_original": "Health-specific embedding tools for dermatology and pathology",
+      "summary_original": "Posted by Dave Steiner, Clinical Research Scientist, Google Health, and Rory Pilgrim, Product Manager, Google Research There’s a worldwide shortage of access to medical imaging expert interpretation across specialties including radiology , dermatology and pathology . Machine learning (ML) technology can help ease this burden by powering tools that enable doctors to interpret these images more accurately and efficiently. However, the development and implementation of such ML tools are often limit"
     },
     {
-      "title": "Social learning: Collaborative learning with large language models",
+      "title": "ソーシャル学習: 大規模な言語モデルを使用した共同学習",
       "url": "http://blog.research.google/feeds/1765359719068432739/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-07T18:15:00+00:00",
-      "summary": "Posted by Amirkeivan Mohtashami, Research Intern, and Florian Hartmann, Software Engineer, Google Research Large language models (LLMs) have significantly improved the state of the art for solving tasks specified using natural language, often reaching performance close to that of people. As these models increasingly enable assistive agents, it could be beneficial for them to learn effectively from each other, much like people do in social settings, which would allow LLM-based agents to improve e",
-      "category": "研究"
+      "summary": "投稿者: Amirkeivan Mohtashami、Google Research、リサーチ インターン、Florian Hartmann、ソフトウェア エンジニア 大規模言語モデル (LLM) は、自然言語を使用して指定されたタスクを解決するための最先端技術を大幅に向上させ、多くの場合、人間のパフォーマンスに近いパフォーマンスに達します。これらのモデルで支援エージェントがますます有効になるにつれて、人間が社会的環境で行うのと同じように、支援エージェントが互いに効果的に学習することが有益になる可能性があり、これにより LLM ベースのエージェントが学習能力を向上させることができるようになります。",
+      "category": "研究",
+      "title_original": "Social learning: Collaborative learning with large language models",
+      "summary_original": "Posted by Amirkeivan Mohtashami, Research Intern, and Florian Hartmann, Software Engineer, Google Research Large language models (LLMs) have significantly improved the state of the art for solving tasks specified using natural language, often reaching performance close to that of people. As these models increasingly enable assistive agents, it could be beneficial for them to learn effectively from each other, much like people do in social settings, which would allow LLM-based agents to improve e"
     },
     {
-      "title": "Croissant: a metadata format for ML-ready datasets",
+      "title": "Croissant: ML 対応データセットのメタデータ形式",
       "url": "http://blog.research.google/feeds/8393293208018757284/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-06T18:26:00+00:00",
-      "summary": "Posted by Omar Benjelloun, Software Engineer, Google Research, and Peter Mattson, Software Engineer, Google Core ML and President, MLCommons Association Machine learning (ML) practitioners looking to reuse existing datasets to train an ML model often spend a lot of time understanding the data, making sense of its organization, or figuring out what subset to use as features. So much time, in fact, that progress in the field of ML is hampered by a fundamental obstacle: the wide variety of data rep",
-      "category": "研究"
+      "summary": "投稿者: Omar Benjelloun、Google Research ソフトウェア エンジニア、Peter Mattson、Google Core ML ソフトウェア エンジニア、MLCommons Association 会長 ML モデルをトレーニングするために既存のデータセットを再利用しようとしている機械学習 (ML) 実践者は、多くの場合、データの理解、その構成の意味、または特徴として使用するサブセットの把握に多くの時間を費やしています。実際、非常に多くの時間がかかっているため、ML 分野の進歩は根本的な障害によって妨げられています。それは、多種多様なデータ担当者です。",
+      "category": "研究",
+      "title_original": "Croissant: a metadata format for ML-ready datasets",
+      "summary_original": "Posted by Omar Benjelloun, Software Engineer, Google Research, and Peter Mattson, Software Engineer, Google Core ML and President, MLCommons Association Machine learning (ML) practitioners looking to reuse existing datasets to train an ML model often spend a lot of time understanding the data, making sense of its organization, or figuring out what subset to use as features. So much time, in fact, that progress in the field of ML is hampered by a fundamental obstacle: the wide variety of data rep"
     },
     {
-      "title": "Google at APS 2024",
+      "title": "APS 2024 における Google",
       "url": "http://blog.research.google/feeds/2754526782497247497/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-04T15:06:00+00:00",
-      "summary": "Posted by Kate Weber and Shannon Leon, Google Research, Quantum AI Team Today the 2024 March Meeting of the American Physical Society (APS) kicks off in Minneapolis, MN. A premier conference on topics ranging across physics and related fields, APS 2024 brings together researchers, students, and industry professionals to share their discoveries and build partnerships with the goal of realizing fundamental advances in physics-related sciences and technology. This year, Google has a strong presence",
-      "category": "研究"
+      "summary": "投稿者: Kate Weber および Shannon Leon、Google Research、量子 AI チーム 本日、米国物理学会 (APS) の 2024 年 3 月総会がミネソタ州ミネアポリスで開幕します。 APS 2024 は、物理学および関連分野にわたる幅広いテーマに関する主要なカンファレンスであり、研究者、学生、業界専門家が集まり、物理学関連の科学技術の根本的な進歩を実現することを目的として、発見を共有し、パートナーシップを構築します。今年はGoogleの存在感が強い",
+      "category": "研究",
+      "title_original": "Google at APS 2024",
+      "summary_original": "Posted by Kate Weber and Shannon Leon, Google Research, Quantum AI Team Today the 2024 March Meeting of the American Physical Society (APS) kicks off in Minneapolis, MN. A premier conference on topics ranging across physics and related fields, APS 2024 brings together researchers, students, and industry professionals to share their discoveries and build partnerships with the goal of realizing fundamental advances in physics-related sciences and technology. This year, Google has a strong presence"
     }
   ]
 }
