@@ -31,7 +31,11 @@ TRANSLATE_DELAY = 0.12
 def translate_to_japanese(value):
     """Translate text through Google's public, keyless endpoint; return original on failure."""
     value = value or ""
-    if not value.strip() or re.search(r"[ぁ-んァ-ン一-龯]", value):
+    if not value.strip():
+        return value
+    japanese_chars = len(re.findall(r"[ぁ-んァ-ン一-龯]", value))
+    visible_chars = max(1, len(re.sub(r"\\s", "", value)))
+    if japanese_chars / visible_chars >= 0.25:
         return value
     endpoint = "https://translate.googleapis.com/translate_a/single"
     params = urllib.parse.urlencode({
