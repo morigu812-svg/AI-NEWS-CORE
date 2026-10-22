@@ -1,12 +1,112 @@
 {
-  "updated_at": "2026-10-22T10:45:33.839787+00:00",
+  "updated_at": "2026-10-22T17:17:16.004220+00:00",
   "items": [
+    {
+      "title": "ワイルドウッド監督、AIは「私たちがこのスタジオにいるすべてのものとは対極だ」と語る",
+      "url": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+      "source": "The Verge AI",
+      "published": "2026-10-22T16:16:15+00:00",
+      "summary": "『ワイルドウッド』は、『コラライン』や『パラノーマン』などで最もよく知られるストップモーション スタジオ、ライカが制作したこれまでで最も野心的な映画です。完成までに 5 年を要した壮大なファンタジー アドベンチャーです。このプロセスには、主人公プルーだけでも 36 体を含む 230 体以上の人形が含まれており、これらの人形に命を吹き込んだのは […]",
+      "category": "業界",
+      "title_original": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
+      "summary_original": "Wildwood is the most ambitious film yet from Laika, the stop-motion studio best known for the likes of Coraline and ParaNorman. It's a sprawling fantasy adventure that took five years to complete. The process involved more 230 puppets - including 36 of the main character Prue alone - which were brought to life by a […]"
+    },
+    {
+      "title": "OlmoEarth v1.3: 地球全体のための最先端の埋め込み",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "source": "Hugging Face",
+      "published": "2026-10-22T16:11:31+00:00",
+      "summary": "",
+      "category": "オープンソース",
+      "title_original": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "summary_original": ""
+    },
+    {
+      "title": "OpenAI、Anthropic、Nvidia には記録的なロビー活動拠点がありました",
+      "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+      "source": "The Verge AI",
+      "published": "2026-10-22T15:50:30+00:00",
+      "summary": "AIロビイストにとっては忙しい夏だった。連邦政府の開示情報によると、Anthropic、OpenAI、Nvidia のロビー活動で最も支出が多かった四半期は 7 月から 9 月でした。 Nvidia が 220 万ドルでグループの大部分を費やし、続いて Anthropic が 210 万ドル、OpenAI が 150 万ドルでした。ワシントンに長い間存在感を示している他のビッグテック企業と比較して、[…]",
+      "category": "業界",
+      "title_original": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
+      "summary_original": "It was a busy summer for AI lobbyists. Anthropic, OpenAI, and Nvidia each had their highest-spending lobbying quarter between July and September, federal disclosures show. Nvidia spent the most of the group at $2.2 million, followed by Anthropic's $2.1 million and OpenAI's $1.5 million. Compared to other Big Tech companies with long-established presences in Washington, […]"
+    },
+    {
+      "title": "PHP: ウェブ上で大混乱を引き起こす 3 つの小さな文字",
+      "url": "https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down",
+      "source": "The Verge AI",
+      "published": "2026-10-22T15:12:27+00:00",
+      "summary": "プログラミング言語 PHP で見つかった 2 つの脆弱性により、インターネットの広大な範囲が危険にさらされています。一部の報告によると、最大 70% の Web サイトが何らかの形で PHP を使用しています。これは、Wikipedia、WordPress、Drupal のほか、DeviantArt や 4Chan などの多くの人気サイトやプラットフォームを支えていますが、これらは […]",
+      "category": "業界",
+      "title_original": "PHP: The three little letters wreaking havoc across the web",
+      "summary_original": "Two vulnerabilities found in the programming language PHP put enormous swaths of the internet in danger. By some accounts, up to 70 percent of websites use PHP in some capacity. It powers Wikipedia, WordPress, Drupal, and a host of other popular sites and platforms, including DeviantArt and 4Chan, which were temporarily shut down after the […]"
+    },
+    {
+      "title": "ビル・ゲイツ氏、AIによる「激動の」20年間の混乱に備えるよう語る",
+      "url": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+      "source": "The Verge AI",
+      "published": "2026-10-22T14:00:00+00:00",
+      "summary": "今日は、マイクロソフトの共同創設者兼元 CEO であり、ゲイツ財団会長であるビル ゲイツと話をします。最近ニュースでビルのことを目にしたことがあるかもしれません。彼は 8 月下旬に「激動の AI 時代は […]",
+      "category": "業界",
+      "title_original": "Bill Gates says to prepare for 20 years of ‘tumultuous’ AI disruption",
+      "summary_original": "Today, I’m talking to Bill Gates, cofounder and former CEO of Microsoft and chairman of the Gates Foundation. You may have noticed Bill in the news more lately — he’s been on something of a tour for the past few months, ever since publishing an essay in late August titled “The turbulent AI era is […]"
+    },
+    {
+      "title": "1Password を使用すると、AI エージェントがパスワードを見ずに使用できるようになります",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
+      "source": "The Verge AI",
+      "published": "2026-10-22T13:00:00+00:00",
+      "summary": "1Password には、実際にパスワードを確認したり処理したりせずに、AI エージェントがアカウントにサインインできる新機能が導入されています。適切な名前の 1Password for Agents は、接続されているすべてのアカウントにボットに自由にアクセスできるわけではありません。サインイン リクエストには承認を与える必要がありますが、それを許可する必要があります。[…]",
+      "category": "業界",
+      "title_original": "1Password lets AI agents use your passwords without seeing them",
+      "summary_original": "1Password is introducing a new feature that allows AI agents to sign into your accounts without actually seeing or handling your passwords. The aptly named 1Password for Agents doesn't give bots free reign to access all of your connected accounts - you'll still need to grant approval for sign-in requests - but should make it […]"
+    },
+    {
+      "title": "AI エージェントは買い物をする準備ができています。一部の小売業者は警戒している",
+      "url": "https://www.theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse",
+      "source": "The Verge AI",
+      "published": "2026-10-22T12:30:00+00:00",
+      "summary": "AI エージェントを使って買い物をするというのは、奇妙な経験です。ハイテク企業は彼らをパーソナルアシスタント、つまり通常なら富裕層や権力者のみが利用できる労働の民主化として売り込んでいる。実際には、少なくとも物を買う場合、それは不安で申し訳なさそうにしている十代の若者をショッピングモールに送り出すようなものです。",
+      "category": "業界",
+      "title_original": "AI agents are ready to shop. Some retailers are wary",
+      "summary_original": "Using an AI agent to shop for you is a strange experience. Tech companies have marketed them as personal assistants - the democratizing of labor that ordinarily would only be available to the rich and powerful. In practice, at least for buying things, it's more like sending an anxious and apologetic teenager out to the […]"
+    },
+    {
+      "title": "クロードはサソリの抗毒薬を発明したわけではない",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+      "source": "The Verge AI",
+      "published": "2026-10-22T12:21:07+00:00",
+      "summary": "ある投資調査会社は、AI が医薬品開発に革命をもたらす可能性があることを証明したいと考えていました。そこで彼らは、Anthropic と協力して、クロードの未発表バージョンでサソリの抗毒薬を製造できるかどうかを確認しました。それはできませんでした。いくつかの有望な出発点を思いついたが、実際の薬には程遠いものだと専門家が The Verge に語った。シトリーニ・リサーチ社 […]",
+      "category": "業界",
+      "title_original": "Claude did not invent scorpion antivenom",
+      "summary_original": "An investment research firm wanted to prove AI could revolutionize drug development. So they teamed up with Anthropic to see whether an unreleased version of Claude could make scorpion antivenom. It couldn't. It came up with some promising starting points, but nothing close to an actual drug, experts tell The Verge. Citrini Research, the firm […]"
+    },
+    {
+      "title": "ダウンロード: コンピューティングの次の飛躍と永久凍土の気候の脅威",
+      "url": "https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/",
+      "source": "MIT Technology Review",
+      "published": "2026-10-22T12:10:00+00:00",
+      "summary": "これは、テクノロジーの世界で何が起こっているかを毎日提供する平日のニュースレター、The Download の今日版です。コンピューティングをどこまで推し進めることができるでしょうか? 1959 年 12 月の夜、物理学者のリチャード・ファインマンは「底には十分な余地がある」と題した講演を行いました。物理的なものはありません…",
+      "category": "業界",
+      "title_original": "The Download: computing’s next leap and permafrost’s climate threat",
+      "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How far can we push computing? On a December evening in 1959, the physicist Richard Feynman gave a lecture called “There’s Plenty of Room at the Bottom.” There is no physical…"
+    },
+    {
+      "title": "Verge社の安全性の低いロボットに関する報告を受け、Eilikoメーカーは「独立系セキュリティ会社」を雇用すると発表",
+      "url": "https://www.theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach",
+      "source": "The Verge AI",
+      "published": "2026-10-22T11:00:00+00:00",
+      "summary": "AI 会話が組み込まれ、バッグにぶら下げることができるかわいいロボットのお守りである Eiliko は、セキュリティ上の悪夢であることが判明しました。それは所有者に「あなたの秘密は私にとって安全です」と告げましたが、ハッカーは私たちがおもちゃに話したすべての完全な記録を簡単に読むことができました、そしてそれはほんの始まりにすぎませんでした。ザ・ヴァージとセキュリティ […]",
+      "category": "業界",
+      "title_original": "Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots",
+      "summary_original": "Eiliko, a cute robot charm you can hang on your bag with built-in AI conversations, turned out to be a security nightmare. It told owners that \"your secrets are safe with me,\" but hackers could easily read complete transcripts of everything we told the toy, and that was just the beginning. The Verge and security […]"
+    },
     {
       "title": "コンテキスト認識型 AI の主張をする",
       "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
       "source": "MIT Technology Review",
       "published": "2026-10-22T10:00:00+00:00",
-      "summary": "Enterprise AI は、推奨事項を生成し、タスクを自動化し、組織がより迅速に意思決定を行えるように支援します。しかし、ビジネスが実際にどのように運営されているかを理解していなければ、強力なモデルであっても、意思決定が正しいかどうかを決定する制約や関係を見落とす可能性があります。企業が AI を実験から日常業務に移行しようとする中、今後の課題は…",
+      "summary": "Enterprise AI は、推奨事項を生成し、タスクを自動化し、組織がより迅速に意思決定を行えるように支援します。しかし、ビジネスが実際にどのように運営されているかを理解していないと、強力なモデルであっても、意思決定が正しいかどうかを決定する制約や関係を見落とす可能性があります。企業が AI を実験から日常業務に移行しようとする中、今後の課題は…",
       "category": "業界",
       "title_original": "Making the case for context-aware AI",
       "summary_original": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead…"
@@ -22,7 +122,7 @@
       "summary_original": "How much do you know about permafrost? Maybe, like me, you’ve been aware that this layer of frozen soil is thawing, that it’s important in the global puzzle of climate change … and that’s about the extent of it. The great news for both of us is that my colleague James Temple just published two…"
     },
     {
-      "title": "AI の隠れたストレージ法案: 推論が後に残すもの",
+      "title": "AI の隠されたストレージ法案: 推論が後に残すもの",
       "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
       "source": "MIT Technology Review",
       "published": "2026-10-22T08:41:18+00:00",
@@ -42,7 +142,27 @@
       "summary_original": ""
     },
     {
-      "title": "データセンターは数十年にわたる大気質の向上を消去する可能性がある",
+      "title": "OpenAI における FDE の意味",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "source": "OpenAI",
+      "published": "2026-10-22T06:00:00+00:00",
+      "summary": "OpenAI における前方展開型エンジニアリングの意味",
+      "category": "製品",
+      "title_original": "What FDE means at OpenAI",
+      "summary_original": "What forward deployed engineering means at OpenAI"
+    },
+    {
+      "title": "Uber は OpenAI を使用して ChatGPT Work を全従業員に提供します",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "source": "OpenAI",
+      "published": "2026-10-22T00:00:00+00:00",
+      "summary": "Uber は ChatGPT Work を 30,000 人以上の従業員に展開し、チームの調査、データ分析、プレゼンテーションの作成、複雑なワークフローの完了を支援しています。",
+      "category": "製品",
+      "title_original": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "summary_original": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows."
+    },
+    {
+      "title": "データセンターにより、数十年にわたる大気質の向上が消去される可能性がある",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
       "source": "The Verge AI",
       "published": "2026-10-21T22:33:44+00:00",
@@ -72,27 +192,7 @@
       "summary_original": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies."
     },
     {
-      "title": "Anthropic は新しい AI エージェントである Claude Duet とともに Muse と対戦します",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
-      "source": "The Verge AI",
-      "published": "2026-10-21T19:53:20+00:00",
-      "summary": "Anthropic は、Meta の Muse と OpenAI の Dots の競合となる AI エージェント、Claude Duet を発表しました。 Anthropic によると、専門家や中小企業の経営者向けに設計されたこの新しいエージェントは「リサーチ プレビュー」としてリリースされ、iOS と Android ではスタンドアロン アプリとして、また Web では Claude を通じて利用可能です。 AIエージェントは[…]",
-      "category": "業界",
-      "title_original": "Anthropic takes on Muse with Claude Duet, its new AI agent",
-      "summary_original": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic, and it's available as a standalone app on iOS and Android and through Claude on the web. The AI agent is […]"
-    },
-    {
-      "title": "ウォルマートはあなたの代わりに買い物をしてくれる AI エージェントを招待しています",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents",
-      "source": "The Verge AI",
-      "published": "2026-10-21T19:30:00+00:00",
-      "summary": "ウォルマートは間もなく、AIエージェントがウェブサイトで買い物をできるようにする予定だ。来月、この小売大手はサイト上で AI エージェントの使用を許可し、購入の承認とレビュー、支出制限の設定を行うためのシステムを導入します。 AI エージェントの採用は、Amazon とはまったく対照的です。",
-      "category": "業界",
-      "title_original": "Walmart is inviting AI agents to shop for you",
-      "summary_original": "Walmart will soon let AI agents shop on its website for you. Next month, the retail giant will allow you to use an AI agent on the site, with systems in place to let you approve and review purchases and set spending limits. The embrace of AI agents stands in stark contrast to Amazon, which […]"
-    },
-    {
-      "title": "NVIDIA Kumo Relational は、トレーニング不要でリレーショナル データの教師あり機械学習を上回ります",
+      "title": "NVIDIA Kumo Relational はリレーショナル データに対する教師あり機械学習を上回り、トレーニングは不要",
       "url": "https://huggingface.co/blog/nvidia/kumo-relational",
       "source": "Hugging Face",
       "published": "2026-10-21T18:26:30+00:00",
@@ -112,7 +212,7 @@
       "summary_original": ""
     },
     {
-      "title": "AT&T は OpenAI を使用して社内の法務業務をどのように再考しているか",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
       "url": "https://openai.com/index/att-legal",
       "source": "OpenAI",
       "published": "2026-10-21T17:00:00+00:00",
@@ -132,16 +232,6 @@
       "summary_original": ""
     },
     {
-      "title": "会話型 Gemini ナビゲーションが Apple CarPlay に登場",
-      "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
-      "source": "The Verge AI",
-      "published": "2026-10-21T15:00:00+00:00",
-      "summary": "昨年 Android Auto に Gemini AI アシスタントを導入した後、Google は現在、それを Apple CarPlay ユーザーにも提供しています。 Googleによると、会話型ナビゲーションのGeminiは現在米国のドライバー向けに提供されており、「世界的にも展開される予定」だという（Googleは具体的な地域での利用可能性の詳細を尋ねている）。 Google がこれを実現するまでにほぼ 12 か月かかりました […]",
-      "category": "業界",
-      "title_original": "Conversational Gemini navigation comes to Apple CarPlay",
-      "summary_original": "After introducing its Gemini AI assistant to Android Auto last year, Google is now bringing it to Apple CarPlay users. The conversational Gemini in navigation is available today for US drivers, with \"rollout happening globally too,\" according to Google (we've asked for specific regional availability details). It's taken almost 12 months for Google to bring […]"
-    },
-    {
       "title": "Granite Speech 5.0: より正確かつ高速に文字起こし、翻訳、属性付けを行う",
       "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
       "source": "Hugging Face",
@@ -150,16 +240,6 @@
       "category": "オープンソース",
       "title_original": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
       "summary_original": ""
-    },
-    {
-      "title": "OpenAI、AIエージェントが安全監視システムを無効にしたと嘘をついたと発表",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
-      "source": "The Verge AI",
-      "published": "2026-10-21T13:57:43+00:00",
-      "summary": "OpenAI は、AI エージェントが内部コーディング作業中に安全監視システムを弱体化させるという 2 件の安全インシデントを明らかにしました。ある事件では、OpenAI は、GPT-6 Astra エージェントが参照コードをコピーする際に安全モニターを無効にし、それについて嘘をついたと述べています。 「リファレンスではモニターが構成されておらず、アストラはそれが理由であると判断しました […]",
-      "category": "業界",
-      "title_original": "OpenAI says an AI agent lied about disabling its safety monitoring system",
-      "summary_original": "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code - and then lied about it. \"The reference didn't configure a monitor, and Astra decided that was reason […]"
     },
     {
       "title": "ChatGPT Ads は 100,000 を超える広告主がプラットフォームを使用しているため、新たに 26 か国に拡大",
@@ -242,16 +322,6 @@
       "summary_original": "Scrubbing Earth of per- and polyfluoroalkyl substances—a.k.a. PFAS or forever chemicals—could eliminate a list of woes for people and planet. Used for decades in everything from nonstick pans to firefighting foams, PFAS have been linked to increased risks of fertility challenges, developmental delays, cancer, and reduced immune response. They are known for a strong bond…"
     },
     {
-      "title": "全固体電池",
-      "url": "https://www.technologyreview.com/2026/10/21/1146137/solid-state-batteries-impossible-issue/",
-      "source": "MIT Technology Review",
-      "published": "2026-10-21T09:00:00+00:00",
-      "summary": "最小の個人用電子機器から巨大なエネルギー貯蔵システムに至るまで、あらゆるものに電力を供給するリチウムイオン電池の登場は、まさに革命的でした。しかし、過去 10 年間に飛行機に乗った人なら誰でもわかるように、充電されたリチウム イオンを液体電解質スープの中を移動させることによってエネルギーを貯蔵し、送り出すことで、...",
-      "category": "業界",
-      "title_original": "Solid-state batteries",
-      "summary_original": "The rise of the lithium-ion battery, which powers everything from the smallest personal electronics to gargantuan energy storage systems, has been nothing short of revolutionary. But as anyone who’s boarded a plane in the last decade could tell you, storing and pumping out energy by moving charged lithium ions through a liquid electrolyte soup has…"
-    },
-    {
       "title": "Patch the Planet: エージェントが重大な脆弱性を発見したときの世界的な対応調整",
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
       "source": "OpenAI",
@@ -300,56 +370,6 @@
       "category": "製品",
       "title_original": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
       "summary_original": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions."
-    },
-    {
-      "title": "判事、サム・アルトマンの妹の性的虐待訴訟を却下",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
-      "source": "The Verge AI",
-      "published": "2026-10-20T23:04:19+00:00",
-      "summary": "火曜日、米国地方判事のザカリー・ブルーストーン氏は、アン・アルトマン氏が昨年、弟のOpenAI CEOであるサム・アルトマン氏から幼少期を通じて性的虐待を受けたとして起こした訴訟を棄却した。ガーディアン紙が先に報じたように、裁判官はアンが過去1年間、独自の健康診断を受けなかった、または[…]",
-      "category": "業界",
-      "title_original": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-      "summary_original": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or […]"
-    },
-    {
-      "title": "Google のよりパーソナライズされた Gemini AI があなたの車に向かいます",
-      "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
-      "source": "The Verge AI",
-      "published": "2026-10-20T22:11:34+00:00",
-      "summary": "Google は、あなたの車の Gemini AI にパーソナル インテリジェンスをもたらします。このアップデートにより、Android Auto の Gemini と Google が組み込まれた車は、Gmail、カレンダー、地図、写真、YouTube、検索などの Google アプリ全体で情報を利用できるようになります。一例として、Google は、運転中にジェミニにフライト状況を尋ねることができると言っています […]",
-      "category": "業界",
-      "title_original": "Google’s more personalized Gemini AI is heading to your car",
-      "summary_original": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini about your flight status if you're driving […]"
-    },
-    {
-      "title": "研究者がウェブ上で AI チャットを発見したため、Meta は Muse の共有を一時停止",
-      "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
-      "source": "The Verge AI",
-      "published": "2026-10-20T18:07:34+00:00",
-      "summary": "Ars Technicaの報道によると、Metaは、ウェブ上で公開されているURLを研究者が発見したため、AIアシスタントとの会話を共有できるMuse機能を一時停止したと述べている。今週発表されたレポートの中で、セキュリティ企業 Claroc の研究者らは、パブリック DNS レコードを通じて 6,800 以上の Muse リンクを発見したと述べています。 […]",
-      "category": "研究",
-      "title_original": "Meta pauses Muse sharing after researchers find AI chats on the web",
-      "summary_original": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records. […]"
-    },
-    {
-      "title": "FairStress: LLM 意思決定における公平性のより深い評価",
-      "url": "https://huggingface.co/blog/allenai/fairstress",
-      "source": "Hugging Face",
-      "published": "2026-10-20T16:09:19+00:00",
-      "summary": "",
-      "category": "オープンソース",
-      "title_original": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "summary_original": ""
-    },
-    {
-      "title": "Spotify がおすすめから 5,000 万件の AI スロップとスパムのトラックを削除",
-      "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
-      "source": "The Verge AI",
-      "published": "2026-10-20T14:18:37+00:00",
-      "summary": "Spotifyは、過去1年間でAI生成のスロップまたはスパムとみなされる5,000万曲以上をユーザーのおすすめから削除したと発表した。これは火曜日の発表によると、Spotifyも人間のアーティストが作った音楽をより多く強調するためにレコメンデーションシステムに変更を加えたと述べている。 「私たちの編集者は同じ基準を持っており、[…]",
-      "category": "業界",
-      "title_original": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
-      "summary_original": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday that says Spotify has also made changes to its recommendation system to highlight more music made by human artists. \"Our editors hold the same standard and […]"
     },
     {
       "title": "フランチャイズ加盟者は ChatGPT Work を使用して 94% 少ない時間で現金を照合します",
@@ -430,26 +450,6 @@
       "category": "研究",
       "title_original": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
       "summary_original": ""
-    },
-    {
-      "title": "Itaú は顧客ベース全体に向けた生成 AI をどのように構築しているか",
-      "url": "https://openai.com/index/itau-generative-ai",
-      "source": "OpenAI",
-      "published": "2026-10-16T19:00:00+00:00",
-      "summary": "Itaú は、会話型インターフェースの ia.i と IARA ガバナンス プラットフォームを活用して、ブラジルで最も規制の厳しい分野の 1 つである顧客と従業員に AI ファースト戦略を適用しています。",
-      "category": "製品",
-      "title_original": "How Itaú is building generative AI for its entire customer base",
-      "summary_original": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors."
-    },
-    {
-      "title": "Stack Overflow for Agents は ChatGPT プラグインを使用してサインアップを 3 倍にします",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "source": "OpenAI",
-      "published": "2026-10-16T00:00:00+00:00",
-      "summary": "2 人のエンジニアが Codex を使用して Stack Overflow for Agents を数週間で出荷し、その ChatGPT プラグインによりエージェント作成が最大 10 倍に増加しました。",
-      "category": "製品",
-      "title_original": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "summary_original": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation."
     },
     {
       "title": "Welcome Beam: 所有、カスタマイズ、拡張できる 501B オープン モデル",
@@ -536,7 +536,7 @@
       "url": "http://blog.research.google/feeds/4615278636568583418/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-20T16:06:00+00:00",
-      "summary": "投稿者: Yossi Matias (エンジニアリングおよび研究担当副社長、Google Research リサーチ サイエンティスト、Grey Nearing) 洪水は最も一般的な自然災害であり、世界中で年間約 500 億ドルの経済的損害を引き起こしています。気候変動の影響もあり、洪水関連の災害の発生率は 2000 年以来 2 倍以上に増加しています。世界人口の 19% を占める約 15 億人が、深刻な洪水による重大なリスクにさらされています。早期警戒システムのアップグレード",
+      "summary": "投稿者: Yossi Matias (エンジニアリングおよび研究担当副社長、Google Research リサーチ サイエンティスト、Grey Nearing) 洪水は最も一般的な自然災害であり、世界中で年間約 500 億ドルの経済的損害を引き起こしています。 The rate of flood-related disasters has more than doubled since the year 2000 partly due to climate change . Nearly 1.5 billion people , making up 19% of the world’s population, are exposed to substantial risks from severe flood events.早期警戒システムのアップグレード",
       "category": "研究",
       "title_original": "Using AI to expand global access to reliable flood forecasts",
       "summary_original": "Posted by Yossi Matias, VP Engineering & Research, and Grey Nearing, Research Scientist, Google Research Floods are the most common natural disaster , and are responsible for roughly $50 billion in annual financial damages worldwide. The rate of flood-related disasters has more than doubled since the year 2000 partly due to climate change . Nearly 1.5 billion people , making up 19% of the world’s population, are exposed to substantial risks from severe flood events. Upgrading early warning syste"
