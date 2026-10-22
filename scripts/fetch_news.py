@@ -34,7 +34,7 @@ def translate_to_japanese(value):
     if not value.strip():
         return value
     japanese_chars = len(re.findall(r"[ぁ-んァ-ン一-龯]", value))
-    visible_chars = max(1, len(re.sub(r"\\s", "", value)))
+    visible_chars = max(1, len(re.sub(r"\s", "", value)))
     if japanese_chars / visible_chars >= 0.25:
         return value
     endpoint = "https://translate.googleapis.com/translate_a/single"
