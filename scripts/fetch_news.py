@@ -5,6 +5,7 @@ import re
 import time
 import urllib.request
 import urllib.error
+import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
@@ -23,6 +24,49 @@ FEEDS = [
 MAX_PER_FEED = 15
 MAX_ITEMS = 80
 TIMEOUT = 20
+
+TRANSLATE_TIMEOUT = 8
+TRANSLATE_DELAY = 0.12
+
+def translate_to_japanese(value):
+    """Translate text through Google's public, keyless endpoint; return original on failure."""
+    value = value or ""
+    if not value.strip() or re.search(r"[ぁ-んァ-ン一-龯]", value):
+        return value
+    endpoint = "https://translate.googleapis.com/translate_a/single"
+    params = urllib.parse.urlencode({
+        "client": "gtx", "sl": "auto", "tl": "ja", "dt": "t", "q": value[:1800]
+    })
+    request = urllib.request.Request(
+        endpoint + "?" + params,
+        headers={"User-Agent": "Mozilla/5.0 (compatible; AI-NEWS-CORE/1.0)"}
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=TRANSLATE_TIMEOUT) as response:
+            data = json.loads(response.read(1_000_000).decode("utf-8"))
+        translated = "".join(
+            part[0] for part in (data[0] or [])
+            if isinstance(part, list) and part and isinstance(part[0], str)
+        ).strip()
+        return translated or value
+    except (urllib.error.URLError, TimeoutError, OSError, ValueError, TypeError, IndexError) as exc:
+        print(f"[WARN] Translation skipped: {type(exc).__name__}")
+        return value
+
+def translate_items(items):
+    """Translate titles and summaries before publishing, retaining originals for search/fallback."""
+    for index, item in enumerate(items, start=1):
+        original_title = item.get("title", "")
+        original_summary = item.get("summary", "")
+        item["title_original"] = original_title
+        item["summary_original"] = original_summary
+        item["title"] = translate_to_japanese(original_title)
+        time.sleep(TRANSLATE_DELAY)
+        if original_summary:
+            item["summary"] = translate_to_japanese(original_summary)
+            time.sleep(TRANSLATE_DELAY)
+        print(f"[TRANSLATE] {index}/{len(items)}: {item.get('source', 'news')}")
+    return items
 
 def clean_html(value):
     value = unescape(value or "")
@@ -127,9 +171,10 @@ def main():
         unique.setdefault(key, item)
     items = list(unique.values())
     items.sort(key=lambda item: item.get("published") or "", reverse=True)
+    items = translate_items(items[:MAX_ITEMS])
     payload = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
-        "items": items[:MAX_ITEMS],
+        "items": items,
     }
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
