@@ -26,9 +26,9 @@ TIMEOUT = 20
 
 def clean_html(value):
     value = unescape(value or "")
-    value = re.sub(r"(?is)<(script|style).*?>.*?</\\1>", " ", value)
+    value = re.sub(r"(?is)<(script|style).*?>.*?</\1>", " ", value)
     value = re.sub(r"(?s)<[^>]+>", " ", value)
-    return re.sub(r"\\s+", " ", value).strip()
+    return re.sub(r"\s+", " ", value).strip()
 
 def text_of(element, names):
     for name in names:
@@ -75,7 +75,7 @@ def parse_feed(source, url, default_category):
                 if link_node.get("href"):
                     link = link_node.get("href")
                     break
-        summary = text_of(item, ["description", "summary", "content:encoded", atom_ns + "summary", atom_ns + "content"])
+        summary = text_of(item, ["description", "summary", atom_ns + "summary", atom_ns + "content"])
         summary = clean_html(summary)
         if not title or not link or not link.startswith(("https://", "http://")):
             continue
