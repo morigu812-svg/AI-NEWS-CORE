@@ -1,12 +1,82 @@
 {
-  "updated_at": "2026-10-23T11:45:59.064334+00:00",
+  "updated_at": "2026-10-23T17:14:30.391252+00:00",
   "items": [
+    {
+      "title": "iPhone DuoはiPadであるべきだった",
+      "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "source": "The Verge AI",
+      "published": "2026-10-23T17:00:18+00:00",
+      "summary": "iPhone Duo には 7/10 の評価を与えました。しかし、それは常に私たちが計画したスコアであるとは限りませんし、それが永遠に正しいスコアであるとは限りません。史上最も人気のあるスマートフォンに関する大きな新しいアイデアをレビューし、評価するのは、このような課題です。 The Vergecast のこのエピソードでは、デビッドとニレイが […]",
+      "category": "業界",
+      "title_original": "The iPhone Duo should have been an iPad",
+      "summary_original": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay […]"
+    },
+    {
+      "title": "10 億人を超える ChatGPT ユーザーにサービスを提供するためにオンライン ストレージを迅速に拡張する (パート II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "source": "OpenAI",
+      "published": "2026-10-23T17:00:00+00:00",
+      "summary": "OpenAI が信頼性の高いマルチテナント、グローバル キャッシュ、Azure Cosmos DB を使用して Habitat を拡張し、ChatGPT の 12 倍高速な読み取りを実現した方法を学びましょう。",
+      "category": "製品",
+      "title_original": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "summary_original": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT."
+    },
+    {
+      "title": "Googleは、広告のターゲティングにGmailとGoogleフォトのデータを使用する可能性があると発表した",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "source": "The Verge AI",
+      "published": "2026-10-23T16:52:55+00:00",
+      "summary": "Google は、パーソナライズされた AI 機能を使用している場合、個人データに基づいてターゲットを絞った広告が表示されるようになる可能性がある方法でプライバシー ポリシーを更新しました。 Android Authorityによって発見されたこのアップデートでは、パーソナライズされた広告にドライブ、Gmail、Googleフォトを使用しないという約束に例外が追加される。前回 […]",
+      "category": "業界",
+      "title_original": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "summary_original": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority, adds an exception to its promise about not using your Drive, Gmail, or Google Photos for personalized ads. While the previous […]"
+    },
+    {
+      "title": "LitPivot: 文献環境内での動的な文脈化を通じて研究アイデアを開発する",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "source": "Hugging Face",
+      "published": "2026-10-23T16:15:50+00:00",
+      "summary": "",
+      "category": "研究",
+      "title_original": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "summary_original": ""
+    },
+    {
+      "title": "AIスクレイピングに対するパブリッシャーの反発を受け、メタが新たな取引条件を延期",
+      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "source": "The Verge AI",
+      "published": "2026-10-23T14:47:41+00:00",
+      "summary": "ファスト・カンパニーが先に報じたように、メタ社は、同社がAIトレーニングのためにニュースサイトをスクレイピングすることを許可する可能性があるとパブリッシャーらが懸念を表明したことを受けて、新たな取引条件の施行を遅らせている。ザ・ヴァージへの声明の中で、メタの広報担当ダニエル・ロバーツ氏は、この条件は11月20日に発効すると述べ、「これにより、[…]",
+      "category": "業界",
+      "title_original": "Meta delays new business terms after publisher pushback on AI scraping",
+      "summary_original": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow […]"
+    },
+    {
+      "title": "ダウンロード: 6 つのテクノロジーの約束とバイオテクノロジーの盲点をテストする",
+      "url": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
+      "source": "MIT Technology Review",
+      "published": "2026-10-23T12:10:00+00:00",
+      "summary": "これは、テクノロジーの世界で何が起こっているかを毎日提供する平日のニュースレター、The Download の今日版です。もう到着しましたか？ 6 つの大きなテクノロジーの約束についての現実確認 一見不可能に見える偉業の中には、諦めるにはもったいないものもあります。ペットのあくびやイップスを解読できますか?絶対に。スクラブ中…",
+      "category": "業界",
+      "title_original": "The Download: testing six tech promises and biotech’s blind spots",
+      "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips? Absolutely. Scrubbing…"
+    },
+    {
+      "title": "レトロゲームはAIに蹂躙されつつある",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+      "source": "The Verge AI",
+      "published": "2026-10-23T12:00:00+00:00",
+      "summary": "最近、レトロなビデオ ゲームがいたるところにあります。特に、あるはずのない場所にあります。 Web ブラウザーでは Halo、iPhone では風のタクト、複合現実では大乱闘スマッシュブラザーズ。ここ 1 か月ほどの間、新しい AI ツールのおかげで、この種の予期せぬプロジェクトが信じられないほどの頻度で広まりました。[…]",
+      "category": "業界",
+      "title_original": "Retro gaming is being overrun with AI",
+      "summary_original": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as […]"
+    },
     {
       "title": "バイオテクノロジーの世界では、すべてを見ることはできません",
       "url": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
       "source": "MIT Technology Review",
       "published": "2026-10-23T09:00:00+00:00",
-      "summary": "今週初め、私は不名誉なバイオテクノロジー元CEOエリザベス・ホームズに関する話題の新作ドキュメンタリー『You Can See Everything』の上映会に出席した。私は何を期待するのか本当にわかりませんでした。ネタバレは避けました（ここでも何も明かしません！）。この映画でどんな新しい情報が明らかになるのかと思っていましたが…",
+      "summary": "今週初め、私は不名誉なバイオテクノロジー元CEOエリザベス・ホームズに関する話題の新作ドキュメンタリー『You Can See Everything』の上映会に出席した。何が期待できるのか本当に分からないまま入りました。ネタバレは避けました（ここでも何も明かしません！）。この映画でどんな新しい情報が明らかになるのかと思っていましたが…",
       "category": "業界",
       "title_original": "In the biotech world, you can’t see everything",
       "summary_original": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new information this film could reveal, given…"
@@ -16,10 +86,20 @@
       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
       "source": "OpenAI",
       "published": "2026-10-23T00:00:00+00:00",
-      "summary": "OpenAI とポーランドの NASK は、セーフガードを強化し、より回復力のあるデジタル エコシステムをサポートするために、AI の安全性、セキュリティ、技術研究で提携しています。",
+      "summary": "OpenAI とポーランドの NASK は、AI の安全性、セキュリティ、技術研究で提携し、安全対策を強化し、より回復力のあるデジタル エコシステムをサポートしています。",
       "category": "製品",
       "title_original": "OpenAI and Poland’s NASK partner to advance AI safety and security",
       "summary_original": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem."
+    },
+    {
+      "title": "モデルは AWS Trainium 上で実行されますか?ルック・イット・アップ",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "source": "Hugging Face",
+      "published": "2026-10-23T00:00:00+00:00",
+      "summary": "",
+      "category": "研究",
+      "title_original": "Does Your Model Run on AWS Trainium? Look It Up",
+      "summary_original": ""
     },
     {
       "title": "データベースの評価を RL 報酬に変える: ThinkingBox を使用したトレーニング後のエージェント",
@@ -36,7 +116,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
       "source": "The Verge AI",
       "published": "2026-10-22T21:51:25+00:00",
-      "summary": "Canva は、OpenAI、Microsoft、Google のモデルと直接競合する画像生成モデルを開始することで、AI をさらに深く掘り下げています。 Canva Craft と呼ばれるこのモデルは、イメージを生成する前にデザインを計画できる 2 段階のアーキテクチャを採用しており、ある情報によれば、「より高い精度、一貫性、および制御」が可能になります。",
+      "summary": "Canva は、OpenAI、Microsoft、Google のモデルと直接競合する画像生成モデルを開始することで、AI をさらに深く掘り下げています。 Canva Craft と呼ばれるこのモデルは、画像を生成する前にデザインを計画できる 2 段階のアーキテクチャを採用しており、ある情報によれば、「より高い精度、一貫性、制御」が可能になります。",
       "category": "研究",
       "title_original": "Canva’s first AI image model plans designs before generating them",
       "summary_original": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency and control,\" according to an […]"
@@ -46,7 +126,7 @@
       "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
       "source": "MIT Technology Review",
       "published": "2026-10-22T21:17:29+00:00",
-      "summary": "エンタープライズ AI における次の競争上の優位性は、どのモデルを選択するかよりも、そのモデルを中心に何を構築するかによって決まります。それは重要な変化です。過去数年間、AI に関する議論の多くはモデルの機能、つまりより大きなモデル、より優れた推論、より大きなコンテキスト ウィンドウ、より高いベンチマーク スコアに集中してきました。これらの進歩により…",
+      "summary": "エンタープライズ AI における次の競争上の優位性は、どのモデルを選択するかよりも、そのモデルを中心に何を構築するかによって決まります。それは重要な変化です。過去数年間、AI に関する議論の多くは、より大きなモデル、より優れた推論、より大きなコンテキスト ウィンドウ、より高いベンチマーク スコアといったモデルの機能に集中してきました。これらの進歩により…",
       "category": "業界",
       "title_original": "Designing an AI serving harness built to last",
       "summary_original": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…"
@@ -66,7 +146,7 @@
       "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
       "source": "The Verge AI",
       "published": "2026-10-22T20:24:04+00:00",
-      "summary": "公開会話のリンクが簡単に見つかる可能性があるとセキュリティ研究者が報告したことを受け、Meta は Muse 共有を再度有効にしました。研究者らは、マーケティング会社の内部収益調査や中小企業経営者の融資申請などのMuseページを見つけることができたと述べた。 Claroc の研究者は今週初めに、Muse the web […]",
+      "summary": "公開会話のリンクが簡単に見つかる可能性があるとセキュリティ研究者が報告したことを受け、Meta は Muse 共有を再度有効にしました。研究者らは、マーケティング会社の内部収益調査や中小企業経営者の融資申請などの Muse ページを見つけることができたと述べた。 Claroc の研究者は今週初めに、Muse the web […]",
       "category": "業界",
       "title_original": "Meta turns Muse sharing back on",
       "summary_original": "Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's internal revenue review and a small business owner's loan application. Researchers at Claroc reported earlier this week that Muse the web […]"
@@ -76,7 +156,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
       "source": "The Verge AI",
       "published": "2026-10-22T19:45:00+00:00",
-      "summary": "確かに、SpaceX は Nvidia チップに費やすためにさらに 400 億ドルを借りようとしているため、信用リスクはかなり高いですが、誰がそれを気にしますか?スペースXとテスラは合併を議論するために特別委員会を設立しました！この合併がどの程度魅力的であると感じるかは、おそらく、[…]",
+      "summary": "確かに、SpaceX は Nvidia チップに費やすためにさらに 400 億ドルを借りようとしているため、信用リスクはかなり高いですが、誰がそれを気にしますか?スペースXとテスラは合併を議論するために特別委員会を設立しました！この合併がどの程度魅力的であると感じるかは、おそらく […]",
       "category": "業界",
       "title_original": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
       "summary_original": "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger! The degree to which you find this merger compelling likely has to do with the degree to which […]"
@@ -116,60 +196,10 @@
       "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
       "source": "The Verge AI",
       "published": "2026-10-22T18:15:00+00:00",
-      "summary": "マーク・ザッカーバーグは、AI エージェントの自律的なネットワークが私たちの生活を運営し、私たちのために買い物をし、私たちのために働き、私たちの代わりに他の人の AI エージェントと会話する未来に向けて猛進しています。人間は、主にボット プロキシを介して通信するという非常に具体的で容赦のない生活のビジョンに備える準備ができているでしょうか? […]",
+      "summary": "マーク・ザッカーバーグは、AI エージェントの自律的なネットワークが私たちの生活を運営し、私たちのために買い物をし、私たちのために働き、私たちの代わりに他の人の AI エージェントと会話する未来に向かって突進しています。人間は、主にボット プロキシを介して通信するという非常に具体的で容赦のない生活のビジョンに備える準備ができているでしょうか? […]",
       "category": "業界",
       "title_original": "In Meta’s version of the future, I’ll have my Muse call your Muse",
       "summary_original": "Mark Zuckerberg is barrelling toward a future in which an autonomous network of AI agents will run our lives - shopping for us, working for us, talking to other people's AI agents for us. Are humans ready for this very specific and unrelenting vision of a life in which we communicate primarily through bot proxies? […]"
-    },
-    {
-      "title": "マイクロソフト、自社のAIツールは症状の診断において医師よりも優れていると発表",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
-      "source": "The Verge AI",
-      "published": "2026-10-22T18:00:00+00:00",
-      "summary": "AIのリーダーたちは何年もの間、自社のテクノロジーが生活を改善する最も明らかな例の1つとしてヘルスケアを宣伝してきた。 Microsoft AI CEOのムスタファ・スレイマン氏は、「ついにそれが実現した」とThe Vergeに語った。同社は、人間よりも最大 4 倍正確に状態を診断できる AI を活用したツールを開発したと主張しています […]",
-      "category": "業界",
-      "title_original": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
-      "summary_original": "For years, AI leaders have touted healthcare as one of the clearest examples of where their technology will improve lives. Now \"it is finally here,\" Microsoft AI CEO Mustafa Suleyman tells The Verge. The company claims to have developed an AI-powered tool it says can diagnose conditions up to four times more accurately than human […]"
-    },
-    {
-      "title": "誰かが古いゲームと AI を使用して Switch 2 をハッキングした",
-      "url": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
-      "source": "The Verge AI",
-      "published": "2026-10-22T17:21:31+00:00",
-      "summary": "Nintendo Switch 2は明らかにジェイルブレイクされており、MOD制作者は既にコンソールでシナモロール、赤いアングリーバード、ピーター・グリフィン、Minecraftのスティーブなどの新しいプレイアブルキャラクターをフィーチャーしたカスタムバージョンのマリオカートワールドを実行していることを示しています。 「pepsipu」こと Sammy Hajhamid 氏によると、OpenAI の Codex がこの「ns2jb」脱獄に貢献したそうです。それは[…]",
-      "category": "業界",
-      "title_original": "Someone hacked the Switch 2 by using an old game and AI",
-      "summary_original": "The Nintendo Switch 2 has apparently been jailbroken, and a modder has already shown the console running a custom version of Mario Kart World featuring new playable characters like Cinnamoroll, the red Angry Bird, Peter Griffin, and Steve from Minecraft. OpenAI's Codex helped make this \"ns2jb\" jailbreak, according to Sammy Hajhamid, aka \"pepsipu.\" It's a […]"
-    },
-    {
-      "title": "ワイルドウッド監督、AIは「私たちがこのスタジオにいるすべてのものとは対極だ」と語る",
-      "url": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
-      "source": "The Verge AI",
-      "published": "2026-10-22T16:16:15+00:00",
-      "summary": "『ワイルドウッド』は、『コラライン』や『パラノーマン』などで最もよく知られるストップモーション スタジオ、ライカが制作したこれまでで最も野心的な映画です。完成までに 5 年を要した壮大なファンタジー アドベンチャーです。このプロセスには、主人公プルーだけでも 36 体を含む 230 体以上の人形が含まれており、これらの人形に命を吹き込んだのは […]",
-      "category": "業界",
-      "title_original": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
-      "summary_original": "Wildwood is the most ambitious film yet from Laika, the stop-motion studio best known for the likes of Coraline and ParaNorman. It's a sprawling fantasy adventure that took five years to complete. The process involved more 230 puppets - including 36 of the main character Prue alone - which were brought to life by a […]"
-    },
-    {
-      "title": "OlmoEarth v1.3: 地球全体のための最先端の埋め込み",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-      "source": "Hugging Face",
-      "published": "2026-10-22T16:11:31+00:00",
-      "summary": "",
-      "category": "オープンソース",
-      "title_original": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
-      "summary_original": ""
-    },
-    {
-      "title": "OpenAI、Anthropic、Nvidia には記録的なロビー活動拠点がありました",
-      "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
-      "source": "The Verge AI",
-      "published": "2026-10-22T15:50:30+00:00",
-      "summary": "AIロビイストにとっては忙しい夏だった。連邦政府の開示情報によると、Anthropic、OpenAI、Nvidia のロビー活動で最も支出が多かった四半期は 7 月から 9 月でした。 Nvidia が 220 万ドルでグループの大部分を費やし、続いて Anthropic が 210 万ドル、OpenAI が 150 万ドルでした。ワシントンに長い間存在感を示している他のビッグテック企業と比較して、[…]",
-      "category": "業界",
-      "title_original": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
-      "summary_original": "It was a busy summer for AI lobbyists. Anthropic, OpenAI, and Nvidia each had their highest-spending lobbying quarter between July and September, federal disclosures show. Nvidia spent the most of the group at $2.2 million, followed by Anthropic's $2.1 million and OpenAI's $1.5 million. Compared to other Big Tech companies with long-established presences in Washington, […]"
     },
     {
       "title": "ダウンロード: コンピューティングの次の飛躍と永久凍土の気候脅威",
@@ -182,11 +212,11 @@
       "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How far can we push computing? On a December evening in 1959, the physicist Richard Feynman gave a lecture called “There’s Plenty of Room at the Bottom.” There is no physical…"
     },
     {
-      "title": "コンテキスト認識型 AI の主張",
+      "title": "コンテキスト認識 AI の主張をする",
       "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
       "source": "MIT Technology Review",
       "published": "2026-10-22T10:00:00+00:00",
-      "summary": "Enterprise AI は、推奨事項を生成し、タスクを自動化し、組織がより迅速に意思決定を行えるように支援します。しかし、ビジネスが実際にどのように運営されているかを理解していなければ、強力なモデルであっても、意思決定が正しいかどうかを決定する制約や関係を見落とす可能性があります。企業が AI を実験から日常業務に移行しようとする中、今後の課題は…",
+      "summary": "Enterprise AI は、推奨事項を生成し、タスクを自動化し、組織がより迅速に意思決定を行えるように支援します。しかし、ビジネスが実際にどのように運営されているかを理解していなければ、強力なモデルであっても、意思決定が正しいかどうかを決定する制約や関係を見落とす可能性があります。企業が AI を実験から日常業務に移行しようとする中、今後の課題は次のとおりです…",
       "category": "業界",
       "title_original": "Making the case for context-aware AI",
       "summary_original": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead…"
@@ -202,7 +232,7 @@
       "summary_original": "How much do you know about permafrost? Maybe, like me, you’ve been aware that this layer of frozen soil is thawing, that it’s important in the global puzzle of climate change … and that’s about the extent of it. The great news for both of us is that my colleague James Temple just published two…"
     },
     {
-      "title": "AI の隠されたストレージ法案: 推論が後に残すもの",
+      "title": "AI の隠れたストレージ法案: 推論が後に残すもの",
       "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
       "source": "MIT Technology Review",
       "published": "2026-10-22T08:41:18+00:00",
@@ -322,7 +352,7 @@
       "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Impossible issue We wanted our last print edition of 2026 to include a slate of stories that check in on impossible ideas. Why? Because it’s fun to dream about…"
     },
     {
-      "title": "OpenAI モデルが Google Cloud に登場",
+      "title": "OpenAI モデルが Google Cloud に登場します",
       "url": "https://openai.com/index/openai-models-google-cloud",
       "source": "OpenAI",
       "published": "2026-10-21T12:00:00+00:00",
@@ -336,20 +366,10 @@
       "url": "https://www.technologyreview.com/2026/10/21/1146053/editor-letter-we-can-do-impossible-things/",
       "source": "MIT Technology Review",
       "published": "2026-10-21T09:00:00+00:00",
-      "summary": "間違いなく世界で最悪の面接質問の 1 つである「あなたの最大の弱点は何ですか?」という質問に対する答えは、誰もが練習済みだと思います。それを理解したときはいつも、ゆっくりと、物思いにふけりながら息をして、「私は自分にノーを言いすぎている」と自分のセリフをカタカタ言います。嘘はつきません。それは少し恥知らずであり、明らかな謙虚な自慢です。私はシステム思考家です:…",
+      "summary": "間違いなく世界で最悪の面接質問の 1 つである「あなたの最大の弱点は何ですか?」という質問に対する答えは、誰もが練習済みだと思います。それを理解したときはいつも、ゆっくりと、物思いにふけるように息をして、「私は自分にノーを言いすぎている」と自分のセリフをカタカタ言います。嘘はつきません。それは少し恥知らずであり、明らかな謙虚な自慢です。私はシステム思考家です:…",
       "category": "業界",
       "title_original": "We can do impossible things",
       "summary_original": "I’d wager everyone has a rehearsed response to what’s absolutely one of the world’s worst interview questions: “What’s your biggest weakness?” Whenever I’ve gotten it, I take a slow—even pensive—breath and rattle off my line: “I say no to myself too much.” I won’t lie. It’s a bit shameless—a definite humblebrag. I’m a systems thinker:…"
-    },
-    {
-      "title": "原子力宇宙船",
-      "url": "https://www.technologyreview.com/2026/10/21/1146061/nuclear-powered-spaceships-impossible-issue/",
-      "source": "MIT Technology Review",
-      "published": "2026-10-21T09:00:00+00:00",
-      "summary": "アルテミス II 乗組員が今年 4 月に月周回の歴史的なスリングショットを開始する直前に、NASA はスペース リアクター 1 フリーダムを建設する計画を発表しました。史上初の原子炉を動力とする惑星間宇宙船である SR-1 は、2028 年末までに火星への無人ミッションを飛行し、2029 年に到着する予定です。ミッションが成功すれば、新たな時代の到来を告げることになるでしょう…",
-      "category": "業界",
-      "title_original": "Nuclear-powered spaceships",
-      "summary_original": "Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly an uncrewed mission to Mars by the end of 2028, arriving in 2029. A successful mission would herald a new era…"
     },
     {
       "title": "Patch the Planet: エージェントが重大な脆弱性を発見したときの世界的な対応調整",
@@ -410,16 +430,6 @@
       "category": "製品",
       "title_original": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
       "summary_original": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow."
-    },
-    {
-      "title": "Terminal X は GPT-6.1 で上級投資家の判断と 88.6% 一致",
-      "url": "https://openai.com/index/terminal-x",
-      "source": "OpenAI",
-      "published": "2026-10-20T07:00:00+00:00",
-      "summary": "Terminal X の Eval Agent は、54 基準のルーブリックに基づいて成果物を採点し、GPT-6.1 Sol を使用してファンドの義務からの逸脱を 25% 多く検出します。",
-      "category": "製品",
-      "title_original": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-      "summary_original": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol."
     },
     {
       "title": "顔を抱きしめる ❤️ トーチTPU: TPU、ネイティブ",
@@ -492,16 +502,6 @@
       "summary_original": ""
     },
     {
-      "title": "ようこそ FLUX.3 ディフューザーのイメージ クライン",
-      "url": "https://huggingface.co/blog/flux-3",
-      "source": "Hugging Face",
-      "published": "2026-10-15T00:00:00+00:00",
-      "summary": "",
-      "category": "オープンソース",
-      "title_original": "Welcome FLUX.3 Image Klein in Diffusers",
-      "summary_original": ""
-    },
-    {
       "title": "天気予報の不確実性を定量化する生成 AI",
       "url": "http://blog.research.google/feeds/1569605132526995799/comments/default",
       "source": "Google AI Blog",
@@ -556,7 +556,7 @@
       "url": "http://blog.research.google/feeds/4328167517765145678/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-19T15:00:00+00:00",
-      "summary": "投稿者: Google Research の研究員、Pooja Rao 健康データセットは研究と医学教育において重要な役割を果たしますが、現実世界を表すデータセットを作成するのは困難な場合があります。たとえば、皮膚科の症状はその外観や重症度が多様であり、肌の色調によって現れ方も異なります。しかし、既存の皮膚科画像データセットには、日常の状態 (発疹、アレルギー、感染症など) が表現されていないことが多く、明るい肌色に偏っています。ふ",
+      "summary": "投稿者: Google Research の研究員、Pooja Rao 健康データセットは研究と医学教育において重要な役割を果たしますが、現実世界を表すデータセットを作成するのは困難な場合があります。たとえば、皮膚科の症状はその外観や重症度が多様であり、肌の色調によって現れ方も異なります。しかし、既存の皮膚科画像データセットには、日常の状態 (発疹、アレルギー、感染症など) が表現されていないことが多く、明るい肌色に偏っています。フー",
       "category": "研究",
       "title_original": "SCIN: A new resource for representative dermatology images",
       "summary_original": "Posted by Pooja Rao, Research Scientist, Google Research Health datasets play a crucial role in research and medical education, but it can be challenging to create a dataset that represents the real world. For example, dermatology conditions are diverse in their appearance and severity and manifest differently across skin tones. Yet, existing dermatology image datasets often lack representation of everyday conditions (like rashes, allergies and infections) and skew towards lighter skin tones. Fu"
@@ -592,7 +592,7 @@
       "summary_original": "Posted by Yun Zhu and Lijuan Liu, Software Engineers, Google Research Large language model (LLM) advancements have led to a new paradigm that unifies various natural language processing (NLP) tasks within an instruction-following framework. This paradigm is exemplified by recent multi-task LLMs, such as T0 , FLAN , and OPT-IML . First, multi-task data is gathered with each task following a task-specific template, where each labeled example is converted into an instruction (e.g., \" Put the concep"
     },
     {
-      "title": "グラフのように話す: 大規模な言語モデルのグラフのエンコード",
+      "title": "グラフのように話す: 大規模な言語モデルのグラフをエンコードする",
       "url": "http://blog.research.google/feeds/6090481872694489715/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-12T21:15:00+00:00",
