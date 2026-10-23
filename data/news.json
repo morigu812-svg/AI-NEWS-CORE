@@ -1,6 +1,26 @@
 {
-  "updated_at": "2026-10-23T04:59:30.516603+00:00",
+  "updated_at": "2026-10-23T11:45:59.064334+00:00",
   "items": [
+    {
+      "title": "バイオテクノロジーの世界では、すべてを見ることはできません",
+      "url": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
+      "source": "MIT Technology Review",
+      "published": "2026-10-23T09:00:00+00:00",
+      "summary": "今週初め、私は不名誉なバイオテクノロジー元CEOエリザベス・ホームズに関する話題の新作ドキュメンタリー『You Can See Everything』の上映会に出席した。私は何を期待するのか本当にわかりませんでした。ネタバレは避けました（ここでも何も明かしません！）。この映画でどんな新しい情報が明らかになるのかと思っていましたが…",
+      "category": "業界",
+      "title_original": "In the biotech world, you can’t see everything",
+      "summary_original": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new information this film could reveal, given…"
+    },
+    {
+      "title": "OpenAI とポーランドの NASK パートナーが AI の安全性とセキュリティを推進",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "source": "OpenAI",
+      "published": "2026-10-23T00:00:00+00:00",
+      "summary": "OpenAI とポーランドの NASK は、セーフガードを強化し、より回復力のあるデジタル エコシステムをサポートするために、AI の安全性、セキュリティ、技術研究で提携しています。",
+      "category": "製品",
+      "title_original": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "summary_original": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem."
+    },
     {
       "title": "データベースの評価を RL 報酬に変える: ThinkingBox を使用したトレーニング後のエージェント",
       "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
@@ -16,7 +36,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
       "source": "The Verge AI",
       "published": "2026-10-22T21:51:25+00:00",
-      "summary": "Canva は、OpenAI、Microsoft、Google のモデルと直接競合する画像生成モデルを開始することで、AI をさらに深く掘り下げています。 Canva Craft と呼ばれるこのモデルは、画像を生成する前にデザインを計画できる 2 段階のアーキテクチャを採用しており、ある情報によれば、「より高い精度、一貫性、制御」が可能になります。",
+      "summary": "Canva は、OpenAI、Microsoft、Google のモデルと直接競合する画像生成モデルを開始することで、AI をさらに深く掘り下げています。 Canva Craft と呼ばれるこのモデルは、イメージを生成する前にデザインを計画できる 2 段階のアーキテクチャを採用しており、ある情報によれば、「より高い精度、一貫性、および制御」が可能になります。",
       "category": "研究",
       "title_original": "Canva’s first AI image model plans designs before generating them",
       "summary_original": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency and control,\" according to an […]"
@@ -26,7 +46,7 @@
       "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
       "source": "MIT Technology Review",
       "published": "2026-10-22T21:17:29+00:00",
-      "summary": "エンタープライズ AI における次の競争上の優位性は、どのモデルを選択するかよりも、そのモデルを中心に何を構築するかによって決まります。それは重要な変化です。過去数年間、AI に関する議論の多くは、より大きなモデル、より優れた推論、より大きなコンテキスト ウィンドウ、より高いベンチマーク スコアといったモデルの機能に集中してきました。これらの進歩により…",
+      "summary": "エンタープライズ AI における次の競争上の優位性は、どのモデルを選択するかよりも、そのモデルを中心に何を構築するかによって決まります。それは重要な変化です。過去数年間、AI に関する議論の多くはモデルの機能、つまりより大きなモデル、より優れた推論、より大きなコンテキスト ウィンドウ、より高いベンチマーク スコアに集中してきました。これらの進歩により…",
       "category": "業界",
       "title_original": "Designing an AI serving harness built to last",
       "summary_original": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…"
@@ -46,7 +66,7 @@
       "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
       "source": "The Verge AI",
       "published": "2026-10-22T20:24:04+00:00",
-      "summary": "公開会話のリンクが簡単に見つかる可能性があるとセキュリティ研究者が報告したことを受け、Meta は Muse 共有を再度有効にしました。研究者らは、マーケティング会社の内部収益調査や中小企業経営者の融資申請などの Muse ページを見つけることができたと述べた。 Claroc の研究者は今週初めに、Muse the web […]",
+      "summary": "公開会話のリンクが簡単に見つかる可能性があるとセキュリティ研究者が報告したことを受け、Meta は Muse 共有を再度有効にしました。研究者らは、マーケティング会社の内部収益調査や中小企業経営者の融資申請などのMuseページを見つけることができたと述べた。 Claroc の研究者は今週初めに、Muse the web […]",
       "category": "業界",
       "title_original": "Meta turns Muse sharing back on",
       "summary_original": "Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's internal revenue review and a small business owner's loan application. Researchers at Claroc reported earlier this week that Muse the web […]"
@@ -56,7 +76,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
       "source": "The Verge AI",
       "published": "2026-10-22T19:45:00+00:00",
-      "summary": "確かに、SpaceX は Nvidia チップに費やすためにさらに 400 億ドルを借りようとしているため、信用リスクはかなり高いですが、誰がそれを気にしますか?スペースXとテスラは合併を議論するために特別委員会を設立しました！この合併がどの程度魅力的であると感じるかは、おそらく […]",
+      "summary": "確かに、SpaceX は Nvidia チップに費やすためにさらに 400 億ドルを借りようとしているため、信用リスクはかなり高いですが、誰がそれを気にしますか?スペースXとテスラは合併を議論するために特別委員会を設立しました！この合併がどの程度魅力的であると感じるかは、おそらく、[…]",
       "category": "業界",
       "title_original": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
       "summary_original": "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger! The degree to which you find this merger compelling likely has to do with the degree to which […]"
@@ -102,11 +122,11 @@
       "summary_original": "Mark Zuckerberg is barrelling toward a future in which an autonomous network of AI agents will run our lives - shopping for us, working for us, talking to other people's AI agents for us. Are humans ready for this very specific and unrelenting vision of a life in which we communicate primarily through bot proxies? […]"
     },
     {
-      "title": "マイクロソフトは、自社の AI ツールは症状の診断において医師よりも優れていると発表",
+      "title": "マイクロソフト、自社のAIツールは症状の診断において医師よりも優れていると発表",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
       "source": "The Verge AI",
       "published": "2026-10-22T18:00:00+00:00",
-      "summary": "AIのリーダーたちは何年もの間、自社のテクノロジーが生活を改善する最も明確な例の1つとしてヘルスケアを宣伝してきた。 Microsoft AI CEOのムスタファ・スレイマン氏は、「ついにそれが実現した」とThe Vergeに語った。同社は、人間よりも最大 4 倍正確に状態を診断できる AI を活用したツールを開発したと主張しています […]",
+      "summary": "AIのリーダーたちは何年もの間、自社のテクノロジーが生活を改善する最も明らかな例の1つとしてヘルスケアを宣伝してきた。 Microsoft AI CEOのムスタファ・スレイマン氏は、「ついにそれが実現した」とThe Vergeに語った。同社は、人間よりも最大 4 倍正確に状態を診断できる AI を活用したツールを開発したと主張しています […]",
       "category": "業界",
       "title_original": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
       "summary_original": "For years, AI leaders have touted healthcare as one of the clearest examples of where their technology will improve lives. Now \"it is finally here,\" Microsoft AI CEO Mustafa Suleyman tells The Verge. The company claims to have developed an AI-powered tool it says can diagnose conditions up to four times more accurately than human […]"
@@ -162,7 +182,7 @@
       "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How far can we push computing? On a December evening in 1959, the physicist Richard Feynman gave a lecture called “There’s Plenty of Room at the Bottom.” There is no physical…"
     },
     {
-      "title": "コンテキスト認識型 AI の主張をする",
+      "title": "コンテキスト認識型 AI の主張",
       "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
       "source": "MIT Technology Review",
       "published": "2026-10-22T10:00:00+00:00",
@@ -176,13 +196,13 @@
       "url": "https://www.technologyreview.com/2026/10/22/1147591/permafrost-primer/",
       "source": "MIT Technology Review",
       "published": "2026-10-22T10:00:00+00:00",
-      "summary": "永久凍土についてどれくらい知っていますか?おそらく、あなたも私と同じように、この凍った土壌の層が解けつつあること、それが気候変動という地球規模の謎において重要であること、そしてそれがその程度であることに気づいているかもしれません。私たち二人にとって素晴らしいニュースは、私の同僚の James Temple がちょうど 2 冊の本を出版したことです…",
+      "summary": "永久凍土についてどれくらい知っていますか?おそらく、あなたも私と同じように、この凍った土壌の層が解けつつあること、それが気候変動という地球規模の謎において重要であること、そしてそれがその範囲であることに気づいているかもしれません。私たち二人にとって素晴らしいニュースは、私の同僚の James Temple がちょうど 2 冊の本を出版したことです…",
       "category": "業界",
       "title_original": "Three things you should know about permafrost",
       "summary_original": "How much do you know about permafrost? Maybe, like me, you’ve been aware that this layer of frozen soil is thawing, that it’s important in the global puzzle of climate change … and that’s about the extent of it. The great news for both of us is that my colleague James Temple just published two…"
     },
     {
-      "title": "AI の隠れたストレージ法案: 推論が後に残すもの",
+      "title": "AI の隠されたストレージ法案: 推論が後に残すもの",
       "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
       "source": "MIT Technology Review",
       "published": "2026-10-22T08:41:18+00:00",
@@ -302,7 +322,7 @@
       "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing: the Impossible issue We wanted our last print edition of 2026 to include a slate of stories that check in on impossible ideas. Why? Because it’s fun to dream about…"
     },
     {
-      "title": "OpenAI モデルが Google Cloud に登場します",
+      "title": "OpenAI モデルが Google Cloud に登場",
       "url": "https://openai.com/index/openai-models-google-cloud",
       "source": "OpenAI",
       "published": "2026-10-21T12:00:00+00:00",
@@ -332,16 +352,6 @@
       "summary_original": "Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly an uncrewed mission to Mars by the end of 2028, arriving in 2029. A successful mission would herald a new era…"
     },
     {
-      "title": "錠剤で運動する",
-      "url": "https://www.technologyreview.com/2026/10/21/1146121/exercise-in-a-pill-impossible-issue/",
-      "source": "MIT Technology Review",
-      "published": "2026-10-21T09:00:00+00:00",
-      "summary": "運動が体に良いことは誰もが知っています。筋肉を増強し、骨を強化し、血圧を下げ、気分を高めます。研究者らは、運動が体にどのようなメリットをもたらすかを解明することで、トレーニングをしなくても同様の効果が得られる医薬品を開発したいと考えている。このアイデアは、運動に代わるものではなく、次のような人々に運動の利点をもたらすことです。",
-      "category": "業界",
-      "title_original": "Exercise in a pill",
-      "summary_original": "We all know exercise is good for us. It builds muscle, strengthens bones, lowers blood pressure, and boosts mood. By deciphering how movement benefits the body, researchers hope to develop medicines that can offer some of the same perks—without the workout. The idea isn’t to replace exercise but to bring its upsides to people who…"
-    },
-    {
       "title": "Patch the Planet: エージェントが重大な脆弱性を発見したときの世界的な対応調整",
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
       "source": "OpenAI",
@@ -366,7 +376,7 @@
       "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
       "source": "OpenAI",
       "published": "2026-10-21T04:50:00+00:00",
-      "summary": "OpenAI、PerturbAI、Scripps Research が分散型 AI エージェントを使用して、数百万の脳細胞からのデータから有望な研究の手がかりを発見した方法をご覧ください。",
+      "summary": "OpenAI、PerturbAI、Scripps Research が分散 AI エージェントを使用して、数百万の脳細胞からのデータから有望な研究の手がかりを発見した方法をご覧ください。",
       "category": "製品",
       "title_original": "Using thousands of AI agents to uncover new leads in biological data",
       "summary_original": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells."
@@ -386,7 +396,7 @@
       "url": "https://openai.com/index/empowering-cyber-defenders",
       "source": "OpenAI",
       "published": "2026-10-21T00:00:00+00:00",
-      "summary": "OpenAI は、フロンティア AI、より強力な安全対策、最新のサイバーセキュリティ、よりレジリエントな公共機関によってサイバー防御者を強化するための青写真を概説しています。",
+      "summary": "OpenAI は、フロンティア AI、より強力な安全対策、最新のサイバーセキュリティ、よりレジリエントな公共機関によってサイバー防御者を強化するための青写真の概要を示しています。",
       "category": "製品",
       "title_original": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
       "summary_original": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions."
@@ -410,16 +420,6 @@
       "category": "製品",
       "title_original": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
       "summary_original": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol."
-    },
-    {
-      "title": "OpenAI が Orchestra Bio を買収",
-      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "source": "OpenAI",
-      "published": "2026-10-20T00:00:00+00:00",
-      "summary": "OpenAI は、AI を活用したオペレーションをライフ サイエンスの研究開発に導入するために Orchestra Bio を買収し、バイオ製​​薬チームが医薬品開発を加速し、新しい治療法を進歩できるよう支援します。",
-      "category": "製品",
-      "title_original": "OpenAI acquires Orchestra Bio",
-      "summary_original": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments."
     },
     {
       "title": "顔を抱きしめる ❤️ トーチTPU: TPU、ネイティブ",
@@ -556,7 +556,7 @@
       "url": "http://blog.research.google/feeds/4328167517765145678/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-19T15:00:00+00:00",
-      "summary": "投稿者: Google Research の研究員、Pooja Rao 健康データセットは研究と医学教育において重要な役割を果たしますが、現実世界を表すデータセットを作成するのは困難な場合があります。たとえば、皮膚科の症状はその外観や重症度が多様であり、肌の色調によって現れ方も異なります。しかし、既存の皮膚科画像データセットには、日常の状態 (発疹、アレルギー、感染症など) が表現されていないことが多く、明るい肌色に偏っています。フー",
+      "summary": "投稿者: Google Research の研究員、Pooja Rao 健康データセットは研究と医学教育において重要な役割を果たしますが、現実世界を表すデータセットを作成するのは困難な場合があります。たとえば、皮膚科の症状はその外観や重症度が多様であり、肌の色調によって現れ方も異なります。しかし、既存の皮膚科画像データセットには、日常の状態 (発疹、アレルギー、感染症など) が表現されていないことが多く、明るい肌色に偏っています。ふ",
       "category": "研究",
       "title_original": "SCIN: A new resource for representative dermatology images",
       "summary_original": "Posted by Pooja Rao, Research Scientist, Google Research Health datasets play a crucial role in research and medical education, but it can be challenging to create a dataset that represents the real world. For example, dermatology conditions are diverse in their appearance and severity and manifest differently across skin tones. Yet, existing dermatology image datasets often lack representation of everyday conditions (like rashes, allergies and infections) and skew towards lighter skin tones. Fu"
@@ -596,7 +596,7 @@
       "url": "http://blog.research.google/feeds/6090481872694489715/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-12T21:15:00+00:00",
-      "summary": "投稿者: Bahare Fatemi および Bryan Perozzi、研究科学者、Google Research 友人、キッチンの道具、さらには自転車の部品など、あなたの周りにあるすべてのものを想像してみてください。それらはすべてさまざまな方法で接続されています。コンピューター サイエンスでは、グラフという用語はオブジェクト間の接続を説明するために使用されます。グラフは、ノード (オブジェクト自体) とエッジ (2 つのノード間の関係を示す、2 つのノード間の接続) で構成されます。グラフは今やどこにでもあります。インターネットそのものが巨人だ",
+      "summary": "投稿者: Bahare Fatemi と Bryan Perozzi、研究科学者、Google Research 友人、キッチンの道具、さらには自転車の部品など、あなたの周りのあらゆるものを想像してみてください。それらはすべてさまざまな方法で接続されています。コンピューター サイエンスでは、グラフという用語はオブジェクト間の接続を説明するために使用されます。グラフは、ノード (オブジェクト自体) とエッジ (2 つのノード間の関係を示す、2 つのノード間の接続) で構成されます。グラフは今やどこにでもあります。インターネットそのものが巨人だ",
       "category": "研究",
       "title_original": "Talk like a graph: Encoding graphs for large language models",
       "summary_original": "Posted by Bahare Fatemi and Bryan Perozzi, Research Scientists, Google Research Imagine all the things around you — your friends, tools in your kitchen, or even the parts of your bike. They are all connected in different ways. In computer science, the term graph is used to describe connections between objects. Graphs consist of nodes (the objects themselves) and edges (connections between two nodes, indicating a relationship between them). Graphs are everywhere now. The internet itself is a gian"
