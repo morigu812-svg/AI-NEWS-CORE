@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T08:09:09.875049+00:00",
+  "updated_at": "2026-10-24T08:15:29.388451+00:00",
   "items": [
     {
       "title": "OpenAI とポーランドの NASK パートナーが AI の安全性とセキュリティを推進",
@@ -151,7 +151,7 @@
       "published": "2026-10-22T21:17:29+00:00",
       "summary": "エンタープライズ AI における次の競争上の優位性は、どのモデルを選択するかよりも、そのモデルを中心に何を構築するかに関係します。それは重要な変化です。過去数年間、AI に関する議論の多くは、より大きなモデル、より優れた推論、より大きなコンテキスト ウィンドウ、より高いベンチマーク スコアといったモデルの機能に集中してきました。これらの進歩により…",
       "category": "研究",
-      "score": 7.32,
+      "score": 7.31,
       "title_original": "Designing an AI serving harness built to last",
       "summary_original": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…"
     },
@@ -239,7 +239,7 @@
       "published": "2026-10-22T20:32:05+00:00",
       "summary": "Metaは取引条件を微調整し、The Vergeなどのニュースサイトで自社のAIモデルを自由にトレーニングできることを示唆する文言を削除したが、法律専門家らは、こうした変更は懸念に対処するのに十分ではないと述べている。 「これは、メタがスクレイピングすることを可能にする「あなたの製品またはサービスに関連する」[言語]を制限するものではありません[…]",
       "category": "製品",
-      "score": 6.61,
+      "score": 6.6,
       "title_original": "Meta’s AI could still scrape news sites, legal experts say",
       "summary_original": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your products or services' [language] that would let Meta scrape […]"
     },
