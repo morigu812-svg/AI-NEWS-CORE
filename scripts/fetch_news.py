@@ -253,14 +253,7 @@ def main():
             print("[WARN] {}: {}: {}".format(source, type(exc).__name__, exc))
         time.sleep(0.25)
 
-    if not items and OUTPUT.exists():
-        try:
-            previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
-            if previous.get("items"):
-                print("All feeds failed; keeping previous news data.")
-                return
-        except (OSError, json.JSONDecodeError):
-            pass
+    # Do not retain old news when feeds fail: that could publish articles outside the 7-day window.
 
     items = curate_items(items[:MAX_FETCHED])
     items = translate_items(items)
