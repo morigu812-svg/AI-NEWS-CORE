@@ -120,8 +120,8 @@ def score_item(item):
     summary = (item.get("summary") or "").lower()
     combined = title + " " + summary
     score = 0
-    ai_title_hits = sum(1 for term in AI_TERMS if term in title) + int(bool(re.search(r"\\bai\\b", title)))
-    ai_all_hits = sum(1 for term in AI_TERMS if term in combined) + int(bool(re.search(r"\\bai\\b", combined)))
+    ai_title_hits = sum(1 for term in AI_TERMS if term in title) + int(bool(re.search(r"\bai\b", title)))
+    ai_all_hits = sum(1 for term in AI_TERMS if term in combined) + int(bool(re.search(r"\bai\b", combined)))
     score += min(ai_title_hits, 3) * 2.2
     score += min(max(0, ai_all_hits - ai_title_hits), 3) * 0.7
     score += min(sum(1 for term in HIGH_VALUE_TERMS if term in title), 3) * 1.15
