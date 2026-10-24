@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-10-24T08:07:41.036599+00:00",
+  "updated_at": "2026-10-24T08:09:09.875049+00:00",
   "items": [
+    {
+      "title": "OpenAI とポーランドの NASK パートナーが AI の安全性とセキュリティを推進",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "source": "OpenAI",
+      "published": "2026-10-23T00:00:00+00:00",
+      "summary": "OpenAI とポーランドの NASK は、AI の安全性、セキュリティ、技術研究で提携し、安全対策を強化し、より回復力のあるデジタル エコシステムをサポートしています。",
+      "category": "研究",
+      "score": 11.15,
+      "title_original": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "summary_original": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem."
+    },
+    {
+      "title": "数千の AI エージェントを使用して生物学的データの新たな手がかりを発見する",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "source": "OpenAI",
+      "published": "2026-10-21T04:50:00+00:00",
+      "summary": "OpenAI、PerturbAI、Scripps Research が分散 AI エージェントを使用して、数百万の脳細胞からのデータから有望な研究の手がかりを発見した方法をご覧ください。",
+      "category": "研究",
+      "score": 10.1,
+      "title_original": "Using thousands of AI agents to uncover new leads in biological data",
+      "summary_original": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells."
+    },
     {
       "title": "データベースの評価を RL 報酬に変える: ThinkingBox を使用したトレーニング後のエージェント",
       "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
@@ -35,17 +57,6 @@
       "summary_original": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace."
     },
     {
-      "title": "OpenAI とポーランドの NASK パートナーが AI の安全性とセキュリティを推進",
-      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-      "source": "OpenAI",
-      "published": "2026-10-23T00:00:00+00:00",
-      "summary": "OpenAI とポーランドの NASK は、AI の安全性、セキュリティ、技術研究で提携し、安全対策を強化し、より回復力のあるデジタル エコシステムをサポートしています。",
-      "category": "研究",
-      "score": 8.95,
-      "title_original": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-      "summary_original": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem."
-    },
-    {
       "title": "Uber は OpenAI を使用して ChatGPT Work を全従業員に提供します",
       "url": "https://openai.com/index/uber-chatgpt-work-rollout",
       "source": "OpenAI",
@@ -57,7 +68,7 @@
       "summary_original": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows."
     },
     {
-      "title": "NVIDIA Kumo Relational は、トレーニング不要でリレーショナル データの教師あり機械学習を上回ります",
+      "title": "NVIDIA Kumo Relational はリレーショナル データに対する教師あり機械学習を上回り、トレーニングは不要",
       "url": "https://huggingface.co/blog/nvidia/kumo-relational",
       "source": "Hugging Face",
       "published": "2026-10-21T18:26:30+00:00",
@@ -68,11 +79,22 @@
       "summary_original": ""
     },
     {
+      "title": "ジャック・ドーシーのブロックは、気まずい新しい友達のように話しかける AI モデルを作成しました",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "source": "The Verge AI",
+      "published": "2026-10-23T19:32:39+00:00",
+      "summary": "ジャック・ドーシー氏のブロック氏は、「人間の会話だけをゼロから」訓練したDessaと呼ばれるAIモデルを発表し、そのモデルを披露するために、ブロック氏は人間との会話を共有したが、それは時として少しぎこちなく不気味な場合もあった。たとえば、Dessa のリーダー、Ragavan Thuriratnam が共有したこれを見てみましょう。間の会話 […]",
+      "category": "業界",
+      "score": 8.42,
+      "title_original": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "summary_original": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan Thurairatnam. The conversation between […]"
+    },
+    {
       "title": "10 億人を超える ChatGPT ユーザーにサービスを提供するためにオンライン ストレージを迅速に拡張する (パート II)",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "source": "OpenAI",
       "published": "2026-10-23T17:00:00+00:00",
-      "summary": "OpenAI が信頼性の高いマルチテナント、グローバル キャッシュ、Azure Cosmos DB を使用して Habitat を拡張し、ChatGPT の 12 倍高速な読み取りを実現した方法を学びましょう。",
+      "summary": "OpenAI が信頼性の高いマルチテナンシー、グローバル キャッシュ、Azure Cosmos DB を使用して Habitat を拡張し、ChatGPT の 12 倍高速な読み取りを実現した方法を学びましょう。",
       "category": "製品",
       "score": 8.29,
       "title_original": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
@@ -90,15 +112,26 @@
       "summary_original": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale."
     },
     {
-      "title": "数千の AI エージェントを使用して生物学的データの新たな手がかりを発見する",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "source": "OpenAI",
-      "published": "2026-10-21T04:50:00+00:00",
-      "summary": "OpenAI、PerturbAI、Scripps Research が分散 AI エージェントを使用して、数百万の脳細胞からのデータから有望な研究の手がかりを発見した方法をご覧ください。",
+      "title": "AI の隠されたストレージ法案: 推論が後に残すもの",
+      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+      "source": "MIT Technology Review",
+      "published": "2026-10-22T08:41:18+00:00",
+      "summary": "ほとんどの経営幹部に AI のコストをイメージしてもらうと、おそらく GPU (ギガワットの電力を備えたアクセラレータのラック) とシリコンの順番待ちリストが目に入るでしょう。しかし、この図にはデータ ストレージのコストというものが欠けています。モデルが応答した後、データはどうなりますか?毎日何十億ものプロンプト、画像、ビデオから生成されるバックエンド データの多くは…",
+      "category": "製品",
+      "score": 7.94,
+      "title_original": "AI’s hidden storage bill: What inference leaves behind",
+      "summary_original": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from billions of daily prompts, images, and videos—needs…"
+    },
+    {
+      "title": "テーブルの連鎖: テーブルを理解するための推論チェーンにおける進化するテーブル",
+      "url": "http://blog.research.google/feeds/470840348983280912/comments/default",
+      "source": "Google AI Blog",
+      "published": "2024-03-11T19:08:00+00:00",
+      "summary": "投稿者: Zilong Wang (学生研究者) および Chen-Yu Lee (研究科学者、クラウド AI チーム) 人々は毎日テーブルを使用して、構造化された簡単にアクセスできる形式で複雑な情報を整理し、解釈します。このようなテーブルが遍在しているため、表形式のデータに対する推論は、長い間、自然言語処理 (NLP) の中心的なトピックでした。この分野の研究者は、言語モデルを活用してユーザーを支援することを目指してきました。",
       "category": "研究",
-      "score": 7.9,
-      "title_original": "Using thousands of AI agents to uncover new leads in biological data",
-      "summary_original": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells."
+      "score": 7.65,
+      "title_original": "Chain-of-table: Evolving tables in the reasoning chain for table understanding",
+      "summary_original": "Posted by Zilong Wang, Student Researcher, and Chen-Yu Lee, Research Scientist, Cloud AI Team People use tables every day to organize and interpret complex information in a structured, easily accessible format. Due to the ubiquity of such tables, reasoning over tabular data has long been a central topic in natural language processing (NLP). Researchers in this field have aimed to leverage language models to help users answer questions, verify statements, and analyze data based on tables. However, language models are trained over large amounts of plain text, so the inherently structured nature of tabular data can be difficult for language models to fully comprehend and utilize. Recently, larg"
     },
     {
       "title": "フロンティアモデルのトレーニング環境の確保",
@@ -112,6 +145,28 @@
       "summary_original": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming."
     },
     {
+      "title": "耐久性に優れた AI サービング ハーネスの設計",
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "source": "MIT Technology Review",
+      "published": "2026-10-22T21:17:29+00:00",
+      "summary": "エンタープライズ AI における次の競争上の優位性は、どのモデルを選択するかよりも、そのモデルを中心に何を構築するかに関係します。それは重要な変化です。過去数年間、AI に関する議論の多くは、より大きなモデル、より優れた推論、より大きなコンテキスト ウィンドウ、より高いベンチマーク スコアといったモデルの機能に集中してきました。これらの進歩により…",
+      "category": "研究",
+      "score": 7.32,
+      "title_original": "Designing an AI serving harness built to last",
+      "summary_original": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…"
+    },
+    {
+      "title": "天気予報の不確実性を定量化する生成 AI",
+      "url": "http://blog.research.google/feeds/1569605132526995799/comments/default",
+      "source": "Google AI Blog",
+      "published": "2024-03-29T18:03:00+00:00",
+      "summary": "投稿者: Lizao (Larry) Li、ソフトウェア エンジニア、Rob Carver、Google Research リサーチ サイエンティスト 正確な天気予報は、その日の活動に何を持ち込むかなどの日常的な決定を支援することから、危険な気象条件に直面したときに人々を保護するなどの緊急の行動を通知することまで、人々の生活に直接影響を与える可能性があります。正確かつタイムリーな天気予報の重要性は、",
+      "category": "研究",
+      "score": 7.3,
+      "title_original": "Generative AI to quantify uncertainty in weather forecasting",
+      "summary_original": "Posted by Lizao (Larry) Li, Software Engineer, and Rob Carver, Research Scientist, Google Research Accurate weather forecasts can have a direct impact on people’s lives, from helping make routine decisions, like what to pack for a day’s activities, to informing urgent actions, for example, protecting people in the face of hazardous weather conditions. The importance of accurate and timely weather forecasts will only increase as the climate changes. Recognizing this, we at Google have been investing in weather and climate research to help ensure that the forecasting technology of tomorrow can meet the demand for reliable weather information. Some of our recent innovations include MetNet-3 , G"
+    },
+    {
       "title": "本番環境のオンデバイス言語モデルのプライベート トレーニングの進歩",
       "url": "http://blog.research.google/feeds/4343235509909091741/comments/default",
       "source": "Google AI Blog",
@@ -123,26 +178,81 @@
       "summary_original": "Posted by Zheng Xu, Research Scientist, and Yanxiang Zhang, Software Engineer, Google Language models (LMs) trained to predict the next word given input text are the key technology for many applications [ 1 , 2 ]. In Gboard , LMs are used to improve users’ typing experience by supporting features like next word prediction (NWP), Smart Compose , smart completion and suggestion , slide to type , and proofread . Deploying models on users’ devices rather than enterprise servers has advantages like lower latency and better privacy for model usage. While training on-device models directly from user data effectively improves the utility performance for applications such as NWP and smart text select"
     },
     {
-      "title": "グラフのように話す: 大規模な言語モデルのグラフをエンコードする",
+      "title": "コンセプトドリフトの下でトレーニングデータの重要性を学ぶ",
+      "url": "http://blog.research.google/feeds/5605933033299261025/comments/default",
+      "source": "Google AI Blog",
+      "published": "2024-02-14T18:32:00+00:00",
+      "summary": "投稿者: Nishant Jain、博士前研究者、および Google Research リサーチ サイエンティスト、Pradeep Shenoy 私たちの周囲の世界の性質は絶えず変化しており、AI モデルの開発に重大な課題をもたらしています。多くの場合、モデルは、使用されるトレーニング データが将来モデルが受け取る可能性のある入力を正確に表すことを期待して、縦断データでトレーニングされます。より一般的には、デフォルトの仮定は、",
+      "category": "研究",
+      "score": 7.2,
+      "title_original": "Learning the importance of training data under concept drift",
+      "summary_original": "Posted by Nishant Jain, Pre-doctoral Researcher, and Pradeep Shenoy, Research Scientist, Google Research The constantly changing nature of the world around us poses a significant challenge for the development of AI models. Often, models are trained on longitudinal data with the hope that the training data used will accurately represent inputs the model may receive in the future. More generally, the default assumption that all training data are equally relevant often breaks in practice. For example, the figure below shows images from the CLEAR nonstationary learning benchmark, and it illustrates how visual features of objects evolve significantly over a 10 year span (a phenomenon we refer to "
+    },
+    {
+      "title": "グラフのように話す: 大規模な言語モデルのグラフのエンコード",
       "url": "http://blog.research.google/feeds/6090481872694489715/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-12T21:15:00+00:00",
-      "summary": "投稿者: Bahare Fatemi と Bryan Perozzi、研究科学者、Google Research 友人、キッチンの道具、さらには自転車の部品など、あなたの周りのあらゆるものを想像してみてください。それらはすべてさまざまな方法で接続されています。コンピューター サイエンスでは、グラフという用語はオブジェクト間の接続を説明するために使用されます。グラフはノード (オブジェクト自体) とエッジ (関係を示す 2 つのノード間の接続) で構成されます。",
+      "summary": "投稿者: Bahare Fatemi および Bryan Perozzi、研究科学者、Google Research 友人、キッチンの道具、さらには自転車の部品など、あなたの周りにあるすべてのものを想像してみてください。それらはすべてさまざまな方法で接続されています。コンピューター サイエンスでは、グラフという用語はオブジェクト間の接続を説明するために使用されます。グラフはノード (オブジェクト自体) とエッジ (関係を示す 2 つのノード間の接続) で構成されます。",
       "category": "研究",
       "score": 6.95,
       "title_original": "Talk like a graph: Encoding graphs for large language models",
       "summary_original": "Posted by Bahare Fatemi and Bryan Perozzi, Research Scientists, Google Research Imagine all the things around you — your friends, tools in your kitchen, or even the parts of your bike. They are all connected in different ways. In computer science, the term graph is used to describe connections between objects. Graphs consist of nodes (the objects themselves) and edges (connections between two nodes, indicating a relationship between them). Graphs are everywhere now. The internet itself is a giant graph of websites linked together. Even the knowledge search engines use is organized in a graph-like way. Furthermore, consider the remarkable advancements in artificial intelligence — such as chat"
     },
     {
-      "title": "テーブルの連鎖: テーブルを理解するための推論チェーンにおける進化するテーブル",
-      "url": "http://blog.research.google/feeds/470840348983280912/comments/default",
-      "source": "Google AI Blog",
-      "published": "2024-03-11T19:08:00+00:00",
-      "summary": "投稿者: Zilong Wang (学生研究者) および Chen-Yu Lee (研究科学者、クラウド AI チーム) 人々は毎日テーブルを使用して、構造化された簡単にアクセスできる形式で複雑な情報を整理し、解釈します。このようなテーブルが遍在しているため、表形式のデータに対する推論は、長い間、自然言語処理 (NLP) の中心的なトピックでした。この分野の研究者は、言語モデルを活用してユーザーを支援することを目指してきました。",
-      "category": "研究",
-      "score": 6.95,
-      "title_original": "Chain-of-table: Evolving tables in the reasoning chain for table understanding",
-      "summary_original": "Posted by Zilong Wang, Student Researcher, and Chen-Yu Lee, Research Scientist, Cloud AI Team People use tables every day to organize and interpret complex information in a structured, easily accessible format. Due to the ubiquity of such tables, reasoning over tabular data has long been a central topic in natural language processing (NLP). Researchers in this field have aimed to leverage language models to help users answer questions, verify statements, and analyze data based on tables. However, language models are trained over large amounts of plain text, so the inherently structured nature of tabular data can be difficult for language models to fully comprehend and utilize. Recently, larg"
+      "title": "AIスクレイピングに対するパブリッシャーの反発を受け、メタが新たな取引条件を延期",
+      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "source": "The Verge AI",
+      "published": "2026-10-23T14:47:41+00:00",
+      "summary": "ファスト・カンパニーが先に報じたように、メタ社は、同社がAIトレーニングのためにニュースサイトをスクレイピングすることを許可する可能性があるとパブリッシャーらが懸念を表明したことを受けて、新たな取引条件の施行を遅らせている。ザ・ヴァージへの声明の中で、メタの広報担当ダニエル・ロバーツ氏は、この条件は11月20日に発効すると述べ、「これにより、[…]",
+      "category": "業界",
+      "score": 6.86,
+      "title_original": "Meta delays new business terms after publisher pushback on AI scraping",
+      "summary_original": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow […]"
+    },
+    {
+      "title": "フロンティア AI の民主的ガバナンス、パート II: サイバー防御者に力を与える",
+      "url": "https://openai.com/index/empowering-cyber-defenders",
+      "source": "OpenAI",
+      "published": "2026-10-21T00:00:00+00:00",
+      "summary": "OpenAI は、フロンティア AI、より強力な安全対策、最新のサイバーセキュリティ、よりレジリエントな公共機関によってサイバー防御者を強化するための青写真を概説しています。",
+      "category": "業界",
+      "score": 6.69,
+      "title_original": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "summary_original": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions."
+    },
+    {
+      "title": "Canva初のAI画像モデルはデザインを生成する前に計画します",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "source": "The Verge AI",
+      "published": "2026-10-22T21:51:25+00:00",
+      "summary": "Canva は、OpenAI、Microsoft、Google のモデルと直接競合する画像生成モデルを開始することで、AI をさらに深く掘り下げています。 Canva Craft と呼ばれるこのモデルは、画像を生成する前にデザインを計画できる 2 段階のアーキテクチャを採用しており、ある情報によれば、「より高い精度、一貫性、制御」が可能になります。",
+      "category": "製品",
+      "score": 6.62,
+      "title_original": "Canva’s first AI image model plans designs before generating them",
+      "summary_original": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency and control,\" according to an […]"
+    },
+    {
+      "title": "MetaのAIは依然としてニュースサイトをスクレイピングする可能性があると法律専門家は言う",
+      "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+      "source": "The Verge AI",
+      "published": "2026-10-22T20:32:05+00:00",
+      "summary": "Metaは取引条件を微調整し、The Vergeなどのニュースサイトで自社のAIモデルを自由にトレーニングできることを示唆する文言を削除したが、法律専門家らは、こうした変更は懸念に対処するのに十分ではないと述べている。 「これは、メタがスクレイピングすることを可能にする「あなたの製品またはサービスに関連する」[言語]を制限するものではありません[…]",
+      "category": "製品",
+      "score": 6.61,
+      "title_original": "Meta’s AI could still scrape news sites, legal experts say",
+      "summary_original": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your products or services' [language] that would let Meta scrape […]"
+    },
+    {
+      "title": "スケーラブルな AI の基礎",
+      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+      "source": "MIT Technology Review",
+      "published": "2026-10-22T18:48:04+00:00",
+      "summary": "スケーラブルな AI システムには強力な基盤が必要です。データ、エンジニアリング、プラットフォーム、オペレーティングモデル、ガバナンスは、1 つとして機能するように収束する必要があります。 MIT Technology Review の EmTech Future カンファレンスのこのセッションでは、高度に規制された環境でその基盤を構築するために何が必要か、そして責任ある信頼できる実装によってエージェントなどの新しい機能をどのように活用できるかを探ります。",
+      "category": "業界",
+      "score": 6.58,
+      "title_original": "The Foundations of Scalable AI",
+      "summary_original": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic…"
     },
     {
       "title": "ソーシャル学習: 大規模な言語モデルを使用した共同学習",
@@ -156,17 +266,6 @@
       "summary_original": "Posted by Amirkeivan Mohtashami, Research Intern, and Florian Hartmann, Software Engineer, Google Research Large language models (LLMs) have significantly improved the state of the art for solving tasks specified using natural language, often reaching performance close to that of people. As these models increasingly enable assistive agents, it could be beneficial for them to learn effectively from each other, much like people do in social settings, which would allow LLM-based agents to improve each other’s performance. To discuss the learning processes of humans, Bandura and Walters described the concept of social learning in 1977, outlining different models of observational learning used by"
     },
     {
-      "title": "コンセプトドリフトの下でトレーニングデータの重要性を学ぶ",
-      "url": "http://blog.research.google/feeds/5605933033299261025/comments/default",
-      "source": "Google AI Blog",
-      "published": "2024-02-14T18:32:00+00:00",
-      "summary": "投稿者: Nishant Jain、博士前研究者、および Google Research リサーチ サイエンティスト、Pradeep Shenoy 私たちの周囲の世界の性質は絶えず変化しており、AI モデルの開発に重大な課題をもたらしています。多くの場合、モデルは、使用されるトレーニング データが将来モデルが受け取る可能性のある入力を正確に表すことを期待して、縦断データでトレーニングされます。より一般的には、デフォルトの仮定は、",
-      "category": "研究",
-      "score": 6.5,
-      "title_original": "Learning the importance of training data under concept drift",
-      "summary_original": "Posted by Nishant Jain, Pre-doctoral Researcher, and Pradeep Shenoy, Research Scientist, Google Research The constantly changing nature of the world around us poses a significant challenge for the development of AI models. Often, models are trained on longitudinal data with the hope that the training data used will accurately represent inputs the model may receive in the future. More generally, the default assumption that all training data are equally relevant often breaks in practice. For example, the figure below shows images from the CLEAR nonstationary learning benchmark, and it illustrates how visual features of objects evolve significantly over a 10 year span (a phenomenon we refer to "
-    },
-    {
       "title": "OpenAI における FDE の意味",
       "url": "https://openai.com/index/forward-deployed-engineering-means",
       "source": "OpenAI",
@@ -178,15 +277,15 @@
       "summary_original": "What forward deployed engineering means at OpenAI"
     },
     {
-      "title": "ジャック・ドーシーのブロックは、気まずい新しい友達のように話しかける AI モデルを作成しました",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
-      "source": "The Verge AI",
-      "published": "2026-10-23T19:32:39+00:00",
-      "summary": "ジャック・ドーシー氏のブロック氏は、「人間の会話だけをゼロから」訓練したDessaと呼ばれるAIモデルを発表し、そのモデルを披露するために、ブロック氏は人間との会話を共有したが、それは時として少しぎこちなく不気味な場合もあった。たとえば、Dessa のリーダーである Ragavan Thuriratnam が共有したものを見てみましょう。間の会話 […]",
-      "category": "業界",
-      "score": 6.23,
-      "title_original": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
-      "summary_original": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan Thurairatnam. The conversation between […]"
+      "title": "OpenAI が Orchestra Bio を買収",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "source": "OpenAI",
+      "published": "2026-10-20T00:00:00+00:00",
+      "summary": "OpenAI は、AI を活用したオペレーションをライフ サイエンスの研究開発に導入するために Orchestra Bio を買収し、バイオ製​​薬チームが医薬品開発を加速し、新しい治療法を進歩できるよう支援します。",
+      "category": "研究",
+      "score": 6.35,
+      "title_original": "OpenAI acquires Orchestra Bio",
+      "summary_original": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments."
     },
     {
       "title": "AT&T は OpenAI を使用して社内の法務業務をどのように再考しているか",
@@ -209,105 +308,6 @@
       "score": 6.17,
       "title_original": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
       "summary_original": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT."
-    },
-    {
-      "title": "Cloudflare は OpenAI を使用して脆弱性の発見と防御を結び付けます",
-      "url": "https://openai.com/index/cloudflare-cyber",
-      "source": "OpenAI",
-      "published": "2026-10-21T00:00:00+00:00",
-      "summary": "CloudflareはOpenAI Daybreakを使用して脆弱性を調査し、レビュー用の修正を提案します。開発者は Codex を使用してビルドを高速化し、コードの品質を向上させます。",
-      "category": "製品",
-      "score": 5.99,
-      "title_original": "Cloudflare links vulnerability discovery to defense with OpenAI",
-      "summary_original": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality."
-    },
-    {
-      "title": "フランチャイズ加盟者は ChatGPT Work を使用して 94% 少ない時間で現金を照合します",
-      "url": "https://openai.com/index/ted-taylor-restaurant",
-      "source": "OpenAI",
-      "published": "2026-10-20T10:00:00+00:00",
-      "summary": "独立系の Schlotzsky's と Cinnabon のフランチャイズ加盟店は、メニューの価格変更にかかる時間を 95% 削減し、10 万ドルのキャッシュ フローを解放できるワークフローを構築しました。",
-      "category": "製品",
-      "score": 5.79,
-      "title_original": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "summary_original": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow."
-    },
-    {
-      "title": "AI の隠れたストレージ法案: 推論が後に残すもの",
-      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
-      "source": "MIT Technology Review",
-      "published": "2026-10-22T08:41:18+00:00",
-      "summary": "ほとんどの経営幹部に AI のコストをイメージしてもらうと、おそらく GPU (ギガワットの電力を備えたアクセラレータのラック) とシリコンの順番待ちリストが目に入るでしょう。しかし、この図にはデータ ストレージのコストというものが欠けています。モデルが応答した後、データはどうなりますか?毎日何十億ものプロンプト、画像、ビデオから生成されるバックエンド データの多くは…",
-      "category": "製品",
-      "score": 5.74,
-      "title_original": "AI’s hidden storage bill: What inference leaves behind",
-      "summary_original": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from billions of daily prompts, images, and videos—needs…"
-    },
-    {
-      "title": "Patch the Planet: エージェントが重大な脆弱性を発見したときの世界的な対応調整",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "source": "OpenAI",
-      "published": "2026-10-21T07:00:00+00:00",
-      "summary": "Patch the Planet は、セキュリティ研究者、保守担当者、インシデント対応者を結び付けて、オープンソース全体の重大な脆弱性に対処できるように支援します。",
-      "category": "オープンソース",
-      "score": 5.73,
-      "title_original": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "summary_original": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source."
-    },
-    {
-      "title": "OpenAI が Orchestra Bio を買収",
-      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "source": "OpenAI",
-      "published": "2026-10-20T00:00:00+00:00",
-      "summary": "OpenAI は、AI を活用したオペレーションをライフ サイエンスの研究開発に導入するために Orchestra Bio を買収し、バイオ医薬品チームが医薬品開発を加速し、新しい治療法を進歩できるよう支援します。",
-      "category": "研究",
-      "score": 5.65,
-      "title_original": "OpenAI acquires Orchestra Bio",
-      "summary_original": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments."
-    },
-    {
-      "title": "耐久性に優れた AI サービング ハーネスの設計",
-      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-      "source": "MIT Technology Review",
-      "published": "2026-10-22T21:17:29+00:00",
-      "summary": "エンタープライズ AI における次の競争上の優位性は、どのモデルを選択するかよりも、そのモデルを中心に何を構築するかによって決まります。それは重要な変化です。過去数年間、AI に関する議論の多くは、より大きなモデル、より優れた推論、より大きなコンテキスト ウィンドウ、より高いベンチマーク スコアといったモデルの機能に集中してきました。これらの進歩により…",
-      "category": "研究",
-      "score": 5.12,
-      "title_original": "Designing an AI serving harness built to last",
-      "summary_original": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…"
-    },
-    {
-      "title": "天気予報の不確実性を定量化する生成 AI",
-      "url": "http://blog.research.google/feeds/1569605132526995799/comments/default",
-      "source": "Google AI Blog",
-      "published": "2024-03-29T18:03:00+00:00",
-      "summary": "投稿者: Lizao (Larry) Li、ソフトウェア エンジニア、Rob Carver、Google Research リサーチ サイエンティスト 正確な天気予報は、その日の活動に何を持ち込むかなどの日常的な決定を支援することから、危険な気象条件に直面したときに人々を保護するなどの緊急の行動を通知することまで、人々の生活に直接影響を与える可能性があります。正確かつタイムリーな天気予報の重要性は、",
-      "category": "研究",
-      "score": 5.1,
-      "title_original": "Generative AI to quantify uncertainty in weather forecasting",
-      "summary_original": "Posted by Lizao (Larry) Li, Software Engineer, and Rob Carver, Research Scientist, Google Research Accurate weather forecasts can have a direct impact on people’s lives, from helping make routine decisions, like what to pack for a day’s activities, to informing urgent actions, for example, protecting people in the face of hazardous weather conditions. The importance of accurate and timely weather forecasts will only increase as the climate changes. Recognizing this, we at Google have been investing in weather and climate research to help ensure that the forecasting technology of tomorrow can meet the demand for reliable weather information. Some of our recent innovations include MetNet-3 , G"
-    },
-    {
-      "title": "ScreenAI: UI および視覚的に状況に応じた言語理解のための視覚言語モデル",
-      "url": "http://blog.research.google/feeds/520087429457973735/comments/default",
-      "source": "Google AI Blog",
-      "published": "2024-03-19T20:15:00+00:00",
-      "summary": "Google Research のソフトウェア エンジニア、Srinivas Sunkara 氏と Gilles Baechler 氏による投稿 チャート、図、表などの画面ユーザー インターフェイス (UI) とインフォグラフィックスは、豊かでインタラクティブなユーザー エクスペリエンスを促進するため、人間のコミュニケーションや人間とマシンの相互作用において重要な役割を果たします。 UI とインフォグラフィックスは、同様のデザイン原則と視覚的言語 (アイコンやレイアウトなど) を共有しており、それが機会を提供します。",
-      "category": "研究",
-      "score": 5.1,
-      "title_original": "ScreenAI: A visual language model for UI and visually-situated language understanding",
-      "summary_original": "Posted by Srinivas Sunkara and Gilles Baechler, Software Engineers, Google Research Screen user interfaces (UIs) and infographics, such as charts, diagrams and tables, play important roles in human communication and human-machine interaction as they facilitate rich and interactive user experiences. UIs and infographics share similar design principles and visual language (e.g., icons and layouts), that offer an opportunity to build a single model that can understand, reason, and interact with these interfaces. However, because of their complexity and varied presentation formats, infographics and UIs present a unique modeling challenge. To that end, we introduce “ ScreenAI: A Vision-Language M"
-    },
-    {
-      "title": "Cappy: 小さなスコアラーで大規模なマルチタスク言語モデルを上回るパフォーマンスと向上を実現",
-      "url": "http://blog.research.google/feeds/7868032799856333119/comments/default",
-      "source": "Google AI Blog",
-      "published": "2024-03-14T19:38:00+00:00",
-      "summary": "投稿者: Google Research、ソフトウェア エンジニア、Yun Zhu および Lijuan Liu 大規模言語モデル (LLM) の進歩により、さまざまな自然言語処理 (NLP) タスクを命令に従うフレームワーク内で統合する新しいパラダイムが生まれました。このパラダイムは、 T0 、 FLAN 、 OPT-IML などの最近のマルチタスク LLM によって例示されています。まず、タスク固有のテンプレートに従って各タスクでマルチタスク データが収集されます。",
-      "category": "研究",
-      "score": 5.0,
-      "title_original": "Cappy: Outperforming and boosting large multi-task language models with a small scorer",
-      "summary_original": "Posted by Yun Zhu and Lijuan Liu, Software Engineers, Google Research Large language model (LLM) advancements have led to a new paradigm that unifies various natural language processing (NLP) tasks within an instruction-following framework. This paradigm is exemplified by recent multi-task LLMs, such as T0 , FLAN , and OPT-IML . First, multi-task data is gathered with each task following a task-specific template, where each labeled example is converted into an instruction (e.g., \" Put the concepts together to form a sentence: ski, mountain, skier ” ) paired with a corresponding response (e.g., \" Skier skis down the mountain \" ). These instruction-response pairs are used to train the LLM, res"
     }
   ],
   "total_collected": 90,
