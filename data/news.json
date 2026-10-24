@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T21:28:53.030871+00:00",
+  "updated_at": "2026-10-24T04:43:21.855547+00:00",
   "items": [
     {
       "title": "OpenAI はインターネット アクセスなしでフロンティア AI モデルをトレーニングできるようになりました",
@@ -16,7 +16,7 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
       "source": "The Verge AI",
       "published": "2026-10-23T19:32:39+00:00",
-      "summary": "ジャック・ドーシー氏のブロック氏は、「人間の会話だけをゼロから」訓練したDessaと呼ばれるAIモデルを発表し、そのモデルを誇示するために、ブロック氏は人間との会話を共有したが、それは時として少しぎこちなく不気味な場合もあった。たとえば、Dessa のリーダーである Ragavan Thuriratnam が共有したものを見てみましょう。間の会話 […]",
+      "summary": "ジャック・ドーシー氏のブロック氏は、「人間の会話だけをゼロから」訓練したDessaと呼ばれるAIモデルを発表し、そのモデルを披露するために、ブロック氏は人間との会話を共有したが、それは時として少しぎこちなく不気味な場合もあった。たとえば、Dessa のリーダーである Ragavan Thuriratnam が共有したものを見てみましょう。間の会話 […]",
       "category": "研究",
       "title_original": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
       "summary_original": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan Thurairatnam. The conversation between […]"
@@ -32,11 +32,11 @@
       "summary_original": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay […]"
     },
     {
-      "title": "10 億人以上の ChatGPT ユーザーにサービスを提供するためにオンライン ストレージを迅速に拡張する (パート II)",
+      "title": "10 億人を超える ChatGPT ユーザーにサービスを提供するためにオンライン ストレージを迅速に拡張する (パート II)",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "source": "OpenAI",
       "published": "2026-10-23T17:00:00+00:00",
-      "summary": "OpenAI が信頼性の高いマルチテナンシー、グローバル キャッシュ、Azure Cosmos DB を使用して Habitat を拡張し、ChatGPT の 12 倍高速な読み取りを実現した方法を学びましょう。",
+      "summary": "OpenAI が信頼性の高いマルチテナント、グローバル キャッシュ、Azure Cosmos DB を使用して Habitat を拡張し、ChatGPT の 12 倍高速な読み取りを実現した方法を学びましょう。",
       "category": "製品",
       "title_original": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
       "summary_original": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT."
@@ -46,7 +46,7 @@
       "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
       "source": "The Verge AI",
       "published": "2026-10-23T16:52:55+00:00",
-      "summary": "Google は、パーソナライズされた AI 機能を使用している場合に、個人データに基づいてターゲットを絞った広告が表示されるようになる可能性がある方法でプライバシー ポリシーを更新しました。 Android Authorityによって発見されたこのアップデートでは、パーソナライズされた広告にドライブ、Gmail、Googleフォトを使用しないという約束に例外が追加される。前回 […]",
+      "summary": "Google は、パーソナライズされた AI 機能を使用している場合、個人データに基づいてターゲットを絞った広告が表示されるようになる可能性がある方法でプライバシー ポリシーを更新しました。 Android Authorityによって発見されたこのアップデートでは、パーソナライズされた広告にドライブ、Gmail、Googleフォトを使用しないという約束に例外が追加される。前回 […]",
       "category": "業界",
       "title_original": "Now Google says it might use your Gmail and Google Photos data to target ads",
       "summary_original": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority, adds an exception to its promise about not using your Drive, Gmail, or Google Photos for personalized ads. While the previous […]"
@@ -66,7 +66,7 @@
       "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
       "source": "The Verge AI",
       "published": "2026-10-23T14:47:41+00:00",
-      "summary": "Fast Companyが先に報じたように、メタ社はAIトレーニングのためにニュースサイトをスクレイピングすることを同社に許可する可能性があるとパブリッシャーらが懸念を表明したことを受けて、新たな取引条件の施行を遅らせている。ザ・ヴァージへの声明の中で、メタの広報担当ダニエル・ロバーツ氏は、この条件は11月20日に発効すると述べ、「これにより、[…]",
+      "summary": "ファスト・カンパニーが先に報じたように、メタ社は、同社がAIトレーニングのためにニュースサイトをスクレイピングすることを許可する可能性があるとパブリッシャーらが懸念を表明したことを受けて、新たな取引条件の施行を遅らせている。ザ・ヴァージへの声明の中で、メタの広報担当ダニエル・ロバーツ氏は、この条件は11月20日に発効すると述べ、「これにより、[…]",
       "category": "業界",
       "title_original": "Meta delays new business terms after publisher pushback on AI scraping",
       "summary_original": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow […]"
@@ -106,7 +106,7 @@
       "url": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
       "source": "MIT Technology Review",
       "published": "2026-10-23T09:00:00+00:00",
-      "summary": "今週初め、私は不名誉なバイオテクノロジー元CEOエリザベス・ホームズに関する話題の新作ドキュメンタリー『You Can See Everything』の上映会に出席した。私は何を期待するのか本当にわかりませんでした。ネタバレは避けました（ここでも何も明かしません！）。この映画でどんな新しい情報が明らかになるのかと思っていましたが…",
+      "summary": "今週初め、私は不名誉なバイオテクノロジー元CEOエリザベス・ホームズに関する話題の新作ドキュメンタリー『You Can See Everything』の上映会に出席した。何が期待できるのか本当に分からないまま入りました。ネタバレは避けました（ここでも何も明かしません！）。この映画でどんな新しい情報が明らかになるのかと思っていましたが…",
       "category": "業界",
       "title_original": "In the biotech world, you can’t see everything",
       "summary_original": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new information this film could reveal, given…"
@@ -122,7 +122,7 @@
       "summary_original": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem."
     },
     {
-      "title": "モデルは AWS Trainium で実行されますか?ルック・イット・アップ",
+      "title": "モデルは AWS Trainium 上で実行されますか?ルック・イット・アップ",
       "url": "https://huggingface.co/blog/torch-neuronx-model-support",
       "source": "Hugging Face",
       "published": "2026-10-23T00:00:00+00:00",
@@ -222,11 +222,11 @@
       "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How far can we push computing? On a December evening in 1959, the physicist Richard Feynman gave a lecture called “There’s Plenty of Room at the Bottom.” There is no physical…"
     },
     {
-      "title": "コンテキスト認識型 AI の主張をする",
+      "title": "コンテキスト認識 AI の主張をする",
       "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
       "source": "MIT Technology Review",
       "published": "2026-10-22T10:00:00+00:00",
-      "summary": "Enterprise AI は、推奨事項を生成し、タスクを自動化し、組織がより迅速に意思決定を行えるように支援します。しかし、ビジネスが実際にどのように運営されているかを理解していなければ、強力なモデルであっても、意思決定が正しいかどうかを決定する制約や関係を見落とす可能性があります。企業が AI を実験から日常業務に移行しようとする中、今後の課題は…",
+      "summary": "Enterprise AI は、推奨事項を生成し、タスクを自動化し、組織がより迅速に意思決定を行えるように支援します。しかし、ビジネスが実際にどのように運営されているかを理解していなければ、強力なモデルであっても、意思決定が正しいかどうかを決定する制約や関係を見落とす可能性があります。企業が AI を実験から日常業務に移行しようとする中、今後の課題は次のとおりです…",
       "category": "業界",
       "title_original": "Making the case for context-aware AI",
       "summary_original": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead…"
@@ -236,7 +236,7 @@
       "url": "https://www.technologyreview.com/2026/10/22/1147591/permafrost-primer/",
       "source": "MIT Technology Review",
       "published": "2026-10-22T10:00:00+00:00",
-      "summary": "永久凍土についてどれくらい知っていますか?おそらく、あなたも私と同じように、この凍った土壌の層が解けつつあること、それが気候変動という地球規模の謎において重要であること、そしてそれがその程度であることに気づいているかもしれません。私たち二人にとって素晴らしいニュースは、私の同僚の James Temple がちょうど 2 冊の本を出版したことです…",
+      "summary": "永久凍土についてどれくらい知っていますか?おそらく、あなたも私と同じように、この凍った土壌の層が解けつつあること、それが気候変動という地球規模の謎において重要であること、そしてそれがその範囲であることに気づいているかもしれません。私たち二人にとって素晴らしいニュースは、私の同僚の James Temple がちょうど 2 冊の本を出版したことです…",
       "category": "業界",
       "title_original": "Three things you should know about permafrost",
       "summary_original": "How much do you know about permafrost? Maybe, like me, you’ve been aware that this layer of frozen soil is thawing, that it’s important in the global puzzle of climate change … and that’s about the extent of it. The great news for both of us is that my colleague James Temple just published two…"
@@ -376,7 +376,7 @@
       "url": "https://www.technologyreview.com/2026/10/21/1146053/editor-letter-we-can-do-impossible-things/",
       "source": "MIT Technology Review",
       "published": "2026-10-21T09:00:00+00:00",
-      "summary": "間違いなく世界で最悪の面接質問の 1 つである「あなたの最大の弱点は何ですか?」という質問に対する答えは、誰もが練習済みだと思います。それを理解したときはいつも、ゆっくりと、物思いにふけりながら息をして、「私は自分にノーを言いすぎている」と自分のセリフをカタカタ言います。嘘はつきません。それは少し恥知らずであり、明らかな謙虚な自慢です。私はシステム思考家です:…",
+      "summary": "間違いなく世界で最悪の面接質問の 1 つである「あなたの最大の弱点は何ですか?」という質問に対する答えは、誰もが練習済みだと思います。それを理解したときはいつも、ゆっくりと、物思いにふけるように息をして、「私は自分にノーを言いすぎている」と自分のセリフをカタカタ言います。嘘はつきません。それは少し恥知らずであり、明らかな謙虚な自慢です。私はシステム思考家です:…",
       "category": "業界",
       "title_original": "We can do impossible things",
       "summary_original": "I’d wager everyone has a rehearsed response to what’s absolutely one of the world’s worst interview questions: “What’s your biggest weakness?” Whenever I’ve gotten it, I take a slow—even pensive—breath and rattle off my line: “I say no to myself too much.” I won’t lie. It’s a bit shameless—a definite humblebrag. I’m a systems thinker:…"
@@ -406,7 +406,7 @@
       "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
       "source": "OpenAI",
       "published": "2026-10-21T04:50:00+00:00",
-      "summary": "OpenAI、PerturbAI、Scripps Research が分散型 AI エージェントを使用して、数百万の脳細胞からのデータから有望な研究の手がかりを発見した方法をご覧ください。",
+      "summary": "OpenAI、PerturbAI、Scripps Research が分散 AI エージェントを使用して、数百万の脳細胞からのデータから有望な研究の手がかりを発見した方法をご覧ください。",
       "category": "製品",
       "title_original": "Using thousands of AI agents to uncover new leads in biological data",
       "summary_original": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells."
@@ -592,11 +592,11 @@
       "summary_original": "Posted by Yun Zhu and Lijuan Liu, Software Engineers, Google Research Large language model (LLM) advancements have led to a new paradigm that unifies various natural language processing (NLP) tasks within an instruction-following framework. This paradigm is exemplified by recent multi-task LLMs, such as T0 , FLAN , and OPT-IML . First, multi-task data is gathered with each task following a task-specific template, where each labeled example is converted into an instruction (e.g., \" Put the concep"
     },
     {
-      "title": "グラフのように話す: 大規模な言語モデルのグラフのエンコード",
+      "title": "グラフのように話す: 大規模な言語モデルのグラフをエンコードする",
       "url": "http://blog.research.google/feeds/6090481872694489715/comments/default",
       "source": "Google AI Blog",
       "published": "2024-03-12T21:15:00+00:00",
-      "summary": "投稿者: Bahare Fatemi および Bryan Perozzi、研究科学者、Google Research 友人、キッチンの道具、さらには自転車の部品など、あなたの周りにあるすべてのものを想像してみてください。それらはすべてさまざまな方法で接続されています。コンピューター サイエンスでは、グラフという用語はオブジェクト間の接続を説明するために使用されます。グラフは、ノード (オブジェクト自体) とエッジ (2 つのノード間の関係を示す、2 つのノード間の接続) で構成されます。グラフは今やどこにでもあります。インターネットそのものが巨人だ",
+      "summary": "投稿者: Bahare Fatemi と Bryan Perozzi、研究科学者、Google Research 友人、キッチンの道具、さらには自転車の部品など、あなたの周りのあらゆるものを想像してみてください。それらはすべてさまざまな方法で接続されています。コンピューター サイエンスでは、グラフという用語はオブジェクト間の接続を説明するために使用されます。グラフは、ノード (オブジェクト自体) とエッジ (2 つのノード間の関係を示す、2 つのノード間の接続) で構成されます。グラフは今やどこにでもあります。インターネットそのものが巨人だ",
       "category": "研究",
       "title_original": "Talk like a graph: Encoding graphs for large language models",
       "summary_original": "Posted by Bahare Fatemi and Bryan Perozzi, Research Scientists, Google Research Imagine all the things around you — your friends, tools in your kitchen, or even the parts of your bike. They are all connected in different ways. In computer science, the term graph is used to describe connections between objects. Graphs consist of nodes (the objects themselves) and edges (connections between two nodes, indicating a relationship between them). Graphs are everywhere now. The internet itself is a gian"
