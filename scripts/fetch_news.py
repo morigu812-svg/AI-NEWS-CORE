@@ -191,7 +191,27 @@ def curate_items(items):
         key = item["url"].split("#", 1)[0].rstrip("/")
         if key not in unique or len(item.get("summary", "")) > len(unique[key].get("summary", "")):
             unique[key] = item
-    ranked = list(unique.values())
+
+    # Only publish items dated within the last 7 days. Missing or invalid
+    # publication dates are excluded rather than allowing stale feed entries through.
+    now = datetime.now(timezone.utc)
+    cutoff = now.timestamp() - 7 * 24 * 60 * 60
+    recent = []
+    for item in unique.values():
+        published = item.get("published", "")
+        if not published:
+            continue
+        try:
+            published_dt = datetime.fromisoformat(published.replace("Z", "+00:00"))
+            if published_dt.tzinfo is None:
+                published_dt = published_dt.replace(tzinfo=timezone.utc)
+            published_ts = published_dt.timestamp()
+        except (ValueError, TypeError, OverflowError):
+            continue
+        if cutoff <= published_ts <= now.timestamp():
+            recent.append(item)
+
+    ranked = recent
     for item in ranked:
         item["score"] = score_item(item)
         item["category"] = categorize(item, item.get("category", "業界"))
