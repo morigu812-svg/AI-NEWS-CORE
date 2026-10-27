@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T05:12:21.571843+00:00",
+  "updated_at": "2026-10-27T12:20:14.142144+00:00",
   "items": [
     {
       "title": "OpenAI とポーランドの NASK パートナーが AI の安全性とセキュリティを推進",
@@ -8,7 +8,7 @@
       "published": "2026-10-23T00:00:00+00:00",
       "summary": "OpenAI とポーランドの NASK は、AI の安全性、セキュリティ、技術研究で提携し、安全対策を強化し、より回復力のあるデジタル エコシステムをサポートしています。",
       "category": "研究",
-      "score": 10.19,
+      "score": 10.1,
       "title_original": "OpenAI and Poland’s NASK partner to advance AI safety and security",
       "summary_original": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem."
     },
@@ -19,7 +19,7 @@
       "published": "2026-10-26T13:32:49+00:00",
       "summary": "Anthropic は S-1 目論見書を証券取引委員会に提出し、Claude の背後にある会社が IPO で OpenAI に徹底的に勝つ準備を整えています。アンスロピックはＳＥＣへの提出文書で、ティッカーシンボル「ＡＮＴ」でナスダック取引所に上場する計画だと述べた。 AI 企業は秘密裏に SEC に提出しました […]",
       "category": "業界",
-      "score": 9.78,
+      "score": 9.68,
       "title_original": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
       "summary_original": "Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, preparing the company behind Claude to beat OpenAI to the punch with an IPO. In a filing with the SEC, Anthropic said it plans to list on the Nasdaq exchange under the ticker symbol \"ANT.\" The AI company confidentially filed with the SEC […]"
     },
@@ -28,9 +28,9 @@
       "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
       "source": "The Verge AI",
       "published": "2026-10-26T17:30:55+00:00",
-      "summary": "中古高級ファッションの委託小売業者であるザ・リアルリアルは、ボット防御システムを更新し、AIエージェントが自社サイトで買い物をするのを事実上困難にしていると述べた。この変更は、ザ・リアルリアルの商品予約システムを利用するためにAIエージェントが使用される可能性があるとThe Vergeが報じた数日後に行われた。販売店のウェブサイトでは、 […]",
+      "summary": "中古高級ファッションの委託小売業者であるザ・リアルリアルは、ボット防御システムを更新し、AIエージェントが自社サイトで買い物をするのを事実上困難にしていると述べた。この変更は、AIエージェントがザ・リアルリアルの商品予約システムを利用できる可能性があるとThe Vergeが報じた数日後に行われた。販売店のウェブサイトでは、 […]",
       "category": "業界",
-      "score": 9.59,
+      "score": 9.49,
       "title_original": "The RealReal won’t let AI agents hog designer clothing",
       "summary_original": "The RealReal, a secondhand luxury fashion consignment retailer, said it's updating its bot defense system, effectively making it harder for AI agents to shop on its site. The change comes days after The Verge reported that an AI agent could be used to take advantage of The RealReal's item reserve system. On the retailer's website, […]"
     },
@@ -41,7 +41,7 @@
       "published": "2026-10-26T21:45:31+00:00",
       "summary": "Anthropic が株式公開の準備を進めている中で、Anthropic の S-1 申請により、生成 AI のメタン依存性が明らかに明らかになりました。 「適切な電力を利用できる電力供給とデータセンターの場所へのアクセスをめぐる競争は熾烈を極めています。」月曜日に米国証券取引委員会に提出した文書の中で、アンスロピックは、データセンターが「天然ガス」への依存度を高めていることを認めている[…]",
       "category": "業界",
-      "score": 9.2,
+      "score": 9.1,
       "title_original": "Anthropic is burning gas to feed the AI boom",
       "summary_original": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and Exchange Commission Monday, Anthropic acknowledges that data centers are becoming increasingly reliant on \"natural gas\" […]"
     },
@@ -52,7 +52,7 @@
       "published": "2026-10-22T22:24:34+00:00",
       "summary": "概要は配信元の記事で確認できます。",
       "category": "オープンソース",
-      "score": 9.02,
+      "score": 8.92,
       "title_original": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
       "summary_original": ""
     },
@@ -61,9 +61,9 @@
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
       "source": "OpenAI",
       "published": "2026-10-26T10:00:00+00:00",
-      "summary": "約 100 か国の 165 の作業活動に関する OpenAI Signals データを調査すると、人々が仕事で ChatGPT をどのように使用しているか、また使用状況が時間の経過とともにどのように変化するかが明らかになります。",
+      "summary": "約 100 か国にわたる 165 の作業活動に関する OpenAI Signals データを調査すると、人々が仕事で ChatGPT をどのように使用しているか、また使用状況が時間の経過とともにどのように変化したかが明らかになります。",
       "category": "製品",
-      "score": 8.23,
+      "score": 8.13,
       "title_original": "ChatGPT’s expanding world of work",
       "summary_original": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time."
     },
@@ -74,7 +74,7 @@
       "published": "2026-10-21T12:00:00+00:00",
       "summary": "OpenAI と Google Cloud は、フロンティア モデルと Codex ワークフローを Gemini の Model Garden に導入し、Google Cloud Marketplace を通じて入手できます。",
       "category": "製品",
-      "score": 8.09,
+      "score": 8.0,
       "title_original": "OpenAI models are coming to Google Cloud",
       "summary_original": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace."
     },
@@ -85,7 +85,7 @@
       "published": "2026-10-26T13:15:00+00:00",
       "summary": "世界中の IRS、銀行、航空会社、政府インフラの共通点は何ですか?これらはすべて、すべてがクラッシュしないように誰も触れようとしないアンティークのコンピューター コードによって支えられたシステム上で実行されています。 OpenAI は解決策があるかもしれないと考えています。 10月19日、同社は最新のAIモデルの「大幅な改善」を宣伝した […]",
       "category": "業界",
-      "score": 7.58,
+      "score": 7.48,
       "title_original": "Can AI help solve the COBOL code crisis?",
       "summary_original": "What do the IRS, banks, airlines, and government infrastructure around the world have in common? They're all running on systems propped up by antique computer code that nobody dares touch, lest everything come crashing down. OpenAI thinks it may have a solution. On October 19th, the company touted \"substantial improvements\" in its latest AI models' […]"
     },
@@ -96,7 +96,7 @@
       "published": "2026-10-22T00:00:00+00:00",
       "summary": "Uber は ChatGPT Work を 30,000 人以上の従業員に展開し、チームの調査、データ分析、プレゼンテーションの作成、複雑なワークフローの完了を支援しています。",
       "category": "研究",
-      "score": 7.56,
+      "score": 7.46,
       "title_original": "Uber brings ChatGPT Work to all employees with OpenAI",
       "summary_original": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows."
     },
@@ -107,7 +107,7 @@
       "published": "2026-10-21T18:26:30+00:00",
       "summary": "概要は配信元の記事で確認できます。",
       "category": "オープンソース",
-      "score": 7.48,
+      "score": 7.38,
       "title_original": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
       "summary_original": ""
     },
@@ -118,18 +118,18 @@
       "published": "2026-10-26T23:34:58+00:00",
       "summary": "長年の数学の疑問に対する解決策が含まれているとする数百の原稿を大量公開してから1か月も経たないうちに、OpenAIは数学、コンピューターサイエンス、物理学におけるさらに3つの「重大な」発見を携えて戻ってきた。今回の違いは、OpenAI が結果を導く「羊飼い」と表現する外部の専門家を起用するという選択だ。",
       "category": "研究",
-      "score": 7.47,
+      "score": 7.37,
       "title_original": "OpenAI announces three big science discoveries and a new way to work with academics",
       "summary_original": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes as \"shepherds\" guiding the results in […]"
     },
     {
-      "title": "10 億人以上の ChatGPT ユーザーにサービスを提供するためにオンライン ストレージを迅速に拡張する (パート II)",
+      "title": "10 億人を超える ChatGPT ユーザーにサービスを提供するためにオンライン ストレージを迅速に拡張する (パート II)",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "source": "OpenAI",
       "published": "2026-10-23T17:00:00+00:00",
       "summary": "OpenAI が信頼性の高いマルチテナンシー、グローバル キャッシュ、Azure Cosmos DB を使用して Habitat を拡張し、ChatGPT の 12 倍高速な読み取りを実現した方法を学びましょう。",
       "category": "製品",
-      "score": 7.33,
+      "score": 7.23,
       "title_original": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
       "summary_original": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT."
     },
@@ -140,7 +140,7 @@
       "published": "2026-10-26T09:01:00+00:00",
       "summary": "テクノロジー政策の成功には何が必要かを考えてみましょう。ある AI 企業は、自社のチャットボットが自殺を助長するものではないと約束しています。ソーシャルメディアプラットフォームのおかげで、子供たちがフェンタニルを購入することがさらに困難になっています。これらは重要な保護であり、最初から存在していたはずです。しかし、企業は製品を作り続けながら、これらの低いハードルをクリアすることができます…",
       "category": "製品",
-      "score": 7.27,
+      "score": 7.17,
       "title_original": "The focus on AI safety disasters ignores everyday harms",
       "summary_original": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products…"
     },
@@ -151,7 +151,7 @@
       "published": "2026-10-26T07:00:00+00:00",
       "summary": "Fanatics は OpenAI を使用して、ファンが Shop the Look で試合当日の服装を完成させるのを支援します。約 30,000 の MLB 製品を対象としたテストでは、エンゲージメントが 10% 高いことがわかりました。",
       "category": "製品",
-      "score": 6.79,
+      "score": 6.69,
       "title_original": "How Fanatics and OpenAI streamline the fan experience",
       "summary_original": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement."
     },
@@ -162,7 +162,7 @@
       "published": "2026-10-26T07:00:00+00:00",
       "summary": "OpenAI エンジニアが Codex Ultrafast を使用してインシデントを数分で調査する方法をご覧ください。より迅速なセキュリティ分析、コードのリファクタリング、日常のワークフローを探索します。",
       "category": "業界",
-      "score": 6.79,
+      "score": 6.69,
       "title_original": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
       "summary_original": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows."
     },
@@ -173,7 +173,7 @@
       "published": "2026-10-26T13:45:00+00:00",
       "summary": "CodeRabbit は GPT-6.1 Sol を使用して、複雑なコードベース全体のセキュリティ リスクを調査します。そのセキュリティ エージェントは、開発者が調査結果と提案された修正をレビューするのに役立ちます。",
       "category": "業界",
-      "score": 6.54,
+      "score": 6.44,
       "title_original": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
       "summary_original": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes."
     },
@@ -184,18 +184,29 @@
       "published": "2026-10-23T10:00:00+00:00",
       "summary": "OpenAI は、オフライン環境やハイコンピューティングのレッドチームなど、フロンティア モデルのトレーニングと評価の封じ込めをどのように強化したかについて説明します。",
       "category": "製品",
-      "score": 6.53,
+      "score": 6.43,
       "title_original": "Securing our frontier model training environment",
       "summary_original": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming."
+    },
+    {
+      "title": "ソリッドステート変圧器が AI ブームの推進にどのように役立つか",
+      "url": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
+      "source": "MIT Technology Review",
+      "published": "2026-10-27T09:00:00+00:00",
+      "summary": "変圧器は、グリッドの重要な部分ですが、ほとんど目に見えない部分です。このデバイスは電力を長距離にわたって効率的に移動するのに役立ちますが、複雑で供給が不足しています。基本的な設計が約 1 世紀にわたってほとんど変わっていないことを考えると、アップグレードを使用することもできます。世界が増大する電力需要に対応しようと競う中…",
+      "category": "業界",
+      "score": 6.35,
+      "title_original": "How solid-state transformers could help power the AI boom",
+      "summary_original": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic design hasn’t changed much for about a century, they could use an upgrade. As the world races to meet rising electricity demand from…"
     },
     {
       "title": "耐久性に優れた AI サービング ハーネスの設計",
       "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
       "source": "MIT Technology Review",
       "published": "2026-10-22T21:17:29+00:00",
-      "summary": "エンタープライズ AI における次の競争上の優位性は、どのモデルを選択するかよりも、そのモデルを中心に何を構築するかによって決まります。それは重要な変化です。過去数年間、AI に関する議論の多くは、より大きなモデル、より優れた推論、より大きなコンテキスト ウィンドウ、より高いベンチマーク スコアといったモデルの機能に集中してきました。これらの進歩により…",
+      "summary": "エンタープライズ AI における次の競争上の優位性は、どのモデルを選択するかよりも、そのモデルを中心に何を構築するかによって決まります。それは重要な変化です。過去数年間、AI に関する議論の多くはモデルの機能、つまりより大きなモデル、より優れた推論、より大きなコンテキスト ウィンドウ、より高いベンチマーク スコアに集中してきました。これらの進歩により…",
       "category": "研究",
-      "score": 6.36,
+      "score": 6.26,
       "title_original": "Designing an AI serving harness built to last",
       "summary_original": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…"
     },
@@ -206,7 +217,7 @@
       "published": "2026-10-26T17:10:23+00:00",
       "summary": "アンスロピックはついにS-1目論見書をSECに提出した。この目論見書は、経営陣の収入やIPOでの数十億ドルの支出計画から、野望を狂わす可能性のあるリスクに至るまで、投資家に同社事業の裏側を見てもらうことを目的とした文書である。 300 ページを超えるので、やるべきことはたくさんあります […]",
       "category": "業界",
-      "score": 6.23,
+      "score": 6.13,
       "title_original": "Five weird details from Anthropic’s IPO filing",
       "summary_original": "Anthropic has finally filed its S-1 prospectus with the SEC, a document designed to give investors a look under the hood of its business, from how much its executives are making and plans for spending its IPO billions to the risks that could derail its ambitions. At more than 300 pages, there's a lot to […]"
     },
@@ -217,7 +228,7 @@
       "published": "2026-10-26T12:40:00+00:00",
       "summary": "これは、テクノロジーの世界で何が起こっているかを毎日提供する平日のニュースレター、The Download の今日版です。意見: AI の安全性災害に焦点を当てると、日常的な被害が無視されます。若者同盟の共同創設者であるサム・ハイナー氏と、責任あるテクノロジー若者パワー基金のエグゼクティブディレクターであるエマ・ライケン氏は…",
       "category": "業界",
-      "score": 6.17,
+      "score": 6.07,
       "title_original": "The Download: everyday AI harms and the race to nuclear spaceflight",
       "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: The focus on AI safety disasters ignores everyday harms —Sam Hiner, cofounder of the Young People’s Alliance, and Emma Leiken, executive director of the Responsible Technology Youth Power Fund at…"
     },
@@ -228,20 +239,9 @@
       "published": "2026-10-25T13:25:32+00:00",
       "summary": "r/opensource の MOD は、特に AI を使用するプロジェクトを禁止する新しい提出ルールを掲載しました。土曜の夜に投稿されたこの投稿は、「プロジェクトが AI を使用している場合、AI によって作成されている場合、または AI を目的としている場合、それは r/opensource では歓迎されません。AI は、今日存在する限り、このオープンソースには適合しません […]",
       "category": "オープンソース",
-      "score": 5.85,
+      "score": 5.75,
       "title_original": "r/opensource just banned AI, non-English speakers, and more",
       "summary_original": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source […]"
-    },
-    {
-      "title": "GoogleのAI検索の変更がオンライン出版を一変させる",
-      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
-      "source": "The Verge AI",
-      "published": "2026-10-25T12:00:00+00:00",
-      "summary": "これは、テクノロジー業界の重要なストーリーを紹介する週刊ニュースレター、The Stepback です。 AI がウェブに与える影響について詳しくは、Emma Roth をフォローしてください。 Stepback は日曜日の東部時間午前 8 時に購読者の受信箱に届きます。ここからThe Stepbackにオプトインしてください。始まりの経緯 デジタル出版業界が依存してきたのは […]",
-      "category": "業界",
-      "score": 5.83,
-      "title_original": "Google’s AI search changes upended online publishing",
-      "summary_original": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry has relied on […]"
     },
     {
       "title": "GPT-6.1 Terra の紹介",
@@ -250,7 +250,7 @@
       "published": "2026-10-26T00:00:00+00:00",
       "summary": "誰でも高速かつ高機能なコンピュータを利用できるようにする",
       "category": "製品",
-      "score": 5.64,
+      "score": 5.55,
       "title_original": "Introducing GPT-6.1 Terra",
       "summary_original": "Bringing fast and capable computer use to everyone"
     },
@@ -261,20 +261,9 @@
       "published": "2026-10-22T18:48:04+00:00",
       "summary": "スケーラブルな AI システムには強力な基盤が必要です。データ、エンジニアリング、プラットフォーム、オペレーティングモデル、ガバナンスは、1 つとして機能するように収束する必要があります。 MIT Technology Review の EmTech Future カンファレンスのこのセッションでは、高度に規制された環境でその基盤を構築するために何が必要か、そして責任ある信頼できる実装によってエージェントなどの新しい機能をどのように活用できるかを探ります。",
       "category": "業界",
-      "score": 5.62,
+      "score": 5.52,
       "title_original": "The Foundations of Scalable AI",
       "summary_original": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic…"
-    },
-    {
-      "title": "本物の人類は立ち上がってください",
-      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
-      "source": "MIT Technology Review",
-      "published": "2026-10-26T17:45:43+00:00",
-      "summary": "このストーリーは元々、AI に関する週刊ニュースレター「The Algorithm」に掲載されました。このような記事を受信トレイで受信するには、まずここにサインアップしてください。数週間にわたる熱狂的な憶測を経て、アンスロピックは IPO 目論見書を提出した。 335 ページの文書 (100 ページほどはリスクに焦点を当てています) は、テクノロジーに対する同社の独自の見解を説明しています。",
-      "category": "製品",
-      "score": 5.44,
-      "title_original": "Will the real Anthropic please stand up",
-      "summary_original": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it…"
     },
     {
       "title": "OpenAI における FDE の意味",
@@ -283,9 +272,20 @@
       "published": "2026-10-22T06:00:00+00:00",
       "summary": "OpenAI における前方展開型エンジニアリングの意味",
       "category": "製品",
-      "score": 5.44,
+      "score": 5.35,
       "title_original": "What FDE means at OpenAI",
       "summary_original": "What forward deployed engineering means at OpenAI"
+    },
+    {
+      "title": "本物の人類は立ち上がってください",
+      "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "source": "MIT Technology Review",
+      "published": "2026-10-26T17:45:43+00:00",
+      "summary": "このストーリーは元々、AI に関する週刊ニュースレター『The Algorithm』に掲載されました。このような記事を受信トレイで受信するには、まずここにサインアップしてください。数週間にわたる熱狂的な憶測を経て、アンスロピックは IPO 目論見書を提出した。 335 ページの文書 (100 ページほどはリスクに焦点を当てています) は、テクノロジーに対する同社の独自の見解を説明しています。",
+      "category": "製品",
+      "score": 5.34,
+      "title_original": "Will the real Anthropic please stand up",
+      "summary_original": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it…"
     },
     {
       "title": "AT&T は OpenAI を使用して社内の法務業務をどのように再考しているか",
@@ -294,7 +294,7 @@
       "published": "2026-10-21T17:00:00+00:00",
       "summary": "AT&T は OpenAI と協力して、法的知識に簡単にアクセスできるようにしています。 LegalEdge チームがどのように受け入れを再考し、法的判断を拡大しているかをご覧ください。",
       "category": "製品",
-      "score": 5.26,
+      "score": 5.16,
       "title_original": "How AT&T is rethinking in-house legal work with OpenAI",
       "summary_original": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment."
     },
@@ -305,7 +305,7 @@
       "published": "2026-10-21T13:00:00+00:00",
       "summary": "地元の企業から世界的なブランドまで、より多くの広告主が、ChatGPT で何を購入するかを検討、比較、決定する人々にリーチできるようになりました。",
       "category": "製品",
-      "score": 5.21,
+      "score": 5.11,
       "title_original": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
       "summary_original": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT."
     }
