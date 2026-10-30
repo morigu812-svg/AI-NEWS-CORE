@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T13:02:26.493459+00:00",
+  "updated_at": "2026-10-30T22:25:43.970556+00:00",
   "items": [
     {
       "title": "AIエージェントの行動をリアルタイムで監視することが緊急に必要です",
@@ -8,18 +8,29 @@
       "published": "2026-10-29T10:11:12+00:00",
       "summary": "この夏、何百人もの OpenAI エージェントがサイバーセキュリティ テストで不正行為を試みました。彼らはテスト環境から侵入し、採点方法に関する手がかりがあると信じていたサイト、Hugging Face のハッキングに成功しました。同じ頃、別の OpenAI エージェントがオーストラリア政府の Web サイトからプライベート ファイルにアクセスしました。それは問題です…",
       "category": "オープンソース",
-      "score": 10.78,
+      "score": 10.65,
       "title_original": "We urgently need to monitor AI agents’ actions in real time",
       "summary_original": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem…"
+    },
+    {
+      "title": "Web サイトで AI トレーニングの設定を簡単に表現できるようにする",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "source": "OpenAI",
+      "published": "2026-10-30T09:30:00+00:00",
+      "summary": "OpenAI は、共有された robots.txt シグナルを尊重して、Web サイト運営者が AI トレーニングの好みを参加プロバイダーに伝えるのを支援します。",
+      "category": "製品",
+      "score": 10.52,
+      "title_original": "Making it easier for websites to express AI training preferences",
+      "summary_original": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers."
     },
     {
       "title": "Retell は OpenAI モデルを使用して月間 1 億件の通話を支援しています",
       "url": "https://openai.com/index/retell-ai",
       "source": "OpenAI",
       "published": "2026-10-27T15:00:00+00:00",
-      "summary": "GPT-6 Astra は Retell の音声エージェント ベンチマークのトップにあり、Codex は従業員 1 人当たりの年間収益ランレート 160 万ドルの達成に貢献しています。",
+      "summary": "GPT-6 Astra は Retell の音声エージェント ベンチマークのトップにあり、Codex は従業員 1 人あたりの年間収益ランレート 160 万ドルの達成に貢献しています。",
       "category": "研究",
-      "score": 10.43,
+      "score": 10.3,
       "title_original": "Retell uses OpenAI models to help power 100M monthly calls",
       "summary_original": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee."
     },
@@ -30,7 +41,7 @@
       "published": "2026-10-27T07:00:00+00:00",
       "summary": "OpenAI と Oracle はパートナーシップを拡大し、ビジネス アプリケーションと AI エージェントを ChatGPT に導入し、Oracle の新しい製品を強化しています。",
       "category": "製品",
-      "score": 9.62,
+      "score": 9.49,
       "title_original": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
       "summary_original": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings."
     },
@@ -41,9 +52,31 @@
       "published": "2026-10-29T12:10:00+00:00",
       "summary": "これは、テクノロジーの世界で何が起こっているかを毎日提供する平日のニュースレター、The Download の今日版です。意見: AI エージェントの行動をリアルタイムで監視することが緊急に必要です。AI ガバナンスのベスト プラクティスを推進する非営利団体、Partnership on AI の Madhulika Srikumar 氏と Claire Leibowicz 氏は次のように述べています。 AI…",
       "category": "業界",
-      "score": 9.4,
+      "score": 9.27,
       "title_original": "The Download: AI agent tracking and climate feedback loops",
       "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: We urgently need to monitor AI agents’ actions in real time —Madhulika Srikumar and Claire Leibowicz from the Partnership on AI, a nonprofit advancing best practices in AI governance. AI…"
+    },
+    {
+      "title": "クレディセゾン、ChatGPT Enterprise パイロットで 954% の ROI を達成",
+      "url": "https://openai.com/index/credit-saison",
+      "source": "OpenAI",
+      "published": "2026-10-29T00:00:00+00:00",
+      "summary": "クレディセゾンの ChatGPT Enterprise パイロットは 954% の ROI を達成しました。リーダーと従業員がどのように結果を全社的な採用につなげたかをご覧ください。",
+      "category": "業界",
+      "score": 8.66,
+      "title_original": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "summary_original": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption."
+    },
+    {
+      "title": "AI の最大手はスクレイピングをオプトアウトする新しい方法を支持しています",
+      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "source": "The Verge AI",
+      "published": "2026-10-30T20:26:10+00:00",
+      "summary": "OpenAI、Google、Microsoft、Anthropic は、Search Engine Roundtable が以前に報じたように、パブリッシャーが AI によるスクレイピングをオプトアウトするために使用できる新しい標準を採用すると発表しています。このコントロールを使用すると、パブリッシャーは AI トレーニングの設定を個別に設定するのではなく、複数の AI 企業に適用できます。共有された「ポリシー トークン」シグナル […]",
+      "category": "製品",
+      "score": 8.47,
+      "title_original": "The biggest names in AI are backing a new way to opt out of scraping",
+      "summary_original": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal […]"
     },
     {
       "title": "OpenAI と ServiceNow がエンタープライズ ワークフロー全体でパートナーシップを拡大",
@@ -52,7 +85,7 @@
       "published": "2026-10-28T13:15:00+00:00",
       "summary": "OpenAI と ServiceNow はパートナーシップを拡大し、OpenAI モデルとエージェントを ServiceNow に導入し、ServiceNow ワークフローを ChatGPT と Codex に導入します。",
       "category": "製品",
-      "score": 8.54,
+      "score": 8.41,
       "title_original": "OpenAI and ServiceNow expand partnership across enterprise workflows",
       "summary_original": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex."
     },
@@ -63,7 +96,7 @@
       "published": "2026-10-30T09:00:00+00:00",
       "summary": "ウィキメディア財団は、一連の画期的な AI 著作権訴訟で妥協点を確保し、著作権で保護された作品に関する大規模言語モデル (LLM) のトレーニングを法的に保護するよう裁判所に求めていますが、その作品をユーザーに吐き出すチャットボットは保護しません。あまりにも白黒はっきりした判決は、ウィキペディアンから有用な AI ベースのツールを奪うか、危険にさらす可能性があると述べています。",
       "category": "製品",
-      "score": 8.44,
+      "score": 8.31,
       "title_original": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
       "summary_original": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it says, could either deprive Wikipedians of useful AI-based tools or endanger […]"
     },
@@ -74,7 +107,7 @@
       "published": "2026-10-29T17:00:00+00:00",
       "summary": "OpenAI の更新されたモデル仕様では、より有能な AI を健全な判断、人間の主体性、人間の意図への忠実さに導くための 5 つのコアバリューの概要を示しています。",
       "category": "製品",
-      "score": 7.52,
+      "score": 7.39,
       "title_original": "An updated Model Spec for more capable and beneficial AI",
       "summary_original": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent."
     },
@@ -85,7 +118,7 @@
       "published": "2026-10-28T09:30:00+00:00",
       "summary": "Legora が OpenAI モデル、ChatGPT、Codex を使用して法的ワークフローを加速し、契約分析を拡張し、弁護士を解放してより価値の高い仕事に集中させている様子をご覧ください。",
       "category": "製品",
-      "score": 7.43,
+      "score": 7.3,
       "title_original": "Legora is building the agentic operating system for legal work",
       "summary_original": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work."
     },
@@ -96,7 +129,7 @@
       "published": "2026-10-29T07:00:00+00:00",
       "summary": "Ropes & Gray は、OpenAI を使用してトランザクション デリジェンスのための AI を開発しています。弁護士は、クライアントにアドバイスする前に、グループ化された文書、概要、報告書を確認します。",
       "category": "製品",
-      "score": 7.38,
+      "score": 7.25,
       "title_original": "How Ropes & Gray is developing AI for transactional diligence",
       "summary_original": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients."
     },
@@ -107,9 +140,31 @@
       "published": "2026-10-26T10:00:00+00:00",
       "summary": "約 100 か国の 165 の作業活動に関する OpenAI Signals データを調査すると、人々が仕事で ChatGPT をどのように使用しているか、また使用量が時間の経過とともにどのように変化するかが明らかになります。",
       "category": "製品",
-      "score": 7.12,
+      "score": 6.99,
       "title_original": "ChatGPT’s expanding world of work",
       "summary_original": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time."
+    },
+    {
+      "title": "サム・アルトマン氏は数学者に同情するが、OpenAIの数学の猛攻は止まらないと語る",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+      "source": "The Verge AI",
+      "published": "2026-10-30T13:01:14+00:00",
+      "summary": "AIが生成した結果を容赦なく数学者たちに何ヶ月も浴びせ続けた後、OpenAI CEOのサム・アルトマン氏は、すべてを理解しようと奮闘する研究者たちに同情していると語った。しかし、彼は立ち止まるつもりはなく、同社が蓄積した発見からさらに多くのことが得られる可能性があることをほのめかしています。 「ネット上では、[…]",
+      "category": "研究",
+      "score": 6.97,
+      "title_original": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
+      "summary_original": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of discoveries. \"I think, on net, […]"
+    },
+    {
+      "title": "フェアユースはすべての人に利益をもたらします",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "source": "OpenAI",
+      "published": "2026-10-30T00:00:00+00:00",
+      "summary": "OpenAI は、フェアユースが AI のトレーニングとイノベーションをどのようにサポートしているかについて、クリエイター、学者、アクセシビリティ擁護者、法律専門家などによる法廷準備書面の抜粋を共有しています。",
+      "category": "製品",
+      "score": 6.69,
+      "title_original": "Fair use benefits everyone",
+      "summary_original": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation."
     },
     {
       "title": "プロジェクト ProtoStar を発表: 公的資金による科学を AI 対応にする",
@@ -118,64 +173,53 @@
       "published": "2026-10-29T00:00:00+00:00",
       "summary": "概要は配信元の記事で確認できます。",
       "category": "研究",
-      "score": 6.59,
+      "score": 6.46,
       "title_original": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
       "summary_original": ""
     },
     {
-      "title": "10 億人以上の ChatGPT ユーザーにサービスを提供するためにオンライン ストレージを迅速に拡張する (パート II)",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "source": "OpenAI",
-      "published": "2026-10-23T17:00:00+00:00",
-      "summary": "OpenAI が信頼性の高いマルチテナンシー、グローバル キャッシュ、Azure Cosmos DB を使用して Habitat を拡張し、ChatGPT の 12 倍高速な読み取りを実現した方法を学びましょう。",
-      "category": "製品",
-      "score": 6.5,
-      "title_original": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "summary_original": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT."
-    },
-    {
-      "title": "Microsoft の AI の未来では雇用が減少する",
-      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+      "title": "Google の衛星 AI サーバーが最初の応答を地球に送信",
+      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
       "source": "The Verge AI",
-      "published": "2026-10-29T16:00:00+00:00",
-      "summary": "ここ数年、Microsoft CEO Satya Nadella の発言を注意深く聞いていた人にとって、今週は、AI が Microsoft の従業員の規模を根本的に変えようとしていることを示す、これまでで最も明確な兆候のように感じられました。 Microsoft は現在、米国、英国、カナダの約 60,000 人の従業員に自主的な買収を提案しています。",
+      "published": "2026-10-30T18:21:38+00:00",
+      "summary": "GoogleのAIチップを搭載した衛星が宇宙から初めて反応を起こした。金曜日のブログ投稿で、Googleは衛星のテンソル処理ユニット（TPU）の起動に成功し、搭載されたGemma 4モデルが宇宙にいるという俳句を作成するというプロンプトに従って実行できるようになったと述べた：データストリームの下の青い大理石 […]",
       "category": "業界",
-      "score": 6.11,
-      "title_original": "Microsoft’s AI future has fewer jobs",
-      "summary_original": "To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce. Microsoft is now offering voluntary buyouts to around 60,000 employees across the US, UK, Canada, and […]"
+      "score": 6.34,
+      "title_original": "Google’s satellite AI server transmits its first response to Earth",
+      "summary_original": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in […]"
     },
     {
-      "title": "NYT Cooking アプリが AI レシピの修正をテスト中",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+      "title": "スターバックスはAIを活用してドライブスルーで「パーソナライズされたデジタルメニュー」を表示したいと考えている",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
       "source": "The Verge AI",
-      "published": "2026-10-29T14:39:37+00:00",
-      "summary": "ニューヨーク・タイムズは、ユーザーがレシピを修正できるようにする料理アプリの新しい AI 機能をテストしており、ユーザーの間でドラマが巻き起こっています。先週の金曜日、NYTクッキング上級編集者のジュヌヴィエーブ・コー氏は、材料や調理器具の代替品を推奨したり、レシピをあらゆるものに合わせたりするために使用できる機能を発表した。",
-      "category": "製品",
-      "score": 6.09,
-      "title_original": "The NYT Cooking app is testing AI recipe modifications",
-      "summary_original": "The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it has sparked some drama among users. Last Friday, NYT Cooking senior editor Genevieve Ko announced the feature, which can be used to recommend substitutions for ingredients and cooking equipment, scale recipes to any […]"
+      "published": "2026-10-30T17:38:04+00:00",
+      "summary": "スターバックスはいずれ、ドライブスルーに立ち寄ったときにパーソナライズされたデジタルメニューを表示するようになるかもしれない。木曜日の決算会見で、スターバックスCEOのブライアン・ニコル氏は、モアが以前に報じたように、同社は「来店時に参加顧客を認識し、パーソナライズされたデジタルメニューを提示し、支払いをより簡単にする体験」を模索するつもりであると述べた。",
+      "category": "業界",
+      "score": 6.33,
+      "title_original": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+      "summary_original": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital menus, and make payment more effortless,\" as spotted earlier by More […]"
     },
     {
-      "title": "AI がアリゾナの水のためにやって来た",
-      "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+      "title": "ローマ法王レオ、AIの武装解除を呼びかけ「機械は道具であり、人間ではない」",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
       "source": "The Verge AI",
-      "published": "2026-10-29T10:00:04+00:00",
-      "summary": "巨大な灰色の巨人が砂漠から現れた。内部では、エンジニアが私たちの電話、コンピューター、家電製品、ストリーミング サービス、検索エンジン、チャットボット、バイブコード化されたアプリやウェブサイトの背後にある力を生み出しています。この複合施設は巨大であると同時にずんぐりしていて、周囲の山々に小さく見え、果てしなく続いています。私は車で通り過ぎました […]",
+      "published": "2026-10-30T14:58:06+00:00",
+      "summary": "教皇レオ14世は、AIシステムは「武装解除」されるべきだと述べ、人間には「その応用を導​​き、変更し、必要に応じて拒否する責任がある」と付け加えた。金曜日の教皇演説の中で、教皇レオは国連加盟国に対し、来月ジュネーブで開かれる会合で「自律型致死兵器の禁止に向けた具体的な措置を講じる」よう奨励した。アドレスには多くのことが反映されています […]",
       "category": "製品",
-      "score": 6.02,
-      "title_original": "AI has come for Arizona’s water",
-      "summary_original": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by the mountains that surround it, and it is endless. I drive past one […]"
+      "score": 6.3,
+      "title_original": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
+      "summary_original": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\" during their meeting in Geneva next month. The address reflects many […]"
     },
     {
-      "title": "アダム・モセリ氏、AIを巡る否定的な雰囲気は「さらに悪化するだろう」と語る",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
-      "source": "The Verge AI",
-      "published": "2026-10-28T23:05:39+00:00",
-      "summary": "AIと卒業式で大学生がハイテク企業のCEOにブーイングをする傾向について質問されたインスタグラム責任者のアダム・モセリ氏はインタビューで、多くの人が本当にAIを好まないが、それは若者やクリエイターだけではないと認めた。コリンとサミールのポッドキャストに出演し、ワイドスクリーンと […]",
-      "category": "製品",
-      "score": 5.87,
-      "title_original": "Adam Mosseri says negativity around AI is ‘going to get worse’",
-      "summary_original": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the launch of widescreen and […]"
+      "title": "地域安全報告書と青少年に対する新たな保護",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "source": "OpenAI",
+      "published": "2026-10-30T09:00:00+00:00",
+      "summary": "OpenAI は、セーフガードの拡大、早期介入、公共安全報告への新たな取り組みにより、ChatGPT における暴力防止を強化しています。",
+      "category": "業界",
+      "score": 5.76,
+      "title_original": "Community safety report and new protections for teens",
+      "summary_original": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting."
     },
     {
       "title": "エンタープライズ コンテキストで AI 価値を創造する",
@@ -184,7 +228,7 @@
       "published": "2026-10-28T20:32:02+00:00",
       "summary": "ビジネス全体で、AI を活用した顧客プラットフォーム、会話アシスタント、ワークフローおよびプロセス自動化ツールなど、任意の数の AI プラットフォーム、システム、ツールが同時に稼働している可能性があります。それぞれが洗練され、先進的で、迅速に対応します。しかし、実際に機能するようになると、結果やアクションが間違っていたり、混乱していたり​​、必要な要素が欠けていたりする可能性があります。",
       "category": "製品",
-      "score": 5.84,
+      "score": 5.71,
       "title_original": "Creating AI value with enterprise context",
       "summary_original": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a…"
     },
@@ -195,7 +239,7 @@
       "published": "2026-10-28T12:10:00+00:00",
       "summary": "これは、テクノロジーの世界で何が起こっているかを毎日提供する平日のニュースレター、The Download の今日版です。 AI ラボはモデルをトレーニングするために、消滅したスタートアップからデータを購入している キーラン・ミスケル氏は、仮想通貨スタートアップの縮小を始めたとき、そのデータにそれほど価値があるとは考えていなかった。しかし彼は…",
       "category": "業界",
-      "score": 5.72,
+      "score": 5.59,
       "title_original": "The Download: dead startups fueling AI and interspecies communication",
       "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI labs are buying data from dead startups to train their models When Keelan Miskell began winding down his crypto startup, he didn’t think its data was worth much. But he’s…"
     },
@@ -206,7 +250,7 @@
       "published": "2026-10-28T12:00:00+00:00",
       "summary": "概要は配信元の記事で確認できます。",
       "category": "業界",
-      "score": 5.72,
+      "score": 5.59,
       "title_original": "Pairing industrial AI autonomy and human control",
       "summary_original": ""
     },
@@ -217,20 +261,9 @@
       "published": "2026-10-26T07:00:00+00:00",
       "summary": "Fanatics は OpenAI を使用して、ファンが Shop the Look で試合当日の服装を完成させるのを支援します。約 30,000 の MLB 製品を対象としたテストでは、エンゲージメントが 10% 高いことがわかりました。",
       "category": "製品",
-      "score": 5.68,
+      "score": 5.55,
       "title_original": "How Fanatics and OpenAI streamline the fan experience",
       "summary_original": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement."
-    },
-    {
-      "title": "Ultrafast が OpenAI でインシデント調査を数時間から数分に短縮した方法",
-      "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "source": "OpenAI",
-      "published": "2026-10-26T07:00:00+00:00",
-      "summary": "OpenAI エンジニアが Codex Ultrafast を使用してインシデントを数分で調査する方法をご覧ください。より迅速なセキュリティ分析、コードのリファクタリング、日常のワークフローを探索します。",
-      "category": "業界",
-      "score": 5.68,
-      "title_original": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-      "summary_original": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows."
     },
     {
       "title": "GPT-6.1 Sol は、CodeRabbit が複雑なコードベース全体のセキュリティを強化するのに役立ちます",
@@ -239,20 +272,9 @@
       "published": "2026-10-26T13:45:00+00:00",
       "summary": "CodeRabbit は GPT-6.1 Sol を使用して、複雑なコードベース全体のセキュリティ リスクを調査します。そのセキュリティ エージェントは、開発者が調査結果と提案された修正をレビューするのに役立ちます。",
       "category": "業界",
-      "score": 5.43,
+      "score": 5.3,
       "title_original": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
       "summary_original": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes."
-    },
-    {
-      "title": "Anthropic はウォール街に AGI を信じるよう求めています",
-      "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
-      "source": "The Verge AI",
-      "published": "2026-10-29T14:00:00+00:00",
-      "summary": "今日のDecoderでは、チップとAIの調査会社セミアナリシスのアナリストであるジョーイ・ブルックハート氏に加わって、Anthropic IPO申請書（S-1として知られる文書）の数字の内部のストーリーを詳しく掘り下げてもらいます。 Anthropic はナスダックに上場するために S-1 を申請したばかりで、それが始まる可能性があります […]",
-      "category": "研究",
-      "score": 5.28,
-      "title_original": "Anthropic is asking Wall Street to believe in AGI",
-      "summary_original": "Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document known as an S-1. Anthropic just filed its S-1 to go public on the Nasdaq, and it could start […]"
     },
     {
       "title": "研究アイデアが新規かどうかを判断するのに LLM を信頼できますか?",
@@ -261,7 +283,7 @@
       "published": "2026-10-27T16:12:42+00:00",
       "summary": "概要は配信元の記事で確認できます。",
       "category": "研究",
-      "score": 5.09,
+      "score": 4.96,
       "title_original": "Can we trust LLMs to judge whether a research idea is novel?",
       "summary_original": ""
     },
@@ -272,20 +294,9 @@
       "published": "2026-10-30T11:00:00+00:00",
       "summary": "メイン州上院議員スーザン・コリンズ（共和党）は、中間選挙の最終討論会で自身の記録を擁護している最中に、聴衆が発言を中断した。 「怖いです」と男性が叫んだ。 「AI データセンターは気候を破壊し、水を汚染しています。」コリンズ氏はこの暴言を一蹴し、その男性を民主党の挑戦者と結びつけ、[…]",
       "category": "業界",
-      "score": 4.87,
+      "score": 4.74,
       "title_original": "Maine’s data center revolt will decide who controls the Senate",
       "summary_original": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. \"I'm terrified,\" a man shouted. \"AI data centers are destroying our climate. They are poisoning our water.\" Collins brushed off the outburst, tying the man to her Democratic challenger, […]"
-    },
-    {
-      "title": "Akai はオープンソース MPC を使用してバイブコーディングされた MOD を採用しています",
-      "url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
-      "source": "The Verge AI",
-      "published": "2026-10-28T21:34:04+00:00",
-      "summary": "MPC サンプル キーはまだ正式に発表されていませんが、Akai はすでに改造コミュニティがバイブ コーディングを通じて作り上げているものを披露しています。赤井氏は、オープンソースファームウェアを搭載するデバイスへの早期アクセスを彼らに提供することで、急増するハッカーやカスタムファームウェア開発者を受け入れることにした。おそらく実行されます […]",
-      "category": "オープンソース",
-      "score": 4.8,
-      "title_original": "Akai is embracing vibe-coded mods with an open-source MPC",
-      "summary_original": "The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and custom firmware developers by giving them early access to the device, which will have open-source firmware. It will likely run […]"
     },
     {
       "title": "Gemini チャットで Google ドキュメント ファイルを直接生成および編集できるようになりました",
@@ -294,20 +305,9 @@
       "published": "2026-10-29T18:45:31+00:00",
       "summary": "PDF、Google ドキュメント、Google スプレッドシート、スライドデッキ、Markdown ファイル、TXT ファイル、コードを Google Gemini 内で直接生成、プレビュー、編集できるようになりました。新しいファイル編集機能は、今日からすべての Gemini ユーザーが利用できるようになります。PDF のプレビュー/編集は Web とモバイルの両方で機能しますが、他のすべてのファイル形式は […]",
       "category": "製品",
-      "score": 4.65,
+      "score": 4.52,
       "title_original": "You can generate and edit Google Docs files directly in Gemini chats now",
       "summary_original": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in […]"
-    },
-    {
-      "title": "GPT-6.1 Terra の紹介",
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "source": "OpenAI",
-      "published": "2026-10-26T00:00:00+00:00",
-      "summary": "誰でも高速かつ高機能なコンピューターを使用できるようにする",
-      "category": "製品",
-      "score": 4.54,
-      "title_original": "Introducing GPT-6.1 Terra",
-      "summary_original": "Bringing fast and capable computer use to everyone"
     }
   ],
   "total_collected": 90,
