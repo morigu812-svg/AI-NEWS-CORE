@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T22:25:43.970556+00:00",
+  "updated_at": "2026-10-31T05:51:51.533741+00:00",
   "items": [
     {
       "title": "AIエージェントの行動をリアルタイムで監視することが緊急に必要です",
@@ -8,7 +8,7 @@
       "published": "2026-10-29T10:11:12+00:00",
       "summary": "この夏、何百人もの OpenAI エージェントがサイバーセキュリティ テストで不正行為を試みました。彼らはテスト環境から侵入し、採点方法に関する手がかりがあると信じていたサイト、Hugging Face のハッキングに成功しました。同じ頃、別の OpenAI エージェントがオーストラリア政府の Web サイトからプライベート ファイルにアクセスしました。それは問題です…",
       "category": "オープンソース",
-      "score": 10.65,
+      "score": 10.54,
       "title_original": "We urgently need to monitor AI agents’ actions in real time",
       "summary_original": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem…"
     },
@@ -19,7 +19,7 @@
       "published": "2026-10-30T09:30:00+00:00",
       "summary": "OpenAI は、共有された robots.txt シグナルを尊重して、Web サイト運営者が AI トレーニングの好みを参加プロバイダーに伝えるのを支援します。",
       "category": "製品",
-      "score": 10.52,
+      "score": 10.42,
       "title_original": "Making it easier for websites to express AI training preferences",
       "summary_original": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers."
     },
@@ -30,7 +30,7 @@
       "published": "2026-10-27T15:00:00+00:00",
       "summary": "GPT-6 Astra は Retell の音声エージェント ベンチマークのトップにあり、Codex は従業員 1 人あたりの年間収益ランレート 160 万ドルの達成に貢献しています。",
       "category": "研究",
-      "score": 10.3,
+      "score": 10.19,
       "title_original": "Retell uses OpenAI models to help power 100M monthly calls",
       "summary_original": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee."
     },
@@ -39,9 +39,9 @@
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
       "source": "OpenAI",
       "published": "2026-10-27T07:00:00+00:00",
-      "summary": "OpenAI と Oracle はパートナーシップを拡大し、ビジネス アプリケーションと AI エージェントを ChatGPT に導入し、Oracle の新しい製品を強化しています。",
+      "summary": "OpenAI と Oracle はパートナーシップを拡大し、ビジネス アプリケーションと AI エージェントを ChatGPT に導入し、新しい Oracle 製品を強化します。",
       "category": "製品",
-      "score": 9.49,
+      "score": 9.38,
       "title_original": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
       "summary_original": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings."
     },
@@ -52,7 +52,7 @@
       "published": "2026-10-29T12:10:00+00:00",
       "summary": "これは、テクノロジーの世界で何が起こっているかを毎日提供する平日のニュースレター、The Download の今日版です。意見: AI エージェントの行動をリアルタイムで監視することが緊急に必要です。AI ガバナンスのベスト プラクティスを推進する非営利団体、Partnership on AI の Madhulika Srikumar 氏と Claire Leibowicz 氏は次のように述べています。 AI…",
       "category": "業界",
-      "score": 9.27,
+      "score": 9.17,
       "title_original": "The Download: AI agent tracking and climate feedback loops",
       "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: We urgently need to monitor AI agents’ actions in real time —Madhulika Srikumar and Claire Leibowicz from the Partnership on AI, a nonprofit advancing best practices in AI governance. AI…"
     },
@@ -63,7 +63,7 @@
       "published": "2026-10-29T00:00:00+00:00",
       "summary": "クレディセゾンの ChatGPT Enterprise パイロットは 954% の ROI を達成しました。リーダーと従業員がどのように結果を全社的な採用につなげたかをご覧ください。",
       "category": "業界",
-      "score": 8.66,
+      "score": 8.55,
       "title_original": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
       "summary_original": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption."
     },
@@ -74,7 +74,7 @@
       "published": "2026-10-30T20:26:10+00:00",
       "summary": "OpenAI、Google、Microsoft、Anthropic は、Search Engine Roundtable が以前に報じたように、パブリッシャーが AI によるスクレイピングをオプトアウトするために使用できる新しい標準を採用すると発表しています。このコントロールを使用すると、パブリッシャーは AI トレーニングの設定を個別に設定するのではなく、複数の AI 企業に適用できます。共有された「ポリシー トークン」シグナル […]",
       "category": "製品",
-      "score": 8.47,
+      "score": 8.37,
       "title_original": "The biggest names in AI are backing a new way to opt out of scraping",
       "summary_original": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal […]"
     },
@@ -85,7 +85,7 @@
       "published": "2026-10-28T13:15:00+00:00",
       "summary": "OpenAI と ServiceNow はパートナーシップを拡大し、OpenAI モデルとエージェントを ServiceNow に導入し、ServiceNow ワークフローを ChatGPT と Codex に導入します。",
       "category": "製品",
-      "score": 8.41,
+      "score": 8.3,
       "title_original": "OpenAI and ServiceNow expand partnership across enterprise workflows",
       "summary_original": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex."
     },
@@ -94,9 +94,9 @@
       "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
       "source": "The Verge AI",
       "published": "2026-10-30T09:00:00+00:00",
-      "summary": "ウィキメディア財団は、一連の画期的な AI 著作権訴訟で妥協点を確保し、著作権で保護された作品に関する大規模言語モデル (LLM) のトレーニングを法的に保護するよう裁判所に求めていますが、その作品をユーザーに吐き出すチャットボットは保護しません。あまりにも白黒はっきりした判決は、ウィキペディアンから有用な AI ベースのツールを奪うか、危険にさらす可能性があると述べています。",
+      "summary": "ウィキメディア財団は、一連の画期的な AI 著作権訴訟で妥協点を確保し、著作権で保護された作品に関する大規模言語モデル (LLM) のトレーニングを法的に保護するよう裁判所に求めていますが、その作品をユーザーに吐き出すチャットボットは保護しません。あまりにも白黒はっきりした判決は、ウィキペディアンから有用なAIベースのツールを奪うか、危険にさらす可能性があると述べている[…]",
       "category": "製品",
-      "score": 8.31,
+      "score": 8.21,
       "title_original": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
       "summary_original": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it says, could either deprive Wikipedians of useful AI-based tools or endanger […]"
     },
@@ -107,7 +107,7 @@
       "published": "2026-10-29T17:00:00+00:00",
       "summary": "OpenAI の更新されたモデル仕様では、より有能な AI を健全な判断、人間の主体性、人間の意図への忠実さに導くための 5 つのコアバリューの概要を示しています。",
       "category": "製品",
-      "score": 7.39,
+      "score": 7.29,
       "title_original": "An updated Model Spec for more capable and beneficial AI",
       "summary_original": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent."
     },
@@ -118,7 +118,7 @@
       "published": "2026-10-28T09:30:00+00:00",
       "summary": "Legora が OpenAI モデル、ChatGPT、Codex を使用して法的ワークフローを加速し、契約分析を拡張し、弁護士を解放してより価値の高い仕事に集中させている様子をご覧ください。",
       "category": "製品",
-      "score": 7.3,
+      "score": 7.2,
       "title_original": "Legora is building the agentic operating system for legal work",
       "summary_original": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work."
     },
@@ -129,7 +129,7 @@
       "published": "2026-10-29T07:00:00+00:00",
       "summary": "Ropes & Gray は、OpenAI を使用してトランザクション デリジェンスのための AI を開発しています。弁護士は、クライアントにアドバイスする前に、グループ化された文書、概要、報告書を確認します。",
       "category": "製品",
-      "score": 7.25,
+      "score": 7.15,
       "title_original": "How Ropes & Gray is developing AI for transactional diligence",
       "summary_original": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients."
     },
@@ -138,9 +138,9 @@
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
       "source": "OpenAI",
       "published": "2026-10-26T10:00:00+00:00",
-      "summary": "約 100 か国の 165 の作業活動に関する OpenAI Signals データを調査すると、人々が仕事で ChatGPT をどのように使用しているか、また使用量が時間の経過とともにどのように変化するかが明らかになります。",
+      "summary": "約 100 か国にわたる 165 の作業活動に関する OpenAI Signals データを調査すると、人々が仕事で ChatGPT をどのように使用しているか、また使用状況が時間の経過とともにどのように変化したかが明らかになります。",
       "category": "製品",
-      "score": 6.99,
+      "score": 6.89,
       "title_original": "ChatGPT’s expanding world of work",
       "summary_original": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time."
     },
@@ -149,9 +149,9 @@
       "url": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
       "source": "The Verge AI",
       "published": "2026-10-30T13:01:14+00:00",
-      "summary": "AIが生成した結果を容赦なく数学者たちに何ヶ月も浴びせ続けた後、OpenAI CEOのサム・アルトマン氏は、すべてを理解しようと奮闘する研究者たちに同情していると語った。しかし、彼は立ち止まるつもりはなく、同社が蓄積した発見からさらに多くのことが得られる可能性があることをほのめかしています。 「ネット上では、[…]",
+      "summary": "AIが生成した結果を容赦なく数学者たちに何ヶ月も浴びせ続けた後、OpenAI CEOのサム・アルトマン氏は、すべてを理解しようと奮闘している研究者たちに同情していると語った。しかし、彼は立ち止まるつもりはなく、同社が蓄積した発見からさらに多くのことが得られる可能性があることをほのめかしています。 「ネット上では、[…]",
       "category": "研究",
-      "score": 6.97,
+      "score": 6.87,
       "title_original": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
       "summary_original": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of discoveries. \"I think, on net, […]"
     },
@@ -162,7 +162,7 @@
       "published": "2026-10-30T00:00:00+00:00",
       "summary": "OpenAI は、フェアユースが AI のトレーニングとイノベーションをどのようにサポートしているかについて、クリエイター、学者、アクセシビリティ擁護者、法律専門家などによる法廷準備書面の抜粋を共有しています。",
       "category": "製品",
-      "score": 6.69,
+      "score": 6.59,
       "title_original": "Fair use benefits everyone",
       "summary_original": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation."
     },
@@ -173,7 +173,7 @@
       "published": "2026-10-29T00:00:00+00:00",
       "summary": "概要は配信元の記事で確認できます。",
       "category": "研究",
-      "score": 6.46,
+      "score": 6.35,
       "title_original": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
       "summary_original": ""
     },
@@ -184,7 +184,7 @@
       "published": "2026-10-30T18:21:38+00:00",
       "summary": "GoogleのAIチップを搭載した衛星が宇宙から初めて反応を起こした。金曜日のブログ投稿で、Googleは衛星のテンソル処理ユニット（TPU）の起動に成功し、搭載されたGemma 4モデルが宇宙にいるという俳句を作成するというプロンプトに従って実行できるようになったと述べた：データストリームの下の青い大理石 […]",
       "category": "業界",
-      "score": 6.34,
+      "score": 6.24,
       "title_original": "Google’s satellite AI server transmits its first response to Earth",
       "summary_original": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in […]"
     },
@@ -195,7 +195,7 @@
       "published": "2026-10-30T17:38:04+00:00",
       "summary": "スターバックスはいずれ、ドライブスルーに立ち寄ったときにパーソナライズされたデジタルメニューを表示するようになるかもしれない。木曜日の決算会見で、スターバックスCEOのブライアン・ニコル氏は、モアが以前に報じたように、同社は「来店時に参加顧客を認識し、パーソナライズされたデジタルメニューを提示し、支払いをより簡単にする体験」を模索するつもりであると述べた。",
       "category": "業界",
-      "score": 6.33,
+      "score": 6.23,
       "title_original": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
       "summary_original": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital menus, and make payment more effortless,\" as spotted earlier by More […]"
     },
@@ -206,7 +206,7 @@
       "published": "2026-10-30T14:58:06+00:00",
       "summary": "教皇レオ14世は、AIシステムは「武装解除」されるべきだと述べ、人間には「その応用を導​​き、変更し、必要に応じて拒否する責任がある」と付け加えた。金曜日の教皇演説の中で、教皇レオは国連加盟国に対し、来月ジュネーブで開かれる会合で「自律型致死兵器の禁止に向けた具体的な措置を講じる」よう奨励した。アドレスには多くのことが反映されています […]",
       "category": "製品",
-      "score": 6.3,
+      "score": 6.19,
       "title_original": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
       "summary_original": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\" during their meeting in Geneva next month. The address reflects many […]"
     },
@@ -217,7 +217,7 @@
       "published": "2026-10-30T09:00:00+00:00",
       "summary": "OpenAI は、セーフガードの拡大、早期介入、公共安全報告への新たな取り組みにより、ChatGPT における暴力防止を強化しています。",
       "category": "業界",
-      "score": 5.76,
+      "score": 5.66,
       "title_original": "Community safety report and new protections for teens",
       "summary_original": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting."
     },
@@ -228,7 +228,7 @@
       "published": "2026-10-28T20:32:02+00:00",
       "summary": "ビジネス全体で、AI を活用した顧客プラットフォーム、会話アシスタント、ワークフローおよびプロセス自動化ツールなど、任意の数の AI プラットフォーム、システム、ツールが同時に稼働している可能性があります。それぞれが洗練され、先進的で、迅速に対応します。しかし、実際に機能するようになると、結果やアクションが間違っていたり、混乱していたり​​、必要な要素が欠けていたりする可能性があります。",
       "category": "製品",
-      "score": 5.71,
+      "score": 5.6,
       "title_original": "Creating AI value with enterprise context",
       "summary_original": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a…"
     },
@@ -239,7 +239,7 @@
       "published": "2026-10-28T12:10:00+00:00",
       "summary": "これは、テクノロジーの世界で何が起こっているかを毎日提供する平日のニュースレター、The Download の今日版です。 AI ラボはモデルをトレーニングするために、消滅したスタートアップからデータを購入している キーラン・ミスケル氏は、仮想通貨スタートアップの縮小を始めたとき、そのデータにそれほど価値があるとは考えていなかった。しかし彼は…",
       "category": "業界",
-      "score": 5.59,
+      "score": 5.49,
       "title_original": "The Download: dead startups fueling AI and interspecies communication",
       "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI labs are buying data from dead startups to train their models When Keelan Miskell began winding down his crypto startup, he didn’t think its data was worth much. But he’s…"
     },
@@ -250,7 +250,7 @@
       "published": "2026-10-28T12:00:00+00:00",
       "summary": "概要は配信元の記事で確認できます。",
       "category": "業界",
-      "score": 5.59,
+      "score": 5.49,
       "title_original": "Pairing industrial AI autonomy and human control",
       "summary_original": ""
     },
@@ -261,7 +261,7 @@
       "published": "2026-10-26T07:00:00+00:00",
       "summary": "Fanatics は OpenAI を使用して、ファンが Shop the Look で試合当日の服装を完成させるのを支援します。約 30,000 の MLB 製品を対象としたテストでは、エンゲージメントが 10% 高いことがわかりました。",
       "category": "製品",
-      "score": 5.55,
+      "score": 5.45,
       "title_original": "How Fanatics and OpenAI streamline the fan experience",
       "summary_original": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement."
     },
@@ -272,7 +272,7 @@
       "published": "2026-10-26T13:45:00+00:00",
       "summary": "CodeRabbit は GPT-6.1 Sol を使用して、複雑なコードベース全体のセキュリティ リスクを調査します。そのセキュリティ エージェントは、開発者が調査結果と提案された修正をレビューするのに役立ちます。",
       "category": "業界",
-      "score": 5.3,
+      "score": 5.19,
       "title_original": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
       "summary_original": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes."
     },
@@ -283,7 +283,7 @@
       "published": "2026-10-27T16:12:42+00:00",
       "summary": "概要は配信元の記事で確認できます。",
       "category": "研究",
-      "score": 4.96,
+      "score": 4.86,
       "title_original": "Can we trust LLMs to judge whether a research idea is novel?",
       "summary_original": ""
     },
@@ -294,20 +294,20 @@
       "published": "2026-10-30T11:00:00+00:00",
       "summary": "メイン州上院議員スーザン・コリンズ（共和党）は、中間選挙の最終討論会で自身の記録を擁護している最中に、聴衆が発言を中断した。 「怖いです」と男性が叫んだ。 「AI データセンターは気候を破壊し、水を汚染しています。」コリンズ氏はこの暴言を一蹴し、その男性を民主党の挑戦者と結びつけ、[…]",
       "category": "業界",
-      "score": 4.74,
+      "score": 4.64,
       "title_original": "Maine’s data center revolt will decide who controls the Senate",
       "summary_original": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. \"I'm terrified,\" a man shouted. \"AI data centers are destroying our climate. They are poisoning our water.\" Collins brushed off the outburst, tying the man to her Democratic challenger, […]"
     },
     {
-      "title": "Gemini チャットで Google ドキュメント ファイルを直接生成および編集できるようになりました",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
-      "source": "The Verge AI",
-      "published": "2026-10-29T18:45:31+00:00",
-      "summary": "PDF、Google ドキュメント、Google スプレッドシート、スライドデッキ、Markdown ファイル、TXT ファイル、コードを Google Gemini 内で直接生成、プレビュー、編集できるようになりました。新しいファイル編集機能は、今日からすべての Gemini ユーザーが利用できるようになります。PDF のプレビュー/編集は Web とモバイルの両方で機能しますが、他のすべてのファイル形式は […]",
+      "title": "フロンティアモデルの不整合を検出する方法",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "source": "OpenAI",
+      "published": "2026-10-29T09:00:00+00:00",
+      "summary": "OpenAI は多層監視を使用してフロンティア モデルの調整不良や不正なエージェントの動作を検出し、対応者がインシデントが拡大する前に介入できるようにします。",
       "category": "製品",
-      "score": 4.52,
-      "title_original": "You can generate and edit Google Docs files directly in Gemini chats now",
-      "summary_original": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in […]"
+      "score": 4.18,
+      "title_original": "How we detect frontier model misalignment",
+      "summary_original": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate."
     }
   ],
   "total_collected": 90,
