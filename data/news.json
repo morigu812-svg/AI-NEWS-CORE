@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T19:49:49.208237+00:00",
+  "updated_at": "2026-11-05T06:55:28.452731+00:00",
   "items": [
     {
       "title": "ダウンロード: AI エージェントと「スーパー インテリジェンス」ロイヤルティ テストの制御",
@@ -8,7 +8,7 @@
       "published": "2026-11-03T13:10:00+00:00",
       "summary": "これは、テクノロジーの世界で何が起こっているかを毎日提供する平日のニュースレター、The Download の今日版です。 「リバース ゲーム理論」はどのようにして AI エージェントを抑制できるのか 「リバース ゲーム理論」として知られる新しいアプローチは、AI モデルにインセンティブを与えるシステムを設計することで、強力な AI モデルを制御することを目的としています。",
       "category": "製品",
-      "score": 10.02,
+      "score": 9.87,
       "title_original": "The Download: controlling AI agents and “Super Intelligence” loyalty tests",
       "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How “reverse game theory” could keep AI agents in check A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to…"
     },
@@ -17,9 +17,9 @@
       "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
       "source": "MIT Technology Review",
       "published": "2026-11-03T10:43:41+00:00",
-      "summary": "「リバース ゲーム理論」として知られる新しいアプローチは、ルールに従うよう促すシステムを設計することで、強力な AI モデルを制御することを目的としています。 AI モデルの能力が高まるにつれ、安全性研究者は、AI モデルが人間の欲求と「一致」していることを確認するために急いでいます。言い換えれば、不正行為者が法を犯さないようにするためです。",
+      "summary": "「リバース ゲーム理論」として知られる新しいアプローチは、ルールに従うよう促すシステムを設計することで、強力な AI モデルを制御することを目的としています。 AI モデルの能力が高まるにつれ、安全性研究者は、AI モデルが人間の欲求と「一致」していることを確認するために、つまり、不正行為者が法を犯さないようにするために急いでいます。",
       "category": "研究",
-      "score": 9.99,
+      "score": 9.84,
       "title_original": "How “reverse game theory” could keep AI agents in check",
       "summary_original": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,…"
     },
@@ -30,7 +30,7 @@
       "published": "2026-11-04T15:58:45+00:00",
       "summary": "AIエージェントがウーバーの昼食を盗むことは当分ないだろう。ウーバー幹部らは今朝の決算会見で、2026年第3四半期にサードパーティのAIエージェントが手配した配車はわずか4件だったと明らかにした。 AI エージェントによって処理された Uber Eats の注文の量は少し多く、同社は期間中に「約 500」を記録しました。",
       "category": "業界",
-      "score": 9.7,
+      "score": 9.54,
       "title_original": "Uber only fulfilled 4 rides from AI agents last quarter",
       "summary_original": "AI agents won't be stealing Uber's lunch any time soon. Only four rides were arranged by third-party AI agents during the third quarter of 2026, Uber executives disclosed during an earnings call this morning. The volume of Uber Eats orders fulfilled by AI agents was a little higher, with the company recording \"around 500\" during […]"
     },
@@ -41,7 +41,7 @@
       "published": "2026-10-30T09:30:00+00:00",
       "summary": "OpenAI は、共有された robots.txt シグナルを尊重して、Web サイト運営者が AI トレーニングの好みを参加プロバイダーに伝えるのを支援します。",
       "category": "製品",
-      "score": 8.89,
+      "score": 8.74,
       "title_original": "Making it easier for websites to express AI training preferences",
       "summary_original": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers."
     },
@@ -52,7 +52,7 @@
       "published": "2026-11-03T08:00:00+00:00",
       "summary": "Heimstaden が OpenAI の ChatGPT Enterprise と Codex を使用して不動産管理を変革し、コストを削減し、ヨーロッパ全土の従業員に権限を与える方法をご覧ください。",
       "category": "製品",
-      "score": 8.7,
+      "score": 8.55,
       "title_original": "Heimstaden is changing residential real estate management with AI",
       "summary_original": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe."
     },
@@ -63,7 +63,7 @@
       "published": "2026-11-04T18:00:00+00:00",
       "summary": "ChatGPT は、AI チャットボットにアップロードされたプロンプトまたは写真を使用して GIF を作成できるようになりました。 OpenAI の新しい Images 2.6 モデルとともに展開されるこのアップデートにより、GIF のアニメーション速度を調整したり、個々のフレームを編集したり、他のユーザーと共有したりできるようになります。この変更が行われる前は、ChatGPT は単一の GIF をネイティブに生成できませんでした […]",
       "category": "業界",
-      "score": 8.47,
+      "score": 8.32,
       "title_original": "ChatGPT will now make you animated GIFs",
       "summary_original": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share it with others. Before this change, ChatGPT couldn't natively generate GIFs in a single […]"
     },
@@ -72,9 +72,9 @@
       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
       "source": "OpenAI",
       "published": "2026-11-02T18:00:00+00:00",
-      "summary": "OpenAI は、AI を使用して防御をテストおよび強化するために、Cathedral Systems との次の社内セキュリティ スプリントを準備しています。",
+      "summary": "OpenAI は、AI を使用して防御をテストおよび強化するために、Cathedral Systems と協力して次の社内セキュリティ スプリントを準備しています。",
       "category": "業界",
-      "score": 8.26,
+      "score": 8.1,
       "title_original": "Preparing our next security sprint to harden OpenAI",
       "summary_original": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI."
     },
@@ -85,7 +85,7 @@
       "published": "2026-11-02T17:00:00+00:00",
       "summary": "わずか数年で、生成 AI はエンタープライズ分析の様相を変え、特に組織全体のユーザーが分析にアクセスできるようになりました。 Agentic AI は、ワークフロー全体を自動化し、エージェントの洞察に基づいてアクションを実行することで、さらに多くのことを行うことを約束します。しかし、問題があります。現在、エージェントが生成する洞察の質です…",
       "category": "業界",
-      "score": 8.24,
+      "score": 8.09,
       "title_original": "Raising the quality of insights in agentic analytics",
       "summary_original": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate…"
     },
@@ -96,7 +96,7 @@
       "published": "2026-11-02T00:00:00+00:00",
       "summary": "OpenAIは、国家安全保障の近代化、サイバーレジリエンス、米国同盟国との協力のための責任あるAIに関するアドバイス役としてダン・ドリスコル氏を任命した。",
       "category": "製品",
-      "score": 8.01,
+      "score": 7.85,
       "title_original": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
       "summary_original": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies."
     },
@@ -107,7 +107,7 @@
       "published": "2026-11-04T18:26:07+00:00",
       "summary": "Nothing CEOのカール・ペイ氏はXへの投稿で、同社初のAIデバイスを12月に発売すると述べた。ペイ氏が「AIネイティブ」デバイスとAIオペレーティングシステムの計画を発表してからわずか1年余りのことだ。彼は新しいデバイスが正確に何であるかについてはあまり明かさなかったが、その 1 つの機能だけを明かした […]",
       "category": "製品",
-      "score": 7.53,
+      "score": 7.38,
       "title_original": "Nothing teases a screen-free AI device ahead of launch next month",
       "summary_original": "Nothing CEO Carl Pei said in a post on X that the company's launching its first AI device in December. That's just a little over a year after Pei announced plans for \"AI-native\" devices and an AI operating system. He didn't give away much about what exactly the new device is, only that one feature […]"
     },
@@ -118,7 +118,7 @@
       "published": "2026-11-03T08:00:00+00:00",
       "summary": "シスコはネットワーク インテリジェンスと OpenAI モデルを組み合わせて、企業のセキュリティを強化します。より適応的な防御を構築する方法を学びましょう。",
       "category": "業界",
-      "score": 7.3,
+      "score": 7.15,
       "title_original": "How Cisco defends at machine speed with OpenAI",
       "summary_original": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses."
     },
@@ -129,7 +129,7 @@
       "published": "2026-11-04T14:30:00+00:00",
       "summary": "OpenAI は Pierre Computer Company を買収し、コードの構築、理解、レビューのための Codex のツールを拡張します。",
       "category": "製品",
-      "score": 7.03,
+      "score": 6.87,
       "title_original": "OpenAI to acquire Pierre Computer Company, Inc.",
       "summary_original": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code."
     },
@@ -140,7 +140,7 @@
       "published": "2026-11-04T13:00:00+00:00",
       "summary": "営業担当者が AI エージェントに顧客の価格設定を尋ねると、エージェントは制限された価格設定システム、内部コミュニケーション、アーカイブされた見積などの複数のソースからデータを取得します。エージェントにとって出力は正確であるように見えるため、2 番目のエージェントはそのデータを使用して営業担当者への提案を作成します。どちらのハンドオフも人間によるチェックはありません。それが…",
       "category": "業界",
-      "score": 6.66,
+      "score": 6.5,
       "title_original": "Securing the agentic enterprise with data lineage",
       "summary_original": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it’s…"
     },
@@ -149,9 +149,9 @@
       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
       "source": "OpenAI",
       "published": "2026-11-04T07:00:00+00:00",
-      "summary": "Daybreak Red は、承認されたサイバーセキュリティ作業のために Amazon Bedrock を通じて AWS GovCloud (米国東部) の承認された顧客に GPT-5.6 Cyber​​ を提供します。",
+      "summary": "Daybreak Red は、承認されたサイバーセキュリティ作業のために、Amazon Bedrock を通じて AWS GovCloud (米国東部) の承認された顧客に GPT-5.6 Cyber​​ を提供します。",
       "category": "製品",
-      "score": 6.57,
+      "score": 6.42,
       "title_original": "Daybreak Red is now available in AWS GovCloud (US-East)",
       "summary_original": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work."
     },
@@ -162,7 +162,7 @@
       "published": "2026-11-03T00:00:00+00:00",
       "summary": "Jill Hazelbaker 氏は OpenAI の最高経営責任者として加わり、同社のグローバル コミュニケーションと企業の位置付けを主導します。",
       "category": "製品",
-      "score": 6.49,
+      "score": 6.34,
       "title_original": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
       "summary_original": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning."
     },
@@ -173,7 +173,7 @@
       "published": "2026-11-04T18:50:55+00:00",
       "summary": "テキサス州は米国で最も急速に成長しているデータセンター市場であり、ビッグテック最大の AI 構築の拠点です。しかし、ローンスター州を襲った青い波がその地位を危うくするかもしれない。民主党のジェームズ・タラリコ氏がケン・パクストン氏を破って米国上院議席を獲得した。ジーナ・イノホサ氏が共和党現職に対する知事選で勝利した。",
       "category": "業界",
-      "score": 6.39,
+      "score": 6.23,
       "title_original": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
       "summary_original": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican incumbent,…"
     },
@@ -184,97 +184,75 @@
       "published": "2026-11-02T15:30:00+00:00",
       "summary": "OpenAI は、Codex が可能にする開発規模に合わせて設計された Git 互換バックエンドである Pando をどのように構築したか。",
       "category": "製品",
-      "score": 6.37,
+      "score": 6.22,
       "title_original": "Scaling Git at OpenAI",
       "summary_original": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible."
     },
     {
-      "title": "GoogleはAIに自社の検索エンジンのように報酬を与える方法をまだ見つけていない",
+      "title": "Googleは、自社の検索エンジンのようにAIに報酬を与える方法をまだ見つけていない",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
       "source": "The Verge AI",
       "published": "2026-11-04T12:00:00+00:00",
       "summary": "Googleの親会社であるAlphabetは先週の決算報告で、検索クエリが過去5年間で最も速いペースで増加していると述べた。しかし、Googleの検索収益の伸びは、第3四半期には前年同期比12％と、前四半期の約17％から鈍化した。一方、有料クリック数、つまり広告のクリック数は増加しています […]",
       "category": "業界",
-      "score": 6.29,
+      "score": 6.14,
       "title_original": "Google hasn’t figured out how to make AI pay like its search engine",
       "summary_original": "Search queries are growing at their fastest rate in five years, Google parent Alphabet said in its earnings report last week. However, Google's Search revenue growth slowed to 12 percent year over year in the third quarter, down from roughly 17 percent in the previous quarter. Meanwhile, growth in paid clicks - clicks on ads […]"
     },
     {
-      "title": "Qodo は Codex を使用して AI コードレビューにコンテキストを構築します",
+      "title": "Qodo は Codex を使用して AI コード レビューにコンテキストを構築します",
       "url": "https://openai.com/index/qodo-codex-plugin",
       "source": "OpenAI",
       "published": "2026-11-02T00:00:00+00:00",
       "summary": "Qodo は、企業の知識とコーディング標準を Codex に取り込み、開発者がプル リクエストを開く前にリポジトリ全体で P0 の問題を把握できるようにします。",
       "category": "業界",
-      "score": 6.16,
+      "score": 6.0,
       "title_original": "Qodo builds context into AI code review with Codex",
       "summary_original": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request."
-    },
-    {
-      "title": "PC ゲーム最大の改造サイトが AI に対する姿勢を強めている",
-      "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
-      "source": "The Verge AI",
-      "published": "2026-11-04T00:42:10+00:00",
-      "summary": "PC ゲーム MOD リポジトリの Nexus Mods は、新しい MOD のアップロードに AI に関する開示を義務付けています。つまり、MOD 作成者は「作品に AI が使用されているかどうか」を宣言する必要があることを意味します。同サイトは本日、同プラットフォーム上の AI 生成コンテンツに関する大きな投稿の一環として発表しました。 「最も一貫性のあるものの1つ[…]",
-      "category": "業界",
-      "score": 6.13,
-      "title_original": "The biggest modding site in PC gaming is taking a stance on AI",
-      "summary_original": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the platform. \"One of the most consistent […]"
-    },
-    {
-      "title": "AIバブルがいつ弾けるか聞くのはやめてください",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
-      "source": "The Verge AI",
-      "published": "2026-11-03T23:37:45+00:00",
-      "summary": "このスタッフも含め、人々はさまざまな程度の興奮や不安を抱きながら、AI バブルがいつ崩壊するのかを私に尋ね続けます。私が彼らに言うことは、次のとおりです。もしそれを知っていたら、私は市場で人生を変えるような賭けをし、可能な限りレバレッジを利かせて、お金を稼いだ後、[…]",
-      "category": "業界",
-      "score": 6.12,
-      "title_original": "Please stop asking me when the AI bubble will pop",
-      "summary_original": "People, including on this staff, keep asking me with varying degrees of excitement or trepidation when the AI bubble will burst. I'll tell you what I tell them: If I knew that, I would make a life-changing bet on the market, levered up as far as I could, and then, after I made my money, […]"
     },
     {
       "title": "ダウンロード: 混合肉、回復した視力、およびエージェントのウェブ",
       "url": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
       "source": "MIT Technology Review",
       "published": "2026-11-04T13:10:00+00:00",
-      "summary": "これは、テクノロジーの世界で何が起こっているかを毎日提供する平日のニュースレター、The Download の今日版です。これらの新興企業は、「ブレンド」食品が私たちの赤身肉への食欲を減らしてくれることを期待している 2025 年の秋、ジェフ・ドッジはお腹を空かせた学生たちにマリナラソースとミートボールを蒸した料理を提供した。生徒たちは彼らをとても気に入りました:",
+      "summary": "これは、テクノロジーの世界で何が起こっているかを毎日提供する平日のニュースレター、The Download の今日版です。これらの新興企業は、「ブレンド」食品が私たちの赤身肉への食欲を減らしてくれることを期待している 2025年の秋、ジェフ・ドッジはお腹を空かせた学生たちにマリナラソースとミートボールを蒸した料理を提供した。生徒たちは彼らをとても気に入りました:",
       "category": "製品",
-      "score": 5.96,
+      "score": 5.8,
       "title_original": "The Download: blended meat, restored sight, and the agentic web",
       "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. These startups hope “blended” food will cut our appetite for red meat In the fall of 2025, Jeff Dodge served hungry students steaming marinara sauce and meatballs. The students loved them:…"
     },
     {
-      "title": "より有能で有益な AI のための更新されたモデル仕様",
-      "url": "https://openai.com/index/updated-model-spec",
-      "source": "OpenAI",
-      "published": "2026-10-29T17:00:00+00:00",
-      "summary": "OpenAI の更新されたモデル仕様では、より有能な AI を健全な判断、人間の主体性、人間の意図への忠実さに導くための 5 つの核となる価値観を概説しています。",
+      "title": "Gemini for Home が AT&T のスマート セキュリティ システムに接続されました",
+      "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+      "source": "The Verge AI",
+      "published": "2026-11-04T20:23:24+00:00",
+      "summary": "AT&T のスマート ホーム セキュリティ システムが Gemini for Home と統合されました。同社によれば、同社の Connected Life システムは、Google Home Premium と統合された「最初の」ホーム セキュリティ製品であり、家庭での出来事を要約したり、ビデオ履歴を検索したりできる、Gemini を活用した一連の機能が可能になります。アップデートにより、Gemini for Home は以下を提供できるようになります […]",
       "category": "製品",
-      "score": 5.8,
-      "title_original": "An updated Model Spec for more capable and beneficial AI",
-      "summary_original": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent."
+      "score": 5.2,
+      "title_original": "Gemini for Home now plugs into AT&T’s smart security system",
+      "summary_original": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your video history, and more. With the update, Gemini for Home can provide […]"
     },
     {
-      "title": "プロジェクト ProtoStar を発表: 公的資金による科学を AI 対応にする",
-      "url": "https://huggingface.co/blog/announcing-project-protostar",
-      "source": "Hugging Face",
-      "published": "2026-10-29T00:00:00+00:00",
-      "summary": "概要は配信元の記事で確認できます。",
-      "category": "研究",
-      "score": 5.1,
-      "title_original": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-      "summary_original": ""
+      "title": "DevRev は GPT-6.1 Sol で自律型セルフサービスを提供します",
+      "url": "https://openai.com/index/devrev-enterprise-self-service",
+      "source": "OpenAI",
+      "published": "2026-11-04T00:00:00+00:00",
+      "summary": "DevRev は GPT-6.1 Sol を使用してコンピューターとオペレーターを強化し、エンタープライズ サービスの推論、速度、コストのバランスをとります。",
+      "category": "製品",
+      "score": 5.17,
+      "title_original": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "summary_original": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service."
     },
     {
-      "title": "フェアユースはすべての人に利益をもたらします",
-      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "title": "イメージ 2.6 の紹介",
+      "url": "https://openai.com/index/introducing-images-2-6",
       "source": "OpenAI",
-      "published": "2026-10-30T00:00:00+00:00",
-      "summary": "OpenAI は、フェアユースが AI のトレーニングとイノベーションをどのようにサポートしているかについて、クリエイター、学者、アクセシビリティ擁護者、法律専門家などによる法廷準備書面の抜粋を共有しています。",
+      "published": "2026-11-04T00:00:00+00:00",
+      "summary": "Images 2.6 は、より高速な画像生成、GIF 作成、より正確な編集、および ChatGPT、Codex、および API 全体にわたる新しい API コントロールを実現します。",
       "category": "製品",
-      "score": 5.06,
-      "title_original": "Fair use benefits everyone",
-      "summary_original": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation."
+      "score": 4.82,
+      "title_original": "Introducing Images 2.6",
+      "summary_original": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API."
     },
     {
       "title": "StateBench: 言語モデルが長いドキュメントにわたる状態変化を追跡する方法をテストする",
@@ -283,7 +261,7 @@
       "published": "2026-11-03T17:15:21+00:00",
       "summary": "概要は配信元の記事で確認できます。",
       "category": "オープンソース",
-      "score": 4.53,
+      "score": 4.38,
       "title_original": "StateBench: Testing how language models track state changes over long documents",
       "summary_original": ""
     },
@@ -294,7 +272,7 @@
       "published": "2026-11-02T15:00:00+00:00",
       "summary": "OpenAI のグリッド プロテクター プログラムは、電力会社と協力して、将来のコンピューティング キャンパスがグリッドの信頼性をサポートし、消費者の電力コストを保護できるように支援します。",
       "category": "製品",
-      "score": 4.52,
+      "score": 4.36,
       "title_original": "Introducing the Grid Protectors Program",
       "summary_original": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs."
     },
@@ -305,9 +283,31 @@
       "published": "2026-10-30T09:00:00+00:00",
       "summary": "OpenAI は、セーフガードの拡大、早期介入、公共安全報告への新たな取り組みにより、ChatGPT における暴力防止を強化しています。",
       "category": "業界",
-      "score": 4.13,
+      "score": 3.98,
       "title_original": "Community safety report and new protections for teens",
       "summary_original": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting."
+    },
+    {
+      "title": "ライフヴァル",
+      "url": "https://openai.com/index/lifeval",
+      "source": "OpenAI",
+      "published": "2026-11-02T09:00:00+00:00",
+      "summary": "LifeVal は、保育所の確保から財政や政府の事務手続きに至るまで、人々の日常業務の遂行に AI がどの程度役立っているかを測定するベンチマークです。",
+      "category": "研究",
+      "score": 3.83,
+      "title_original": "LifeVal",
+      "summary_original": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork."
+    },
+    {
+      "title": "ルートへのパスが 1,000 個減少",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": "OpenAI",
+      "published": "2026-11-04T08:00:00+00:00",
+      "summary": "OpenAI は、Linux カーネル内の 948 件のローカル権限昇格の脆弱性を発見、検証し、パッチを生成する自律パイプラインを構築しました。",
+      "category": "製品",
+      "score": 3.78,
+      "title_original": "A thousand fewer paths to root",
+      "summary_original": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel."
     }
   ],
   "total_collected": 90,
