@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-07T06:06:04.136438+00:00",
+  "updated_at": "2026-11-07T13:11:00.586386+00:00",
   "items": [
     {
       "title": "AI エージェントが日常のウェットラボ科学をどのように処理するかを測定する",
       "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
       "source": "OpenAI",
       "published": "2026-11-06T00:00:00+00:00",
-      "summary": "OpenAI は、AI エージェントが生の実験データをどの程度解釈し、日常のウェットラボ科学を処理できるかを測定する 100 タスクのベンチマークである BioBasicsBench を導入します。",
+      "summary": "OpenAI は、AI エージェントが生の実験データをどの程度解釈し、日常のウェットラボ科学をどの程度うまく処理できるかを測定する 100 タスクのベンチマークである BioBasicsBench を導入します。",
       "category": "研究",
-      "score": 11.43,
+      "score": 11.33,
       "title_original": "Measuring how AI agents handle everyday wet-lab science",
       "summary_original": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science."
     },
@@ -19,9 +19,20 @@
       "published": "2026-11-05T09:00:00+00:00",
       "summary": "GPT‑6 Cyber​​ は、悪用可能な脆弱性を発見し修正を開発するための OpenAI のサイバーセキュリティ モデルであり、許可された範囲内に収まるように訓練されています。",
       "category": "製品",
-      "score": 10.17,
+      "score": 10.08,
       "title_original": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
       "summary_original": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope."
+    },
+    {
+      "title": "人間の自動化AI開発に関する新たな報告書が研究者らを警戒させている理由",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "source": "The Verge AI",
+      "published": "2026-11-07T12:30:00+00:00",
+      "summary": "Anthropic は AI を使用して、より強力な AI を構築しています。そして、それは非常にうまく機能しているようで、同社のモデルは1年前に比べておよそ2倍の速さで改善されており、減速する兆しはほとんどない。これは、AI安全性研究機関METRが11週間の調査を経て木曜日に発表した新しい報告書によると[…]",
+      "category": "研究",
+      "score": 9.74,
+      "title_original": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "summary_original": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation […]"
     },
     {
       "title": "ダウンロード: AI エージェントと「スーパー インテリジェンス」ロイヤルティ テストの制御",
@@ -30,7 +41,7 @@
       "published": "2026-11-03T13:10:00+00:00",
       "summary": "これは、テクノロジーの世界で何が起こっているかを毎日提供する平日のニュースレター、The Download の今日版です。 「リバース ゲーム理論」はどのようにして AI エージェントを抑制できるのか 「リバース ゲーム理論」として知られる新しいアプローチは、AI モデルにインセンティブを与えるシステムを設計することで、強力な AI モデルを制御することを目的としています。",
       "category": "製品",
-      "score": 9.21,
+      "score": 9.12,
       "title_original": "The Download: controlling AI agents and “Super Intelligence” loyalty tests",
       "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How “reverse game theory” could keep AI agents in check A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to…"
     },
@@ -41,7 +52,7 @@
       "published": "2026-11-05T08:00:00+00:00",
       "summary": "Merge は GPT-6 Astra、ChatGPT、Codex を使用して製品コードをレビューし、マーケティングをサポートします。また、同社のチームは AI を利用して役員ディナーを計画し、販売最新情報を準備しています。",
       "category": "製品",
-      "score": 8.56,
+      "score": 8.46,
       "title_original": "Merge builds product and business tools with OpenAI technology",
       "summary_original": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates."
     },
@@ -52,7 +63,7 @@
       "published": "2026-11-06T23:46:18+00:00",
       "summary": "ブルームバーグによると、OpenAIは現在、新たな資金調達ラウンドで1兆2500億ドルと評価されており、さらに110億ドルを調達したという。そうすれば、3月に評価額8,520億ドルで投資家から1,220億ドルを調達して間もなく、同社は世界で最も価値のある企業の1つとなるだろう。 FTとウォール・ストリート・ジャーナルの反響 […]",
       "category": "業界",
-      "score": 8.51,
+      "score": 8.41,
       "title_original": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
       "summary_original": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal […]"
     },
@@ -63,7 +74,7 @@
       "published": "2026-11-05T00:00:00+00:00",
       "summary": "フランクリン・テンプルトン氏は、株式調査から始めて、ポートフォリオ・マネージャーが調査見解を比較し、投資リスクを検討できるようにする AI ワークフローを開発しています。",
       "category": "研究",
-      "score": 8.2,
+      "score": 8.1,
       "title_original": "Franklin Templeton uses OpenAI to support investment research",
       "summary_original": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks."
     },
@@ -74,7 +85,7 @@
       "published": "2026-11-05T17:00:00+00:00",
       "summary": "オーストラリアの大学は ChatGPT へのアクセスを拡大し、AI を活用した労働力として学生を準備するために教育と学習に AI を導入しています。",
       "category": "製品",
-      "score": 7.98,
+      "score": 7.89,
       "title_original": "Australian universities are creating AI-native graduates",
       "summary_original": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce."
     },
@@ -85,7 +96,7 @@
       "published": "2026-11-03T08:00:00+00:00",
       "summary": "Heimstaden が OpenAI の ChatGPT Enterprise と Codex を使用して不動産管理を変革し、コストを削減し、ヨーロッパ全土の従業員に権限を与える方法をご覧ください。",
       "category": "製品",
-      "score": 7.89,
+      "score": 7.79,
       "title_original": "Heimstaden is changing residential real estate management with AI",
       "summary_original": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe."
     },
@@ -94,9 +105,9 @@
       "url": "https://openai.com/index/partnering-with-hacktron",
       "source": "OpenAI",
       "published": "2026-11-06T08:00:00+00:00",
-      "summary": "OpenAI は Hacktron と提携して脆弱性を発見し、サードパーティのサービスとの接続をテストし、フロンティア AI による防御を強化しています。",
+      "summary": "OpenAI は Hacktron と提携して、脆弱性の発見、サードパーティのサービスとの接続のテスト、フロンティア AI による防御の強化を行っています。",
       "category": "製品",
-      "score": 7.49,
+      "score": 7.39,
       "title_original": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
       "summary_original": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI."
     },
@@ -107,7 +118,7 @@
       "published": "2026-11-05T02:00:00+00:00",
       "summary": "OpenAI は、地域リソースを保護し、雇用を創出し、責任ある AI インフラストラクチャ開発を導くために、National Community Compact および Compute Campus Policy Blueprint を導入しています。",
       "category": "業界",
-      "score": 7.08,
+      "score": 6.98,
       "title_original": "Setting a new standard for responsible AI infrastructure",
       "summary_original": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development."
     },
@@ -118,7 +129,7 @@
       "published": "2026-11-06T13:10:00+00:00",
       "summary": "これは、テクノロジーの世界で何が起こっているかを毎日提供する平日のニュースレター、The Download の今日版です。私は人型ロボットが私のアパートを掃除しているのを見ました。なんだか未来の味を感じました。 —グレース・ハキンス で新しい人型ロボットの清掃サービスに関する X の投稿を見たとき…",
       "category": "業界",
-      "score": 6.86,
+      "score": 6.77,
       "title_original": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
       "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot cleaning service in…"
     },
@@ -129,7 +140,7 @@
       "published": "2026-11-03T08:00:00+00:00",
       "summary": "シスコはネットワーク インテリジェンスと OpenAI モデルを組み合わせて、企業のセキュリティを強化します。より適応的な防御を構築する方法を学びましょう。",
       "category": "業界",
-      "score": 6.49,
+      "score": 6.39,
       "title_original": "How Cisco defends at machine speed with OpenAI",
       "summary_original": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses."
     },
@@ -140,7 +151,7 @@
       "published": "2026-11-05T00:00:00+00:00",
       "summary": "概要は配信元の記事で確認できます。",
       "category": "研究",
-      "score": 6.45,
+      "score": 6.35,
       "title_original": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
       "summary_original": ""
     },
@@ -151,7 +162,7 @@
       "published": "2026-11-06T23:00:44+00:00",
       "summary": "ニューヨーク・タイムズ紙によると、中国情報機関はメガスピード社幹部のアリス・ファン氏を、NVIDIA CEOのジェンセン・ファン氏をスパイするために採用したという。国家安全省（MSS）は、米国のAIチップに関する情報を収集し、「同社に影響を与えて、最先端のチップを中国に提供するよう促す可能性がある」よう彼女に協力を依頼した。メガスピード […]",
       "category": "製品",
-      "score": 6.3,
+      "score": 6.2,
       "title_original": "China reportedly recruited AI exec to spy on Jensen Huang",
       "summary_original": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed […]"
     },
@@ -162,7 +173,7 @@
       "published": "2026-11-06T20:02:22+00:00",
       "summary": "大規模な新しいデータセンターは、テクノロジー企業の AI に対する希望と夢の物理的基盤です。しかし、エネルギーを大量に消費するサーバーでいっぱいの倉庫の拡張を急ぐことで、送電網、光熱費、近隣地域、環境への影響を巡って世界中で争いも勃発している。データセンターは今後、超党派の大きな問題となる […]",
       "category": "業界",
-      "score": 6.26,
+      "score": 6.16,
       "title_original": "All the latest updates on AI data centers",
       "summary_original": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead […]"
     },
@@ -171,9 +182,9 @@
       "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
       "source": "The Verge AI",
       "published": "2026-11-06T18:10:10+00:00",
-      "summary": "Meta を使用すると、Muse 内でカスタマイズされたアプリのようなエクスペリエンスを構築できるようになります。 「スペース」と呼ばれるこの新機能により、AI アシスタントはショッピング ハブ、学校のダッシュボード、音楽トラッカー、トリビア ゲームなどを構築できるようになり、Muse アプリで直接操作できるようになります。メタ氏は、次の方法で新しいスペースを作成できると言っています […]",
+      "summary": "Meta を使用すると、Muse 内でカスタマイズされたアプリのようなエクスペリエンスを構築できるようになります。 「スペース」と呼ばれる新機能により、AI アシスタントがショッピング ハブ、学校ダッシュボード、音楽トラッカー、トリビア ゲームなどを構築できるようになり、Muse アプリで直接操作できるようになります。メタ氏は、次の方法で新しいスペースを作成できると言っています […]",
       "category": "製品",
-      "score": 6.23,
+      "score": 6.14,
       "title_original": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
       "summary_original": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by […]"
     },
@@ -184,7 +195,7 @@
       "published": "2026-11-06T17:00:00+00:00",
       "summary": "アイリーンは昨年サンフランシスコに引っ越したとき、新しい人に会い、新しい街のことを知り、自分の活動に関心を持っている他の人とつながる手段として出会い系アプリを使い始めました。 25 歳のアナリストが Hinge をダウンロードしてスワイプを開始した後、ある傾向に気づきました。 「ヒンジにはプロンプトがあり、[…]",
       "category": "製品",
-      "score": 6.22,
+      "score": 6.12,
       "title_original": "AI is the new dating dealbreaker",
       "summary_original": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"Hinge has a prompt where […]"
     },
@@ -195,20 +206,9 @@
       "published": "2026-11-04T14:30:00+00:00",
       "summary": "OpenAI は Pierre Computer Company を買収し、コードの構築、理解、レビューのための Codex のツールを拡張します。",
       "category": "製品",
-      "score": 6.22,
+      "score": 6.12,
       "title_original": "OpenAI to acquire Pierre Computer Company, Inc.",
       "summary_original": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code."
-    },
-    {
-      "title": "OpenAIはデータセンタープロジェクトのNDAから撤退する",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
-      "source": "The Verge AI",
-      "published": "2026-11-06T00:37:56+00:00",
-      "summary": "有権者がデータセンター拡張への反対を声高に表明した今週の中間選挙に続き、OpenAIは本日、データセンタープロジェクトに取り組んでいるコミュニティに対して、公務員との機密保持契約（NDA）を使用しないことなどの新たな約束を発表した。多くのデータセンター プロジェクトは、NDA に依存して議論を隠しているとして厳しい監視の対象になっています […]",
-      "category": "業界",
-      "score": 5.99,
-      "title_original": "OpenAI is stepping back from NDAs for data center projects",
-      "summary_original": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have come under scrutiny for relying on NDAs to hide discussions […]"
     },
     {
       "title": "データリネージによるエージェントエンタープライズの保護",
@@ -217,7 +217,7 @@
       "published": "2026-11-04T13:00:00+00:00",
       "summary": "営業担当者が AI エージェントに顧客の価格設定を尋ねると、エージェントは制限された価格設定システム、内部コミュニケーション、アーカイブされた見積などの複数のソースからデータを取得します。エージェントにとって出力は正確であるように見えるため、2 番目のエージェントはそのデータを使用して営業担当者への提案を作成します。どちらのハンドオフも人間によるチェックはありません。それが…",
       "category": "業界",
-      "score": 5.85,
+      "score": 5.75,
       "title_original": "Securing the agentic enterprise with data lineage",
       "summary_original": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it’s…"
     },
@@ -228,7 +228,7 @@
       "published": "2026-11-05T13:10:00+00:00",
       "summary": "これは、テクノロジーの世界で何が起こっているかを毎日提供する平日のニュースレター、The Download の今日版です。テキサスは AI データセンター構築の新たな震源地となりました。それはカプかもしれない。テキサスは米国で最も急速に成長しているデータセンター市場であり、ビッグテックの拠点です…",
       "category": "業界",
-      "score": 5.83,
+      "score": 5.73,
       "title_original": "The Download: Texas’s fragile AI boom and energy policy shifts",
       "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s…"
     },
@@ -237,9 +237,9 @@
       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
       "source": "OpenAI",
       "published": "2026-11-04T07:00:00+00:00",
-      "summary": "Daybreak Red は、承認されたサイバーセキュリティ作業のために、Amazon Bedrock を通じて AWS GovCloud (米国東部) の承認された顧客に GPT-5.6 Cyber​​ を提供します。",
+      "summary": "Daybreak Red は、承認されたサイバーセキュリティ作業のために Amazon Bedrock を通じて AWS GovCloud (米国東部) の承認された顧客に GPT-5.6 Cyber​​ を提供します。",
       "category": "製品",
-      "score": 5.76,
+      "score": 5.66,
       "title_original": "Daybreak Red is now available in AWS GovCloud (US-East)",
       "summary_original": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work."
     },
@@ -250,7 +250,7 @@
       "published": "2026-11-03T00:00:00+00:00",
       "summary": "Jill Hazelbaker 氏は OpenAI の最高経営責任者として加わり、同社のグローバル コミュニケーションと企業のポジショニングを主導します。",
       "category": "製品",
-      "score": 5.68,
+      "score": 5.58,
       "title_original": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
       "summary_original": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning."
     },
@@ -261,7 +261,7 @@
       "published": "2026-11-04T18:50:55+00:00",
       "summary": "テキサス州は米国で最も急速に成長しているデータセンター市場であり、ビッグテック最大の AI 構築の拠点です。しかし、ローンスター州を襲った青い波がその地位を危うくするかもしれない。民主党のジェームズ・タラリコ氏がケン・パクストン氏を破って米国上院議席を獲得した。ジーナ・イノホサ氏が共和党現職に対する知事選で勝利した。",
       "category": "業界",
-      "score": 5.58,
+      "score": 5.48,
       "title_original": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
       "summary_original": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican incumbent,…"
     },
@@ -270,9 +270,9 @@
       "url": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
       "source": "MIT Technology Review",
       "published": "2026-11-04T13:10:00+00:00",
-      "summary": "これは、テクノロジーの世界で何が起こっているかを毎日提供する平日のニュースレター、The Download の今日版です。これらの新興企業は、「ブレンド」食品が私たちの赤身肉への食欲を減らしてくれることを期待している 2025年の秋、ジェフ・ドッジはお腹を空かせた学生たちにマリナラソースとミートボールを蒸した料理を提供した。生徒たちは彼らをとても気に入りました:",
+      "summary": "これは、テクノロジーの世界で何が起こっているかを毎日提供する平日のニュースレター、The Download の今日版です。これらの新興企業は、「ブレンド」食品が私たちの赤身肉への食欲を減らしてくれることを期待している 2025 年の秋、ジェフ・ドッジはお腹を空かせた学生たちにマリナラソースとミートボールを蒸した料理を提供した。生徒たちは彼らをとても気に入りました:",
       "category": "製品",
-      "score": 5.15,
+      "score": 5.05,
       "title_original": "The Download: blended meat, restored sight, and the agentic web",
       "summary_original": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. These startups hope “blended” food will cut our appetite for red meat In the fall of 2025, Jeff Dodge served hungry students steaming marinara sauce and meatballs. The students loved them:…"
     },
@@ -283,7 +283,7 @@
       "published": "2026-11-06T14:00:48+00:00",
       "summary": "概要は配信元の記事で確認できます。",
       "category": "オープンソース",
-      "score": 4.68,
+      "score": 4.58,
       "title_original": "ToyBlocks: A controlled world for robot learning and evaluation",
       "summary_original": ""
     },
@@ -294,7 +294,7 @@
       "published": "2026-11-04T00:00:00+00:00",
       "summary": "DevRev は GPT-6.1 Sol を使用してコンピューターとオペレーターを強化し、エンタープライズ サービスの推論、速度、コストのバランスをとります。",
       "category": "製品",
-      "score": 4.52,
+      "score": 4.42,
       "title_original": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
       "summary_original": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service."
     },
@@ -305,7 +305,7 @@
       "published": "2026-11-04T00:00:00+00:00",
       "summary": "Images 2.6 は、より高速な画像生成、GIF 作成、より正確な編集、および ChatGPT、Codex、および API 全体にわたる新しい API コントロールを実現します。",
       "category": "製品",
-      "score": 4.17,
+      "score": 4.07,
       "title_original": "Introducing Images 2.6",
       "summary_original": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API."
     }
