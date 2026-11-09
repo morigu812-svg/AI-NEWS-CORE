@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build the static AI NEWS CORE feed from public RSS/Atom sources."""
 
+import argparse
 import json
 import re
 import sys
@@ -369,10 +370,34 @@ def load_json(path, default):
         return default
 
 
-def main():
+def previous_feed(path, seed):
+    if path is None:
+        return seed
+    try:
+        payload = load_json(path, {})
+    except (OSError, ValueError):
+        return seed
+    if not isinstance(payload, dict) or payload.get("schema_version") != 2:
+        return seed
+    updated = parse_date(payload.get("updated_at"))
+    seed_updated = parse_date(seed.get("updated_at"))
+    if not updated or (seed_updated and updated < seed_updated):
+        return seed
+
+    items = payload.get("items")
+    fields = ("url", "title", "summary", "title_original", "summary_original", "source", "published")
+    if not isinstance(items, list) or not all(
+        isinstance(item, dict) and all(isinstance(item.get(key), str) for key in fields)
+        for item in items
+    ):
+        return seed
+    return payload
+
+
+def main(previous_path=None):
     now = datetime.now(timezone.utc)
     editorial = load_json(EDITORIAL, {})
-    previous = load_json(OUTPUT, {})
+    previous = previous_feed(previous_path, load_json(OUTPUT, {}))
     old_by_url = {canonical_url(item["url"]): item for item in previous.get("items", [])}
     items, failures = [], []
     with ThreadPoolExecutor(max_workers=len(FEEDS)) as workers:
@@ -422,4 +447,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--previous", type=Path, help="optional previously published news JSON")
+    main(parser.parse_args().previous)

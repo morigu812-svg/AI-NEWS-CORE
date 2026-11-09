@@ -91,6 +91,21 @@ class NewsTests(unittest.TestCase):
         self.assertEqual(result["title"], item["title"])
         self.assertEqual(result["summary_original"], item["summary"])
 
+    def test_publication_cache_uses_only_valid_current_schema_and_newer_snapshot(self):
+        seed = {"schema_version": 2, "updated_at": (NOW - timedelta(hours=1)).isoformat(), "items": []}
+        published = {"schema_version": 2, "updated_at": NOW.isoformat(), "items": []}
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "previous.json"
+            self.assertEqual(news.previous_feed(path, seed), seed)
+            path.write_text(json.dumps(published))
+            self.assertEqual(news.previous_feed(path, seed), published)
+            path.write_text(json.dumps({**published, "updated_at": (NOW - timedelta(hours=2)).isoformat()}))
+            self.assertEqual(news.previous_feed(path, seed), seed)
+            path.write_text(json.dumps({**published, "items": [{"url": "not a complete article"}]}))
+            self.assertEqual(news.previous_feed(path, seed), seed)
+            path.write_text("invalid JSON")
+            self.assertEqual(news.previous_feed(path, seed), seed)
+
     def test_outage_keeps_only_recent_verified_entries(self):
         source = news.FEEDS[0][0]
         now = datetime.now(timezone.utc)
