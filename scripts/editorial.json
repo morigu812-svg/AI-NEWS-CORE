@@ -1,0 +1,108 @@
+{
+  "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2": {
+    "priority": 10,
+    "category": "製品",
+    "title": "Claude 5.2が登場。FableとMythos、何が違う？",
+    "summary": "AnthropicがClaude Fable 5.2とMythos 5.2を発表。プログラミング、推論、画像の理解が前世代より向上したとしています。",
+    "why": "中核のモデルは共通です。Fableには追加の安全対策があり、Mythosは認証を受けた組織などに提供されます。"
+  },
+  "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash": {
+    "priority": 9,
+    "category": "製品",
+    "title": "Geminiの動画が15秒に。作り直さず、会話で直せる",
+    "summary": "GoogleがGemini Omni 1.2 Flashを公開しました。最大15秒の動画を生成でき、作った動画に指示を追加して編集できます。",
+    "why": "720p動画の生成価格は前バージョンより30％低下。下書きを作り、気になるところだけ直しながら仕上げられます。"
+  },
+  "https://huggingface.co/blog/allenai/toyblocks": {
+    "priority": 8,
+    "category": "研究",
+    "title": "積み木でロボットは何を学ぶ？ AI2が「ToyBlocks」を公開",
+    "summary": "ロボットアームが積み木を押す・裏返す・積む練習をするシミュレーターです。訓練用の動作データも自動で作れます。",
+    "why": "練習の内容だけを変えて同じ課題を試せるので、どんな経験がロボットの上達につながるか調べられます。"
+  },
+  "https://openai.com/index/introducing-control-room": {
+    "priority": 7,
+    "category": "業界",
+    "title": "AIの処理に停止ボタン。OpenAIが「Control Room」を紹介",
+    "summary": "研究用の設備で動くAIの処理を追跡し、安全上の懸念があるときに人がすばやく止められる仕組みです。",
+    "why": "AIの能力が上がるなか、実行中の処理を人が把握して介入できるようにする取り組みです。"
+  },
+  "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters": {
+    "priority": 6,
+    "category": "製品",
+    "title": "「漫画風にして」でフィルターが作れる。Instagramの新ツール",
+    "summary": "Effect Builderでは、文章でイメージを伝えてストーリーズ用のフィルターを作り、写真で試せます。",
+    "why": "提供開始時点では米国の18歳以上が対象です。作ったフィルターは審査に通ると、ほかの人も使えます。"
+  },
+  "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan": {
+    "priority": 5,
+    "category": "オープンソース",
+    "title": "日本の金融AIをどう試す？ NVIDIAが架空の人物データを公開",
+    "summary": "NVIDIAが、日本の人口構成や金融事情を踏まえた架空の人物プロフィールを作成し、データセットとして公開しました。",
+    "why": "金融向けAIの評価で、実在の顧客情報を使わずにさまざまなケースを試すための材料になります。"
+  },
+  "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science": {
+    "priority": 4,
+    "category": "研究",
+    "title": "AIは生の実験データを読める？ OpenAIが100問で測定",
+    "summary": "OpenAIは、生物系の実験で得られるデータをAIエージェントが読み解けるかを測る、100課題のBioBasicsBenchを公開しました。",
+    "why": "AIが教科書の質問に答える力と、実際の実験データから結論を出す力の違いに注目できます。"
+  },
+  "https://huggingface.co/blog/phonon-tts": {
+    "priority": 3,
+    "category": "オープンソース",
+    "title": "通信なしで読み上げる「Phonon」。端末内で動く音声AIの実力",
+    "summary": "Gradiumが、端末だけで動く小型の読み上げモデルPhononを解説しました。公開済みモデルのデモや評価結果も紹介しています。",
+    "why": "読み上げたい文章をサーバーに送らずに音声を作れるので、通信しにくい場面でも使えます。"
+  },
+  "https://openai.com/index/introducing-gpt-6-cyber": {
+    "priority": 2,
+    "category": "業界",
+    "title": "脆弱性を探して直す「GPT‑6 Cyber」。調査範囲を守れるかも検証",
+    "summary": "OpenAIが、ソフトウェアの脆弱性を見つけて検証し、修正案を作るセキュリティ向けモデルを発表しました。",
+    "why": "発見性能に加えて、研究者が許可した範囲からはみ出さずに動けるかも評価しています。"
+  },
+  "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership": {
+    "priority": 1,
+    "category": "業界",
+    "title": "ディズニー専用の生成AIへ。Adobeと制作ツールを共同開発",
+    "summary": "ディズニーとAdobeが複数年の提携を発表し、ディズニー作品のキャラクターや世界観に合わせた生成AIを共同で開発します。",
+    "why": "映画の制作に加え、テーマパークやスポーツメディアの制作現場でも活用を検討しています。"
+  },
+  "https://openai.com/index/openai-to-acquire-pierre": {
+    "category": "業界",
+    "title": "Codexのコードレビューはどう変わる？ OpenAIがPierre買収へ",
+    "summary": "OpenAIは、コードを作る・読む・レビューするためのCodexの機能を広げる目的で、Pierre Computer Companyを買収すると発表しました。",
+    "why": "コードの生成に加えて、変更内容を理解して確認する作業が今後どう便利になるかが注目点です。"
+  },
+  "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput": {
+    "category": "業界",
+    "title": "AIデータセンターが集まるテキサス。選挙で計画は変わる？",
+    "summary": "米テキサス州で選挙結果を受け、AI向けデータセンターの建設ラッシュが今後どう進むかをMIT Technology Reviewが報じました。",
+    "why": "AIを動かすには電力や用地が必要です。建設の行方には、地元の政策も関わります。"
+  },
+  "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai": {
+    "category": "業界",
+    "title": "カリフォルニア発のAI規制、米連邦議会でも進む？",
+    "summary": "カリフォルニア州で先端AIのリスク対策を盛り込んだ法案を手がけたスコット・ウィーナー氏が、米連邦下院選に当選しました。",
+    "why": "州レベルで進んだAI安全性の議論が、国全体のルール作りにどうつながるかを追えます。"
+  },
+  "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro": {
+    "category": "製品",
+    "title": "Logic ProのAI機能、利用枠を約50ドルで追加できるように",
+    "summary": "AppleがLogic Proに、一部のApple Intelligence機能の利用枠を買い足す選択肢を追加したとThe Vergeが報じました。",
+    "why": "AI機能を頻繁に使う人にとっては、アプリ本体の料金に加えて利用枠も比較するポイントになります。"
+  },
+  "https://openai.com/index/chatgpt-enterprise-aws-marketplace": {
+    "category": "製品",
+    "title": "ChatGPT EnterpriseをAWS経由で契約可能に",
+    "summary": "企業向けChatGPTがAWS Marketplaceに追加され、企業は既存のAWSの購買や請求の仕組みを通じて契約できます。",
+    "why": "すでにAWSを利用している企業では、契約の手続きをまとめやすくなります。"
+  },
+  "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future": {
+    "category": "研究",
+    "title": "人型ロボットに自宅の掃除を頼むとどうなる？",
+    "summary": "MIT Technology Reviewの記者が、サンフランシスコで人型ロボットの掃除サービスを自宅で試し、実際の作業を取材しました。",
+    "why": "デモ動画では見えにくい、普通の家でロボットがどう動くかを体験記事で読めます。"
+  }
+}

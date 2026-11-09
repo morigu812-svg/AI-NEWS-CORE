@@ -6,29 +6,32 @@ on:
     - cron: "17 */6 * * *"
   push:
     branches: ["main"]
-    paths-ignore:
-      - "data/news.json"
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+permissions: {}
 
 concurrency:
-  group: "pages"
-  cancel-in-progress: true
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  build:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
     steps:
-      - name: Check out repository
+      - name: Check out main
         uses: actions/checkout@v4
+        with:
+          ref: main
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
-      - name: Fetch public RSS feeds
+          python-version: "3.12"
+      - name: Check feed selection
+        run: python -m unittest discover -s tests
+      - name: Fetch and select current news
         run: python scripts/fetch_news.py
       - name: Commit updated news data
         run: |
@@ -37,16 +40,33 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/news.json
             git commit -m "chore: update AI news feed"
-            git push
-          else
-            echo "News data has not changed."
+            git push origin HEAD:main
           fi
+      - name: Prepare site
+        run: |
+          mkdir -p _site/data
+          cp index.html _site/
+          cp -R assets _site/
+          cp data/news.json _site/data/
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Upload site
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: "."
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

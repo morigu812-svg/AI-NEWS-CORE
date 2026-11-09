@@ -1,272 +1,425 @@
 #!/usr/bin/env python3
-"""Collect, rank, translate, and publish a curated set of public AI-news RSS items."""
+"""Build the static AI NEWS CORE feed from public RSS/Atom sources."""
+
 import json
 import re
-import time
-import urllib.request
+import sys
+import unicodedata
 import urllib.error
 import urllib.parse
+import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
-from html import unescape
+from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "news.json"
-FEEDS = [
-    ("OpenAI", "https://openai.com/news/rss.xml", "製品"),
-    ("Google AI Blog", "https://blog.research.google/feeds/posts/default?alt=rss", "研究"),
-    ("Hugging Face", "https://huggingface.co/blog/feed.xml", "オープンソース"),
-    ("MIT Technology Review", "https://www.technologyreview.com/feed/", "業界"),
-    ("The Verge AI", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "業界"),
-]
-MAX_PER_FEED = 18
-MAX_FETCHED = 90
-MAX_ITEMS = 28
-MIN_SCORE = 3
-TIMEOUT = 20
-TRANSLATE_TIMEOUT = 8
-TRANSLATE_DELAY = 0.12
-
+EDITORIAL = ROOT / "scripts" / "editorial.json"
+FEEDS = (
+    ("OpenAI", "https://openai.com/news/rss.xml", "製品", True),
+    ("Google AI", "https://blog.google/innovation-and-ai/technology/ai/rss/", "製品", True),
+    ("Hugging Face", "https://huggingface.co/blog/feed.xml", "オープンソース", True),
+    ("MIT Technology Review", "https://www.technologyreview.com/feed/", "業界", False),
+    ("The Verge AI", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "業界", False),
+)
+WINDOW = timedelta(days=7)
+MAX_ITEMS = 14
+MAX_PER_SOURCE = 4
+MAX_PER_CATEGORY = 5
+ATOM = "{http://www.w3.org/2005/Atom}"
+ISSUED = "{http://purl.org/dc/terms/}issued"
 AI_TERMS = (
-    "ai", "artificial intelligence", "llm", "large language model", "chatgpt",
-    "openai", "anthropic", "claude", "gemini", "deepmind", "copilot", "gpt",
-    "neural network", "machine learning", "generative", "robot", "agent",
-    "inference", "training", "reasoning", "benchmark", "hugging face",
-    "open source model", "ai model", "language model", "diffusion", "multimodal",
-    "人工知能", "生成ai", "生成ＡＩ", "大規模言語モデル", "機械学習", "ロボット",
+    "ai", "artificial intelligence", "llm", "language model", "machine learning",
+    "neural network", "chatgpt", "openai", "gpt", "anthropic", "claude", "gemini",
+    "deepmind", "copilot", "hugging face", "qwen", "deepseek", "agentic",
+    "ai agent", "robot", "robotics", "humanoid", "generative", "text-to-speech", "tts",
+    "生成ai", "人工知能", "言語モデル", "ロボット",
 )
-HIGH_VALUE_TERMS = (
-    "launch", "released", "release", "announces", "announced", "introducing",
-    "breakthrough", "new model", "open source", "open-source", "benchmark",
-    "research", "paper", "safety", "security", "reasoning", "coding", "agent",
-    "available", "重大", "発表", "公開", "新モデル", "研究", "論文", "無料",
-    "オープンソース", "安全性", "性能", "推論", "開発",
-)
-LOW_VALUE_TERMS = (
-    "podcast", "vergecast", "review score", "week in review", "opinion",
-    "iphone duo", "smartphone review", "best phones", "buying guide",
-    "ポッドキャスト", "レビュー評価", "購入ガイド",
-)
-CATEGORY_TERMS = {
-    "研究": ("research", "paper", "study", "benchmark", "science", "model weights", "研究", "論文", "実験", "性能評価"),
-    "製品": ("launch", "release", "introducing", "available", "announces", "app", "tool", "product", "発表", "公開", "リリース", "新機能", "サービス"),
-    "オープンソース": ("open source", "open-source", "github", "hugging face", "weights", "opensource", "オープンソース", "公開モデル"),
-    "業界": ("funding", "acquisition", "lawsuit", "policy", "security", "safety", "company", "企業", "資金調達", "規制", "セキュリティ", "安全性"),
+SIGNALS = {
+    "オープンソース": (
+        "open source", "open-source", "open weight", "open-weight", "model weights",
+        "github", "dataset", "apache 2.0", "公開モデル", "データセット",
+    ),
+    "研究": (
+        "benchmark", "study", "researchers", "paper", "preprint", "evaluation",
+        "tested", "experiment", "benchmarking", "benchmarks", "論文", "ベンチマーク", "実験",
+    ),
+    "製品": (
+        "launch", "launches", "release", "releases", "introducing", "introduces",
+        "available", "rollout", "new model", "update", "adds", "feature",
+        "assistant", "model", "launching", "building", "tools", "リリース", "新機能",
+    ),
+    "業界": (
+        "regulation", "policy", "lawsuit", "funding", "acquire", "acquisition",
+        "ipo", "valued", "security", "safety", "vulnerability", "data center",
+        "data centers", "data centre", "copyright", "partnership", "regulate", "規制", "安全性",
+    ),
 }
+LOW_VALUE = (
+    "the download", "vergecast", "podcast", "newsletter", "roundup", "deals",
+    "buying guide", "sponsored", "partner content", "week in review",
+    "chief corporate affairs officer", "case study", "customer story", "sex life", "innovating with ai in",
+)
+STOP_WORDS = set("a an and are as at by can for from has how in is it new of on or the to with why your".split())
+JAPANESE = re.compile(r"[ぁ-んァ-ヶ一-龯]")
+ISO_DATE = re.compile(r"\d{4}-\d{2}-\d{2}(?:[Tt ]\d{2}:\d{2}(?::\d{2}(?:\.\d+)?)?(?:[Zz]|[+-]\d{2}:?\d{2})?)?")
 
-def translate_to_japanese(value):
-    """Use a free keyless translation endpoint, falling back to the original text."""
-    value = value or ""
-    if not value.strip():
-        return value
-    japanese_chars = len(re.findall(r"[ぁ-んァ-ン一-龯]", value))
-    visible_chars = max(1, len(re.sub(r"\s", "", value)))
-    if japanese_chars / visible_chars >= 0.25:
-        return value
-    endpoint = "https://translate.googleapis.com/translate_a/single"
-    params = urllib.parse.urlencode({
-        "client": "gtx", "sl": "auto", "tl": "ja", "dt": "t", "q": value[:1800]
-    })
-    request = urllib.request.Request(
-        endpoint + "?" + params,
-        headers={"User-Agent": "Mozilla/5.0 (compatible; AI-NEWS-CORE/1.0)"}
-    )
-    try:
-        with urllib.request.urlopen(request, timeout=TRANSLATE_TIMEOUT) as response:
-            data = json.loads(response.read(1_000_000).decode("utf-8"))
-        translated = "".join(
-            part[0] for part in (data[0] or [])
-            if isinstance(part, list) and part and isinstance(part[0], str)
-        ).strip()
-        return translated or value
-    except (urllib.error.URLError, TimeoutError, OSError, ValueError, TypeError, IndexError) as exc:
-        print("[WARN] Translation skipped: " + type(exc).__name__)
-        return value
+
+class FeedText(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.parts = []
+        self.ignored = 0
+
+    def handle_starttag(self, tag, attrs):
+        if tag in ("script", "style"):
+            self.ignored += 1
+        elif tag in ("p", "br", "div", "li"):
+            self.parts.append(" ")
+
+    def handle_endtag(self, tag):
+        if tag in ("script", "style") and self.ignored:
+            self.ignored -= 1
+        elif tag in ("p", "div", "li"):
+            self.parts.append(" ")
+
+    def handle_data(self, data):
+        if not self.ignored:
+            self.parts.append(data)
+
 
 def clean_html(value):
-    value = unescape(value or "")
-    value = re.sub(r"(?is)<(script|style).*?>.*?</\1>", " ", value)
-    value = re.sub(r"(?s)<[^>]+>", " ", value)
-    return re.sub(r"\s+", " ", value).strip()
+    parser = FeedText()
+    parser.feed(value)
+    parser.close()
+    return " ".join("".join(parser.parts).split())
 
-def text_of(element, names):
-    for name in names:
-        found = element.find(name)
-        if found is not None and found.text:
-            return found.text.strip()
+
+def text_of(element, *tags):
+    for tag in tags:
+        node = element.find(tag)
+        if node is not None:
+            value = "".join(node.itertext()).strip()
+            if value:
+                return value
     return ""
 
+
 def parse_date(value):
-    if not value:
-        return ""
+    if not isinstance(value, str) or not value:
+        return None
     try:
-        dt = parsedate_to_datetime(value)
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        return dt.astimezone(timezone.utc).isoformat()
+        if ISO_DATE.fullmatch(value):
+            date = datetime.fromisoformat(value.upper().replace("Z", "+00:00"))
+        else:
+            date = parsedate_to_datetime(value)
+        return (date if date.tzinfo else date.replace(tzinfo=timezone.utc)).astimezone(timezone.utc)
     except (TypeError, ValueError, OverflowError):
-        try:
-            dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=timezone.utc)
-            return dt.astimezone(timezone.utc).isoformat()
-        except ValueError:
+        return None
+
+
+def recent(published, now):
+    date = parse_date(published)
+    return date is not None and now - WINDOW <= date <= now
+
+
+def canonical_url(value):
+    try:
+        url = urllib.parse.urlsplit(value)
+        if url.scheme not in ("https", "http") or not url.hostname or url.username or url.password:
             return ""
+    except (TypeError, ValueError):
+        return ""
+    params = [
+        (key, val) for key, val in urllib.parse.parse_qsl(url.query, keep_blank_values=True)
+        if not key.lower().startswith("utm_") and key.lower() not in ("gclid", "fbclid", "mc_cid", "mc_eid")
+    ]
+    return urllib.parse.urlunsplit((
+        url.scheme, url.netloc.lower(), url.path.rstrip("/") or "/",
+        urllib.parse.urlencode(sorted(params)), "",
+    ))
 
-def score_item(item):
-    title = (item.get("title") or "").lower()
-    summary = (item.get("summary") or "").lower()
-    combined = title + " " + summary
-    score = 0
-    ai_title_hits = sum(1 for term in AI_TERMS if term in title) + int(bool(re.search(r"\bai\b", title)))
-    ai_all_hits = sum(1 for term in AI_TERMS if term in combined) + int(bool(re.search(r"\bai\b", combined)))
-    score += min(ai_title_hits, 3) * 2.2
-    score += min(max(0, ai_all_hits - ai_title_hits), 3) * 0.7
-    score += min(sum(1 for term in HIGH_VALUE_TERMS if term in title), 3) * 1.15
-    score -= min(sum(1 for term in LOW_VALUE_TERMS if term in title), 3) * 2.4
-    if any(term in title for term in ("iphone", "smartphone", "election", "celebrity")) and not any(
-        term in title for term in ("ai", "artificial intelligence", "chatgpt", "openai", "robot", "gemini", "claude")
-    ):
-        score -= 4
-    source = item.get("source", "")
-    if source in ("OpenAI", "Google AI Blog", "Hugging Face"):
-        score += 0.7
-    published = item.get("published", "")
-    if published:
-        try:
-            age_hours = max(0, (datetime.now(timezone.utc) - datetime.fromisoformat(published.replace("Z", "+00:00"))).total_seconds() / 3600)
-            score += max(0, 2 - age_hours / 72)
-        except (ValueError, TypeError):
-            pass
-    return round(score, 2)
 
-def categorize(item, default_category):
-    title = (item.get("title") or "").lower()
-    summary = (item.get("summary") or "").lower()
-    combined = title + " " + summary
-    for category in ("オープンソース", "研究", "製品", "業界"):
-        if any(term in combined for term in CATEGORY_TERMS[category]):
-            return category
-    return default_category
-
-def parse_feed(source, url, default_category):
-    request = urllib.request.Request(url, headers={
-        "User-Agent": "AI-NEWS-CORE/1.0 (+https://github.com/morigu812-svg/AI-NEWS-CORE)",
-        "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
-    })
-    with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
-        raw = response.read(5_000_000)
+def read_entries(raw, source, default_category, focused, now):
     root = ET.fromstring(raw)
-    atom_ns = "{http://www.w3.org/2005/Atom}"
-    entries = root.findall(".//item") or root.findall(".//" + atom_ns + "entry")
+    entries = root.findall(".//item") or root.findall(".//" + ATOM + "entry")
     result = []
-    for item in entries[:MAX_PER_FEED]:
-        title = text_of(item, ["title", atom_ns + "title"])
-        link = text_of(item, ["link"])
-        if not link:
-            for link_node in item.findall(atom_ns + "link"):
-                if link_node.get("href"):
-                    link = link_node.get("href")
-                    break
-        summary = text_of(item, ["description", "summary", atom_ns + "summary", atom_ns + "content"])
-        summary = clean_html(summary)
-        if not title or not link or not link.startswith(("https://", "http://")):
+    for entry in entries:
+        published = next((date for tag in ("pubDate", "published", ATOM + "published", ISSUED)
+                          if (date := parse_date(text_of(entry, tag))) is not None), None)
+        if published is None or not now - WINDOW <= published <= now:
             continue
-        date_raw = text_of(item, ["pubDate", "published", "updated", "dc:date", atom_ns + "published", atom_ns + "updated"])
+        link = text_of(entry, "link")
+        if not link:
+            link = next((node.get("href") for node in entry.findall(ATOM + "link")
+                         if node.get("rel", "alternate") == "alternate" and node.get("href")), "")
+        url = canonical_url(link)
+        title = clean_html(text_of(entry, "title", ATOM + "title"))
+        if not url or not title:
+            continue
+        summary = clean_html(text_of(entry, "description", "summary", ATOM + "summary", ATOM + "content"))
         result.append({
-            "title": clean_html(title),
-            "url": link,
-            "source": source,
-            "published": parse_date(date_raw),
-            "summary": summary[:700],
-            "category": default_category,
+            "title": title, "summary": summary, "url": url, "source": source,
+            "published": published.isoformat(), "category": default_category, "focused": focused,
         })
     return result
 
-def curate_items(items):
-    unique = {}
-    for item in items:
-        key = item["url"].split("#", 1)[0].rstrip("/")
-        if key not in unique or len(item.get("summary", "")) > len(unique[key].get("summary", "")):
-            unique[key] = item
 
-    # Only publish items dated within the last 7 days. Missing or invalid
-    # publication dates are excluded rather than allowing stale feed entries through.
-    now = datetime.now(timezone.utc)
-    cutoff = now.timestamp() - 7 * 24 * 60 * 60
-    recent = []
-    for item in unique.values():
-        published = item.get("published", "")
-        if not published:
-            continue
+def fetch_feed(feed, now):
+    source, url, category, focused = feed
+    request = urllib.request.Request(url, headers={
+        "User-Agent": "AI-NEWS-CORE/2.0 (+https://github.com/morigu812-svg/AI-NEWS-CORE)",
+        "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+    })
+    for attempt in range(2):
         try:
-            published_dt = datetime.fromisoformat(published.replace("Z", "+00:00"))
-            if published_dt.tzinfo is None:
-                published_dt = published_dt.replace(tzinfo=timezone.utc)
-            published_ts = published_dt.timestamp()
-        except (ValueError, TypeError, OverflowError):
-            continue
-        if cutoff <= published_ts <= now.timestamp():
-            recent.append(item)
+            with urllib.request.urlopen(request, timeout=15) as response:
+                raw = response.read(8_000_001)
+            if len(raw) > 8_000_000:
+                raise ValueError("RSS response is too large")
+            return read_entries(raw, source, category, focused, now)
+        except urllib.error.HTTPError as exc:
+            if attempt or exc.code < 500:
+                raise
+        except (OSError, ET.ParseError):
+            if attempt:
+                raise
 
-    ranked = recent
+
+def compile_terms(terms):
+    parts = []
+    for term in terms:
+        part = re.escape(term)
+        if term.isascii():
+            part = r"(?<![a-z0-9])" + part + r"(?![a-z0-9])"
+        parts.append(part)
+    return re.compile("|".join(parts))
+
+
+AI_PATTERN = compile_terms(AI_TERMS)
+LOW_PATTERN = compile_terms(LOW_VALUE)
+CATEGORY_PATTERNS = {name: compile_terms(terms) for name, terms in SIGNALS.items()}
+BUSINESS_PROMOTION = re.compile(r"^(?:how .{0,55} (?:uses|uses? ai|builds?|delivers?)\b|"
+                                r".{0,65}\b(?:uses|builds|delivers)\b.{0,60}\b(?:openai|chatgpt|gpt)\b)")
+GOOGLE_PRODUCT = re.compile(r"\b(?:gemini|veo|imagen|lyria)\b")
+
+
+def normalized(value):
+    return unicodedata.normalize("NFKC", value).casefold().replace("’", "'").replace("‑", "-")
+
+
+def score_item(item, now):
+    title = normalized(item["title"])
+    summary = normalized(item["summary"][:1400])
+    if LOW_PATTERN.search(title) or (item["source"] == "OpenAI" and BUSINESS_PROMOTION.search(title)):
+        return None
+    title_ai = set(AI_PATTERN.findall(title))
+    summary_ai = set(AI_PATTERN.findall(summary))
+    if not (item["focused"] or title_ai or summary_ai):
+        return None
+    signals = {
+        name: (len(set(pattern.findall(title))), len(set(pattern.findall(summary))))
+        for name, pattern in CATEGORY_PATTERNS.items()
+    }
+    title_signals = sum(count for count, _ in signals.values())
+    summary_signals = sum(count for _, count in signals.values())
+    google_product = item["source"] == "Google AI" and GOOGLE_PRODUCT.search(title)
+    if not (title_signals or summary_signals or google_product):
+        return None
+    if not item["focused"] and not title_ai and (not title_signals or len(summary_ai) < 2):
+        return None
+
+    weights = {name: min(in_title, 2) * 4 + min(in_summary, 3) for name, (in_title, in_summary) in signals.items()}
+    category = max(weights, key=weights.get)
+    if google_product and not signals["研究"][0]:
+        category = "製品"
+    elif weights[item["category"]] == weights[category]:
+        category = item["category"]
+    age = (now - parse_date(item["published"])).total_seconds() / 3600
+    score = 2 + min(len(title_ai), 2) * 2 + min(title_signals, 3) * 1.8
+    score += min(summary_signals, 4) * 0.55 + min(len(summary_ai - title_ai), 2) * 0.4
+    score += max(0, 1.5 - age / 112)
+    if not item["focused"] and not title_ai:
+        score -= 1.5
+    if google_product:
+        score += 1.5
+    return round(score, 2), category
+
+
+def title_words(value):
+    return set(re.findall(r"[a-z0-9]+|[ぁ-んァ-ヶ一-龯]+", normalized(value))) - STOP_WORDS
+
+
+def select_items(candidates, editorial, now):
+    ranked = []
+    for item in candidates:
+        if not recent(item["published"], now):
+            continue
+        result = score_item(item, now)
+        note = editorial.get(item["url"], {})
+        if result is None and not note:
+            continue
+        score, category = result or (0, item["category"])
+        if note or score >= 5.2:
+            ranked.append({**item, "score": score, "category": note.get("category", category)})
+    ranked.sort(key=lambda item: (
+        editorial.get(item["url"], {}).get("priority", 0), item["url"] in editorial,
+        item["score"], item["published"],
+    ), reverse=True)
+
+    selected, titles, urls = [], [], set()
+    sources, categories = Counter(), Counter()
     for item in ranked:
-        item["score"] = score_item(item)
-        item["category"] = categorize(item, item.get("category", "業界"))
-    ranked.sort(key=lambda item: (item["score"], item.get("published", "")), reverse=True)
-    selected = [item for item in ranked if item["score"] >= MIN_SCORE][:MAX_ITEMS]
-    # Keep a modest selection on quieter news days without filling the page with irrelevant posts.
-    if len(selected) < 12:
-        selected = [item for item in ranked if item["score"] >= 1.5][:min(18, MAX_ITEMS)]
+        source, category = item["source"], item["category"]
+        if sources[source] >= MAX_PER_SOURCE or categories[category] >= MAX_PER_CATEGORY:
+            continue
+        url_key = urllib.parse.urlsplit(item["url"])._replace(scheme="").geturl()
+        words = title_words(item["title"])
+        if url_key in urls or any(words == other or (
+            len(words & other) >= 4 and len(words & other) / len(words | other) >= 0.6
+        ) for other in titles):
+            continue
+        selected.append(item)
+        titles.append(words)
+        urls.add(url_key)
+        sources[source] += 1
+        categories[category] += 1
+        if len(selected) == MAX_ITEMS:
+            break
     return selected
 
-def translate_items(items):
-    for index, item in enumerate(items, start=1):
-        original_title = item.get("title", "")
-        original_summary = item.get("summary", "")
-        item["title_original"] = original_title
-        item["summary_original"] = original_summary
-        item["title"] = translate_to_japanese(original_title)
-        time.sleep(TRANSLATE_DELAY)
-        if original_summary:
-            item["summary"] = translate_to_japanese(original_summary[:420])
-            time.sleep(TRANSLATE_DELAY)
-        else:
-            item["summary"] = "概要は配信元の記事で確認できます。"
-        item["summary"] = item["summary"][:360].strip()
-        item["score"] = item.get("score", 0)
-        print("[TRANSLATE] {}/{}: {}".format(index, len(items), item.get("source", "news")))
-    return items
+
+def excerpt(value, limit):
+    if len(value) <= limit:
+        return value
+    boundaries = [match.end() for match in re.finditer(r"[。！？]|[.!?](?=\s)", value[:limit])]
+    if boundaries and boundaries[-1] >= limit * 0.45:
+        return value[:boundaries[-1]].strip()
+    clipped = value[:limit - 1]
+    if not JAPANESE.search(value) and " " in clipped:
+        clipped = clipped.rsplit(" ", 1)[0]
+    return clipped.rstrip() + "…"
+
+
+def translate(value):
+    if not value or re.search(r"[ぁ-んァ-ヶ]", value):
+        return value
+    params = urllib.parse.urlencode({"client": "gtx", "sl": "auto", "tl": "ja", "dt": "t", "q": value})
+    request = urllib.request.Request(
+        "https://translate.googleapis.com/translate_a/single?" + params,
+        headers={"User-Agent": "Mozilla/5.0 (compatible; AI-NEWS-CORE/2.0)"},
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=6) as response:
+            data = json.loads(response.read(200_000))
+        return "".join(part[0] for part in data[0] if isinstance(part[0], str)).strip()
+    except (OSError, ValueError, TypeError, IndexError, KeyError) as exc:
+        print(f"::warning::Translation unavailable ({type(exc).__name__})", file=sys.stderr)
+        return ""
+
+
+def reading_note(item):
+    combined = normalized(item["title"] + " " + item["summary"])
+    if re.search(r"\b(?:benchmarks?|evaluation|tested)\b", combined):
+        return "どんな課題で測った結果か、比較対象や評価条件もあわせて読むと、数字の意味がわかります。"
+    if re.search(r"\b(?:dataset|model weights|open[- ]source|open[- ]weights?)\b", combined):
+        return "公開されている範囲とライセンスを確認すると、学習や自分のプロジェクトに使えるか判断できます。"
+    if re.search(r"\b(?:reportedly|rumou?rs?|plans to|racing to)\b", combined):
+        return "報道で示された計画と、公式に発表・提供された機能を分けて読むと、現在地がつかめます。"
+    if re.search(r"\b(?:security|vulnerabilit(?:y|ies)|safety)\b", combined):
+        return "どの利用環境が対象か、対策が実際に使える段階かが確認ポイントです。"
+    if item["category"] == "製品":
+        return "利用できる地域・プラン・提供時期は、配信元の案内で確認できます。"
+    return ""
+
+
+def localize(item, note, previous):
+    title, summary = item["title"], excerpt(item["summary"], 500)
+    result = {key: item[key] for key in ("url", "source", "published", "category", "score")}
+    result.update(title_original=title, summary_original=summary)
+    if note:
+        result.update(title=note["title"], summary=note["summary"], why=note["why"], localization="editorial")
+        return result
+
+    if previous.get("localization") == "editorial":
+        previous = {}
+    old_title = previous.get("title", "") if title == previous.get("title_original") else ""
+    old_summary = previous.get("summary", "") if summary == previous.get("summary_original") else ""
+    translated_title = old_title if JAPANESE.search(old_title) else translate(title)
+    translated_summary = old_summary if JAPANESE.search(old_summary) else translate(summary)
+    has_title = bool(JAPANESE.search(translated_title))
+    has_summary = bool(JAPANESE.search(translated_summary))
+    result.update(
+        title=excerpt(translated_title, 125) if has_title else title,
+        summary=excerpt(translated_summary, 260) if has_summary else "",
+        why=reading_note(item) if has_title else "",
+        localization="translated" if has_title and (has_summary or not summary) else "partial" if has_title else "original",
+    )
+    return result
+
+
+def load_json(path, default):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        return default
+
 
 def main():
-    items = []
-    failures = []
-    for source, url, category in FEEDS:
-        try:
-            found = parse_feed(source, url, category)
-            items.extend(found)
-            print("[OK] {}: {} articles".format(source, len(found)))
-        except Exception as exc:
-            failures.append(source)
-            print("[WARN] {}: {}: {}".format(source, type(exc).__name__, exc))
-        time.sleep(0.25)
+    now = datetime.now(timezone.utc)
+    editorial = load_json(EDITORIAL, {})
+    previous = load_json(OUTPUT, {})
+    old_by_url = {canonical_url(item["url"]): item for item in previous.get("items", [])}
+    items, failures = [], []
+    with ThreadPoolExecutor(max_workers=len(FEEDS)) as workers:
+        requests = [(feed, workers.submit(fetch_feed, feed, now)) for feed in FEEDS]
+        for (source, _, _, _), job in requests:
+            try:
+                found = job.result()
+                items.extend(found)
+                print(f"[OK] {source}: {len(found)} recent articles")
+            except (OSError, ValueError, ET.ParseError) as exc:
+                failures.append(source)
+                print(f"::warning::{source}: {type(exc).__name__}: {exc}", file=sys.stderr)
+    if previous.get("schema_version") == 2:
+        current_urls = {item["url"] for item in items}
+        sources = {name: (category, focused) for name, _, category, focused in FEEDS}
+        for url, old in old_by_url.items():
+            source = old["source"]
+            if url in current_urls or source not in sources or not recent(old["published"], now):
+                continue
+            category, focused = sources[source]
+            items.append({
+                "url": url, "title": old["title_original"], "summary": old["summary_original"],
+                "source": source, "published": old["published"], "category": category, "focused": focused,
+            })
 
-    # Do not retain old news when feeds fail: that could publish articles outside the 7-day window.
-
-    items = curate_items(items[:MAX_FETCHED])
-    items = translate_items(items)
+    selected = select_items(items, editorial, now)
+    with ThreadPoolExecutor(max_workers=3) as workers:
+        translated = list(workers.map(
+            lambda item: localize(item, editorial.get(item["url"]), old_by_url.get(item["url"], {})),
+            selected,
+        ))
+    finished = datetime.now(timezone.utc)
+    translated = [item for item in translated if recent(item["published"], finished)]
     payload = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "items": items,
-        "total_collected": MAX_FETCHED,
-        "published_count": len(items),
+        "schema_version": 2,
+        "updated_at": finished.isoformat(),
+        "items": translated,
+        "total_collected": len(items),
+        "published_count": len(translated),
         "feed_failures": failures,
     }
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print("Wrote {} curated articles; feed failures: {}".format(len(items), len(failures)))
+    temp = OUTPUT.with_suffix(".tmp")
+    temp.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    temp.replace(OUTPUT)
+    print(f"Wrote {len(translated)} curated articles ({len(failures)} failed feeds)")
+
 
 if __name__ == "__main__":
     main()
